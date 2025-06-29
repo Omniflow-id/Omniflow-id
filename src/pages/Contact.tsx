@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Clock, Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, Send, CheckCircle, AlertCircle, Building2, Users, Award, Shield, Globe, Headphones } from 'lucide-react';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -7,6 +7,8 @@ export default function ContactPage() {
     email: '',
     company: '',
     phone: '',
+    jobTitle: '',
+    companySize: '',
     subject: '',
     message: ''
   });
@@ -34,6 +36,8 @@ export default function ContactPage() {
         email: '',
         company: '',
         phone: '',
+        jobTitle: '',
+        companySize: '',
         subject: '',
         message: ''
       });
@@ -48,25 +52,29 @@ export default function ContactPage() {
       icon: Mail,
       title: 'Email Us',
       details: 'contact@omniflow.id',
-      description: 'Send us an email anytime'
+      description: 'Get in touch anytime',
+      color: 'from-blue-500 to-blue-600'
     },
     {
       icon: Phone,
       title: 'Call Us',
       details: '+62 (21) 1234-5678',
-      description: 'Mon-Fri from 8am to 6pm'
+      description: 'Mon-Fri, 8AM-6PM WIB',
+      color: 'from-emerald-500 to-emerald-600'
     },
     {
       icon: MapPin,
       title: 'Visit Us',
       details: 'Jakarta, Indonesia',
-      description: 'Come say hello at our office'
+      description: 'Schedule an office visit',
+      color: 'from-purple-500 to-purple-600'
     },
     {
-      icon: Clock,
-      title: 'Working Hours',
-      details: 'Mon - Fri: 8AM - 6PM',
-      description: 'Weekend support available'
+      icon: Headphones,
+      title: '24/7 Support',
+      details: 'Always Available',
+      description: 'Enterprise support',
+      color: 'from-orange-500 to-orange-600'
     }
   ];
 
@@ -75,214 +83,312 @@ export default function ContactPage() {
     'Product Demo',
     'Technical Support',
     'Sales Question',
-    'Partnership',
+    'Partnership Opportunity',
+    'Enterprise Solutions',
     'Other'
+  ];
+
+  const companySizes = [
+    '1-10 employees',
+    '11-50 employees',
+    '51-200 employees',
+    '201-1000 employees',
+    '1000+ employees'
+  ];
+
+  const features = [
+    { icon: Building2, text: 'Enterprise-grade security' },
+    { icon: Users, text: '10,000+ satisfied customers' },
+    { icon: Award, text: 'ISO 27001 certified' },
+    { icon: Shield, text: '99.9% uptime guarantee' },
+    { icon: Globe, text: 'Global support coverage' },
+    { icon: CheckCircle, text: 'Proven ROI results' }
   ];
 
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-br from-blue-50 to-white">
-        <div className="container mx-auto px-6">
-          <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Get in Touch
+      <section className="section-hero">
+        <div className="container-enterprise">
+          <div className="text-center max-w-4xl mx-auto">
+            <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-6">
+              <CheckCircle className="h-4 w-4 mr-2" />
+              Trusted by Enterprise Leaders
+            </div>
+            <h1 className="text-enterprise-primary mb-6">
+              Ready to Transform Your Business?
             </h1>
-            <p className="text-lg text-gray-600 mb-8">
-              Ready to transform your business? We're here to help. Reach out to us and let's discuss how Omniflow.id can streamline your operations.
+            <p className="text-xl text-enterprise-secondary mb-12">
+              Connect with our enterprise solutions experts and discover how Omniflow.id can streamline your operations, boost productivity, and accelerate growth.
             </p>
+            
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+              {features.map((feature, index) => (
+                <div key={index} className="flex flex-col items-center p-4 bg-white rounded-2xl shadow-lg">
+                  <feature.icon className="h-8 w-8 text-blue-600 mb-2" />
+                  <span className="text-sm font-medium text-center text-enterprise-secondary">{feature.text}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
       {/* Contact Info Cards */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-6">
+      <section className="section-enterprise bg-white">
+        <div className="container-enterprise">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             {contactInfo.map((info, index) => (
-              <div key={index} className="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow">
-                <div className="inline-block p-3 bg-blue-100 rounded-full mb-4">
-                  <info.icon className="h-6 w-6 text-blue-600" />
+              <div key={index} className="card-enterprise p-8 text-center group">
+                <div className={`inline-flex p-4 rounded-2xl bg-gradient-to-r ${info.color} mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                  <info.icon className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">{info.title}</h3>
-                <p className="text-blue-600 font-medium mb-1">{info.details}</p>
-                <p className="text-sm text-gray-500">{info.description}</p>
+                <h3 className="text-xl font-bold text-enterprise-primary mb-2">{info.title}</h3>
+                <p className="text-blue-600 font-semibold mb-2">{info.details}</p>
+                <p className="text-enterprise-muted">{info.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Contact Form & Map Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      {/* Contact Form & Additional Info */}
+      <section className="section-enterprise gradient-secondary">
+        <div className="container-enterprise">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {/* Contact Form */}
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h2>
-              
-              {submitStatus === 'success' && (
-                <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center">
-                  <CheckCircle className="h-5 w-5 text-green-600 mr-3" />
-                  <p className="text-green-800">Thank you! Your message has been sent successfully.</p>
+            <div className="lg:col-span-2">
+              <div className="card-enterprise p-10">
+                <div className="mb-8">
+                  <h2 className="text-3xl font-bold text-enterprise-primary mb-4">Let's Start a Conversation</h2>
+                  <p className="text-enterprise-secondary">Fill out the form below and our team will get back to you within 24 hours.</p>
                 </div>
-              )}
+                
+                {submitStatus === 'success' && (
+                  <div className="mb-8 p-6 bg-green-50 border-2 border-green-200 rounded-2xl flex items-center">
+                    <CheckCircle className="h-6 w-6 text-green-600 mr-4" />
+                    <div>
+                      <p className="font-semibold text-green-800">Message sent successfully!</p>
+                      <p className="text-green-700">We'll get back to you within 24 hours.</p>
+                    </div>
+                  </div>
+                )}
 
-              {submitStatus === 'error' && (
-                <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex items-center">
-                  <AlertCircle className="h-5 w-5 text-red-600 mr-3" />
-                  <p className="text-red-800">Sorry, there was an error sending your message. Please try again.</p>
-                </div>
-              )}
+                {submitStatus === 'error' && (
+                  <div className="mb-8 p-6 bg-red-50 border-2 border-red-200 rounded-2xl flex items-center">
+                    <AlertCircle className="h-6 w-6 text-red-600 mr-4" />
+                    <div>
+                      <p className="font-semibold text-red-800">Error sending message</p>
+                      <p className="text-red-700">Please try again or contact us directly.</p>
+                    </div>
+                  </div>
+                )}
 
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                      <label className="block text-sm font-semibold text-enterprise-primary mb-3">
+                        Full Name *
+                      </label>
+                      <input
+                        type="text"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleInputChange}
+                        required
+                        className="form-input"
+                        placeholder="John Doe"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold text-enterprise-primary mb-3">
+                        Email Address *
+                      </label>
+                      <input
+                        type="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleInputChange}
+                        required
+                        className="form-input"
+                        placeholder="john@company.com"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                      <label className="block text-sm font-semibold text-enterprise-primary mb-3">
+                        Company Name
+                      </label>
+                      <input
+                        type="text"
+                        name="company"
+                        value={formData.company}
+                        onChange={handleInputChange}
+                        className="form-input"
+                        placeholder="Your Company Ltd."
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold text-enterprise-primary mb-3">
+                        Phone Number
+                      </label>
+                      <input
+                        type="tel"
+                        name="phone"
+                        value={formData.phone}
+                        onChange={handleInputChange}
+                        className="form-input"
+                        placeholder="+62 xxx-xxxx-xxxx"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                      <label className="block text-sm font-semibold text-enterprise-primary mb-3">
+                        Job Title
+                      </label>
+                      <input
+                        type="text"
+                        name="jobTitle"
+                        value={formData.jobTitle}
+                        onChange={handleInputChange}
+                        className="form-input"
+                        placeholder="CEO, CTO, Manager, etc."
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold text-enterprise-primary mb-3">
+                        Company Size
+                      </label>
+                      <select
+                        name="companySize"
+                        value={formData.companySize}
+                        onChange={handleInputChange}
+                        className="form-select"
+                      >
+                        <option value="">Select company size</option>
+                        {companySizes.map((size) => (
+                          <option key={size} value={size}>{size}</option>
+                        ))}
+                      </select>
+                    </div>
+                  </div>
+
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Full Name *
+                    <label className="block text-sm font-semibold text-enterprise-primary mb-3">
+                      Subject *
                     </label>
-                    <input
-                      type="text"
-                      name="name"
-                      value={formData.name}
+                    <select
+                      name="subject"
+                      value={formData.subject}
                       onChange={handleInputChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                      placeholder="Your full name"
-                    />
+                      className="form-select"
+                    >
+                      <option value="">Select a subject</option>
+                      {subjects.map((subject) => (
+                        <option key={subject} value={subject}>{subject}</option>
+                      ))}
+                    </select>
                   </div>
+
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Email Address *
+                    <label className="block text-sm font-semibold text-enterprise-primary mb-3">
+                      Message *
                     </label>
-                    <input
-                      type="email"
-                      name="email"
-                      value={formData.email}
+                    <textarea
+                      name="message"
+                      value={formData.message}
                       onChange={handleInputChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                      placeholder="your.email@company.com"
-                    />
+                      rows={6}
+                      className="form-textarea"
+                      placeholder="Tell us about your business needs, challenges, or how we can help you..."
+                    ></textarea>
                   </div>
-                </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Company
-                    </label>
-                    <input
-                      type="text"
-                      name="company"
-                      value={formData.company}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                      placeholder="Your company name"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Phone Number
-                    </label>
-                    <input
-                      type="tel"
-                      name="phone"
-                      value={formData.phone}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                      placeholder="+62 xxx-xxxx-xxxx"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Subject *
-                  </label>
-                  <select
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleInputChange}
-                    required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    <option value="">Select a subject</option>
-                    {subjects.map((subject) => (
-                      <option key={subject} value={subject}>{subject}</option>
-                    ))}
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Message *
-                  </label>
-                  <textarea
-                    name="message"
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    required
-                    rows={6}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors resize-none"
-                    placeholder="Tell us about your project or inquiry..."
-                  ></textarea>
-                </div>
-
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
-                >
-                  {isSubmitting ? (
-                    <>
-                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
-                      Sending...
-                    </>
-                  ) : (
-                    <>
-                      Send Message
-                      <Send className="ml-2 h-5 w-5" />
-                    </>
-                  )}
-                </button>
-              </form>
+                    {isSubmitting ? (
+                      <>
+                        <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-3"></div>
+                        Sending Message...
+                      </>
+                    ) : (
+                      <>
+                        Send Message
+                        <Send className="ml-3 h-5 w-5" />
+                      </>
+                    )}
+                  </button>
+                </form>
+              </div>
             </div>
 
-            {/* Map & Additional Info */}
+            {/* Sidebar */}
             <div className="space-y-8">
-              {/* Map Placeholder */}
-              <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Our Location</h3>
-                <div className="aspect-video bg-gray-200 rounded-lg flex items-center justify-center mb-4">
+              {/* Office Info */}
+              <div className="card-enterprise p-8">
+                <h3 className="text-xl font-bold text-enterprise-primary mb-6">Our Office</h3>
+                <div className="aspect-video bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl flex items-center justify-center mb-6">
                   <div className="text-center">
-                    <MapPin className="h-12 w-12 text-gray-400 mx-auto mb-2" />
-                    <p className="text-gray-500">Interactive Map</p>
-                    <p className="text-sm text-gray-400">Jakarta, Indonesia</p>
+                    <MapPin className="h-12 w-12 text-blue-600 mx-auto mb-3" />
+                    <p className="font-semibold text-enterprise-primary">Jakarta Office</p>
+                    <p className="text-enterprise-muted">Indonesia</p>
                   </div>
                 </div>
-                <div className="space-y-2 text-sm text-gray-600">
-                  <p><strong>Address:</strong> Jl. Sudirman No. 123, Jakarta Pusat</p>
-                  <p><strong>Postal Code:</strong> 10220</p>
-                  <p><strong>Nearest Station:</strong> MRT Bundaran HI</p>
+                <div className="space-y-4 text-sm">
+                  <div>
+                    <span className="font-semibold text-enterprise-primary">Address:</span>
+                    <p className="text-enterprise-secondary">Jl. Sudirman No. 123<br />Jakarta Pusat 10220</p>
+                  </div>
+                  <div>
+                    <span className="font-semibold text-enterprise-primary">Business Hours:</span>
+                    <p className="text-enterprise-secondary">Monday - Friday: 8:00 AM - 6:00 PM WIB</p>
+                  </div>
+                  <div>
+                    <span className="font-semibold text-enterprise-primary">Nearest Station:</span>
+                    <p className="text-enterprise-secondary">MRT Bundaran HI (5 min walk)</p>
+                  </div>
                 </div>
               </div>
 
-              {/* FAQ Section */}
-              <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Quick Answers</h3>
-                <div className="space-y-4">
-                  <div>
-                    <h4 className="font-medium text-gray-900 mb-1">How quickly do you respond?</h4>
-                    <p className="text-sm text-gray-600">We typically respond within 2-4 hours during business hours.</p>
+              {/* Quick Stats */}
+              <div className="card-enterprise p-8">
+                <h3 className="text-xl font-bold text-enterprise-primary mb-6">Why Choose Us</h3>
+                <div className="space-y-6">
+                  <div className="flex items-center space-x-4">
+                    <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
+                      <Clock className="h-6 w-6 text-blue-600" />
+                    </div>
+                    <div>
+                      <div className="font-semibold text-enterprise-primary">2-4 Hours</div>
+                      <div className="text-sm text-enterprise-muted">Average response time</div>
+                    </div>
                   </div>
-                  <div>
-                    <h4 className="font-medium text-gray-900 mb-1">Do you offer free consultations?</h4>
-                    <p className="text-sm text-gray-600">Yes! We provide free initial consultations to understand your needs.</p>
+                  <div className="flex items-center space-x-4">
+                    <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center">
+                      <Users className="h-6 w-6 text-green-600" />
+                    </div>
+                    <div>
+                      <div className="font-semibold text-enterprise-primary">10,000+</div>
+                      <div className="text-sm text-enterprise-muted">Happy customers</div>
+                    </div>
                   </div>
-                  <div>
-                    <h4 className="font-medium text-gray-900 mb-1">Can I schedule a demo?</h4>
-                    <p className="text-sm text-gray-600">Absolutely. Select "Product Demo" as your subject to schedule one.</p>
+                  <div className="flex items-center space-x-4">
+                    <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center">
+                      <Award className="h-6 w-6 text-purple-600" />
+                    </div>
+                    <div>
+                      <div className="font-semibold text-enterprise-primary">99.9%</div>
+                      <div className="text-sm text-enterprise-muted">Uptime guarantee</div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -292,20 +398,20 @@ export default function ContactPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-blue-600">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
+      <section className="section-enterprise gradient-dark text-white">
+        <div className="container-enterprise text-center">
+          <h2 className="text-white mb-6">
             Ready to Get Started?
           </h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
-            Join thousands of businesses that trust Omniflow.id to streamline their operations and boost productivity.
+          <p className="text-blue-100 mb-12 max-w-3xl mx-auto text-xl">
+            Join thousands of businesses that trust Omniflow.id to streamline their operations and boost productivity. Let's discuss how we can help transform your business.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-6 py-3 bg-white text-blue-600 rounded-lg hover:bg-blue-50 transition-colors font-medium">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center">
+            <button className="btn-primary bg-white text-blue-700 hover:bg-blue-50">
               Schedule a Demo
             </button>
-            <button className="px-6 py-3 border-2 border-white text-white rounded-lg hover:bg-blue-700 transition-colors font-medium">
-              View Pricing
+            <button className="btn-outline border-white text-white hover:bg-white hover:text-blue-700">
+              View Pricing Plans
             </button>
           </div>
         </div>
