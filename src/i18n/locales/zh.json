@@ -212,6 +212,22 @@
       "selectCompanySize": "选择公司规模",
       "sendMessage": "发送消息",
       "sending": "发送消息中...",
+      "subjects": {
+        "general": "一般咨询",
+        "demo": "产品演示",
+        "support": "技术支持",
+        "sales": "销售问题",
+        "partnership": "合作机会",
+        "enterprise": "企业解决方案",
+        "other": "其他"
+      },
+      "companySizes": {
+        "small": "1-10名员工",
+        "medium": "11-50名员工",
+        "large": "51-200名员工",
+        "enterprise": "201-1000名员工",
+        "mega": "1000+名员工"
+      },
       "success": {
         "title": "消息发送成功！",
         "message": "我们将在24小时内与您联系。"
@@ -245,6 +261,8 @@
     },
     "office": {
       "title": "我们的办公室",
+      "name": "雅加达办公室",
+      "country": "印度尼西亚",
       "address": "地址：",
       "addressDetails": "Jl. Sudirman No. 123\n雅加达中心 10220",
       "hours": "营业时间：",
@@ -254,6 +272,7 @@
     },
     "whyChoose": {
       "title": "为什么选择我们",
+      "hours": "小时",
       "responseTime": "平均响应时间",
       "customers": "满意客户",
       "uptime": "正常运行时间保证"
@@ -263,6 +282,14 @@
       "subtitle": "加入数千家信任Omniflow.id简化运营和提高生产力的企业。让我们讨论如何帮助转型您的业务。",
       "scheduleDemo": "预约演示",
       "viewPricing": "查看定价计划"
+    },
+    "features": {
+      "security": "企业级安全",
+      "customers": "10,000+满意客户",
+      "certified": "ISO 27001认证",
+      "uptime": "99.9%正常运行时间保证",
+      "support": "全球支持覆盖",
+      "roi": "经验证的ROI结果"
     }
   },
   "blog": {

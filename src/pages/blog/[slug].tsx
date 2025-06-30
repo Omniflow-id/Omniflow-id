@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { BlogPost, BlogDetailResponse } from '../../types/blog';
 import { ArrowLeft, Calendar, Tag, Loader2, Share2, Facebook, Twitter, Linkedin, Clock, BookOpen } from 'lucide-react';
 
 export default function BlogDetailPage() {
+  const { t } = useTranslation();
   const { slug } = useParams<{ slug: string }>();
   const [post, setPost] = useState<BlogPost | null>(null);
   const [loading, setLoading] = useState(true);
@@ -89,12 +91,12 @@ export default function BlogDetailPage() {
             <div className="text-center">
               <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-6">
                 <BookOpen className="h-4 w-4 mr-2" />
-                Loading Article
+                {t('blog.loading')}
               </div>
               <div className="flex items-center justify-center min-h-[200px]">
                 <div className="text-center">
                   <Loader2 className="h-12 w-12 animate-spin mx-auto mb-6 text-blue-600" />
-                  <p className="text-xl text-enterprise-secondary">Loading article content...</p>
+                  <p className="text-xl text-enterprise-secondary">{t('blog.loading')}</p>
                 </div>
               </div>
             </div>
@@ -115,19 +117,19 @@ export default function BlogDetailPage() {
                 className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-8 transition-colors"
               >
                 <ArrowLeft className="h-4 w-4 mr-2" />
-                Back to Blog
+                {t('blog.backToBlog')}
               </Link>
               <div className="card-enterprise p-12 max-w-md mx-auto">
                 <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <BookOpen className="h-8 w-8 text-red-600" />
                 </div>
-                <h3 className="text-xl font-bold text-enterprise-primary mb-4">Article Not Found</h3>
-                <p className="text-enterprise-secondary mb-6">{error || 'The requested blog post could not be found.'}</p>
+                <h3 className="text-xl font-bold text-enterprise-primary mb-4">{t('blog.articleNotFound.title')}</h3>
+                <p className="text-enterprise-secondary mb-6">{error || t('blog.articleNotFound.message')}</p>
                 <Link 
                   to="/blog" 
                   className="btn-primary"
                 >
-                  Back to Blog
+                  {t('blog.backToBlog')}
                 </Link>
               </div>
             </div>
@@ -148,7 +150,7 @@ export default function BlogDetailPage() {
               className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-8 transition-colors"
             >
               <ArrowLeft className="h-4 w-4 mr-2" />
-              Back to Blog
+              {t('blog.backToBlog')}
             </Link>
             
             <div className="card-enterprise p-12 relative overflow-hidden">
@@ -161,7 +163,7 @@ export default function BlogDetailPage() {
                   </div>
                   <div className="flex items-center">
                     <Clock className="h-4 w-4 mr-2" />
-                    <span>{Math.ceil(post.content.split(' ').length / 200)} min read</span>
+                    <span>{Math.ceil(post.content.split(' ').length / 200)} {t('blog.readingTime')}</span>
                   </div>
                   <div className="flex items-center">
                     <Tag className="h-4 w-4 mr-2" />
@@ -235,7 +237,7 @@ export default function BlogDetailPage() {
 
                   {/* Tags */}
                   <div className="mt-12 pt-8 border-t border-gray-200">
-                    <h4 className="text-lg font-bold text-enterprise-primary mb-4">Related Topics</h4>
+                    <h4 className="text-lg font-bold text-enterprise-primary mb-4">{t('blog.relatedTopics')}</h4>
                     <div className="flex flex-wrap gap-3">
                       {post.meta_keywords.split(', ').map((keyword, index) => (
                         <span 
@@ -257,7 +259,7 @@ export default function BlogDetailPage() {
                   <div className="card-enterprise p-6">
                     <h4 className="text-lg font-bold text-enterprise-primary mb-4 flex items-center">
                       <Share2 className="h-5 w-5 mr-2" />
-                      Share Article
+                      {t('blog.shareArticle')}
                     </h4>
                     <div className="space-y-3">
                       <button
@@ -286,23 +288,23 @@ export default function BlogDetailPage() {
 
                   {/* Article Info */}
                   <div className="card-enterprise p-6">
-                    <h4 className="text-lg font-bold text-enterprise-primary mb-4">Article Details</h4>
+                    <h4 className="text-lg font-bold text-enterprise-primary mb-4">{t('blog.articleDetails')}</h4>
                     <div className="space-y-4 text-sm">
                       <div>
-                        <span className="font-semibold text-enterprise-primary">Published:</span>
+                        <span className="font-semibold text-enterprise-primary">{t('blog.published')}</span>
                         <p className="text-enterprise-secondary">{formatDate(post.created_at)}</p>
                       </div>
                       <div>
-                        <span className="font-semibold text-enterprise-primary">Last Updated:</span>
+                        <span className="font-semibold text-enterprise-primary">{t('blog.lastUpdated')}</span>
                         <p className="text-enterprise-secondary">{formatDate(post.updated_at)}</p>
                       </div>
                       <div>
-                        <span className="font-semibold text-enterprise-primary">Reading Time:</span>
-                        <p className="text-enterprise-secondary">{Math.ceil(post.content.split(' ').length / 200)} minutes</p>
+                        <span className="font-semibold text-enterprise-primary">{t('blog.readingTimeLabel')}</span>
+                        <p className="text-enterprise-secondary">{Math.ceil(post.content.split(' ').length / 200)} {t('blog.minutes')}</p>
                       </div>
                       <div>
-                        <span className="font-semibold text-enterprise-primary">Word Count:</span>
-                        <p className="text-enterprise-secondary">{post.content.split(' ').length.toLocaleString()} words</p>
+                        <span className="font-semibold text-enterprise-primary">{t('blog.wordCount')}</span>
+                        <p className="text-enterprise-secondary">{post.content.split(' ').length.toLocaleString()} {t('blog.words')}</p>
                       </div>
                     </div>
                   </div>
@@ -317,17 +319,17 @@ export default function BlogDetailPage() {
       <section className="section-enterprise gradient-dark text-white">
         <div className="container-enterprise text-center">
           <h2 className="text-white mb-6">
-            Ready to Transform Your Business?
+            {t('blog.cta.title')}
           </h2>
           <p className="text-blue-100 mb-12 max-w-3xl mx-auto text-xl">
-            Discover how Omniflow.id can help you implement the strategies and solutions discussed in this article.
+            {t('blog.cta.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <button className="btn-primary bg-white text-blue-700 hover:bg-blue-50">
-              Schedule a Consultation
+              {t('blog.cta.consultation')}
             </button>
             <Link to="/blog" className="btn-outline border-white text-white hover:bg-white hover:text-blue-700">
-              Read More Articles
+              {t('blog.cta.readMore')}
             </Link>
           </div>
         </div>
