@@ -325,10 +325,10 @@ export default function BlogDetailPage() {
             {t('blog.cta.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <button className="btn-primary bg-white text-blue-700 hover:bg-blue-50">
+            <button className="btn-cta-light">
               {t('blog.cta.consultation')}
             </button>
-            <Link to="/blog" className="btn-outline border-white text-white hover:bg-white hover:text-blue-700">
+            <Link to="/blog" className="btn-cta-outline">
               {t('blog.cta.readMore')}
             </Link>
           </div>

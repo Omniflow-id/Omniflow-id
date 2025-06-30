@@ -21,11 +21,11 @@ export default function CTASection() {
               {t('hris.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <button className="btn-primary bg-white text-blue-700 hover:bg-blue-50 group">
+              <button className="btn-cta-light group">
                 {t('hris.cta.scheduleDemo')}
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </button>
-              <button className="btn-outline border-white text-white hover:bg-white hover:text-blue-700">
+              <button className="btn-cta-outline">
                 {t('hris.cta.contactSales')}
               </button>
             </div>

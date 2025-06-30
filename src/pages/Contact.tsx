@@ -409,10 +409,10 @@ export default function ContactPage() {
             {t('contact.cta.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <button className="btn-primary bg-white text-blue-700 hover:bg-blue-50">
+            <button className="btn-cta-light">
               {t('contact.cta.scheduleDemo')}
             </button>
-            <button className="btn-outline border-white text-white hover:bg-white hover:text-blue-700">
+            <button className="btn-cta-outline">
               {t('contact.cta.viewPricing')}
             </button>
           </div>
