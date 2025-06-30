@@ -187,82 +187,27 @@
     }
   },
   "contact": {
-    "title": "Ready to Transform Your Business?",
-    "subtitle": "Connect with our enterprise solutions experts and discover how Omniflow.id can streamline your operations, boost productivity, and accelerate growth.",
-    "badge": "Trusted by Enterprise Leaders",
-    "form": {
-      "title": "Let's Start a Conversation",
-      "subtitle": "Fill out the form below and our team will get back to you within 24 hours.",
-      "name": "Full Name",
-      "email": "Email Address",
-      "company": "Company Name",
-      "phone": "Phone Number",
-      "jobTitle": "Job Title",
-      "companySize": "Company Size",
-      "subject": "Subject",
-      "message": "Message",
-      "required": "*",
-      "namePlaceholder": "John Doe",
-      "emailPlaceholder": "john@company.com",
-      "companyPlaceholder": "Your Company Ltd.",
-      "phonePlaceholder": "+62 xxx-xxxx-xxxx",
-      "jobTitlePlaceholder": "CEO, CTO, Manager, etc.",
-      "messagePlaceholder": "Tell us about your business needs, challenges, or how we can help you...",
-      "selectSubject": "Select a subject",
-      "selectCompanySize": "Select company size",
-      "sendMessage": "Send Message",
-      "sending": "Sending Message...",
-      "success": {
-        "title": "Message sent successfully!",
-        "message": "We'll get back to you within 24 hours."
-      },
-      "error": {
-        "title": "Error sending message",
-        "message": "Please try again or contact us directly."
-      }
-    },
+    "title": "Get in Touch",
     "info": {
+      "title": "Contact Information",
       "email": {
-        "title": "Email Us",
-        "details": "contact@omniflow.id",
-        "description": "Get in touch anytime"
+        "details": "contact@omniflow.id"
       },
       "phone": {
-        "title": "Call Us",
-        "details": "+62 (21) 1234-5678",
-        "description": "Mon-Fri, 8AM-6PM WIB"
+        "details": "+62 (21) 1234-5678"
       },
       "address": {
-        "title": "Visit Us",
-        "details": "Jakarta, Indonesia",
-        "description": "Schedule an office visit"
-      },
-      "support": {
-        "title": "24/7 Support",
-        "details": "Always Available",
-        "description": "Enterprise support"
+        "details": "Jakarta, Indonesia"
       }
     },
-    "office": {
-      "title": "Our Office",
-      "address": "Address:",
-      "addressDetails": "Jl. Sudirman No. 123\nJakarta Pusat 10220",
-      "hours": "Business Hours:",
-      "hoursDetails": "Monday - Friday: 8:00 AM - 6:00 PM WIB",
-      "station": "Nearest Station:",
-      "stationDetails": "MRT Bundaran HI (5 min walk)"
-    },
-    "whyChoose": {
-      "title": "Why Choose Us",
-      "responseTime": "Average response time",
-      "customers": "Happy customers",
-      "uptime": "Uptime guarantee"
-    },
-    "cta": {
-      "title": "Ready to Get Started?",
-      "subtitle": "Join thousands of businesses that trust Omniflow.id to streamline their operations and boost productivity. Let's discuss how we can help transform your business.",
-      "scheduleDemo": "Schedule a Demo",
-      "viewPricing": "View Pricing Plans"
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "sendMessage": "Send Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your@email.com",
+      "messagePlaceholder": "Your message here..."
     }
   },
   "blog": {
