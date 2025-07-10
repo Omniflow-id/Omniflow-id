@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -11,9 +11,19 @@ import { ArrowLeft, Calendar, Tag, Loader2, Share2, Facebook, Twitter, Linkedin,
 export default function BlogDetailPage() {
   const { t } = useTranslation();
   const { slug } = useParams<{ slug: string }>();
+  const location = useLocation();
   const [post, setPost] = useState<BlogPost | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+
+  // Get current language from URL
+  const getCurrentLang = () => {
+    const match = location.pathname.match(/^\/(en|id|zh)/);
+    return match ? match[1] : 'en';
+  };
+
+  const currentLang = getCurrentLang();
+  const langPrefix = `/${currentLang}`;
 
   useEffect(() => {
     const fetchBlogDetail = async () => {
@@ -133,7 +143,7 @@ export default function BlogDetailPage() {
             <div className="container-enterprise">
               <div className="text-center">
                 <Link 
-                  to="/blog" 
+                  to={`${langPrefix}/blog`}
                   className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-8 transition-colors"
                 >
                   <ArrowLeft className="h-4 w-4 mr-2" />
@@ -146,7 +156,7 @@ export default function BlogDetailPage() {
                   <h3 className="text-xl font-bold text-enterprise-primary mb-4">{t('blog.articleNotFound.title')}</h3>
                   <p className="text-enterprise-secondary mb-6">{error || t('blog.articleNotFound.message')}</p>
                   <Link 
-                    to="/blog" 
+                    to={`${langPrefix}/blog`}
                     className="btn-primary"
                   >
                     {t('blog.backToBlog')}
@@ -195,7 +205,7 @@ export default function BlogDetailPage() {
           <div className="container-enterprise">
             <div className="max-w-4xl mx-auto">
               <Link 
-                to="/blog" 
+                to={`${langPrefix}/blog`}
                 className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-8 transition-colors"
               >
                 <ArrowLeft className="h-4 w-4 mr-2" />
@@ -377,7 +387,7 @@ export default function BlogDetailPage() {
               <button className="btn-cta-light">
                 {t('blog.cta.consultation')}
               </button>
-              <Link to="/blog" className="btn-cta-outline">
+              <Link to={`${langPrefix}/blog`} className="btn-cta-outline">
                 {t('blog.cta.readMore')}
               </Link>
             </div>

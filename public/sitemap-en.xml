@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://omniflow.id/en</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://omniflow.id/id"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://omniflow.id/zh"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://omniflow.id/en"/>
+  </url>
+  <url>
+    <loc>https://omniflow.id/en/modules/hris</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/hris"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://omniflow.id/id/modules/hris"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://omniflow.id/zh/modules/hris"/>
+  </url>
+  <url>
+    <loc>https://omniflow.id/en/blog</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://omniflow.id/id/blog"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://omniflow.id/zh/blog"/>
+  </url>
+  <url>
+    <loc>https://omniflow.id/en/contact</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://omniflow.id/id/contact"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://omniflow.id/zh/contact"/>
+  </url>
+</urlset>

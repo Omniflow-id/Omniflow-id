@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Globe, ChevronDown } from 'lucide-react';
 
@@ -10,12 +11,24 @@ const languages = [
 
 export default function LanguageSwitcher() {
   const { i18n, t } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
   const [isOpen, setIsOpen] = React.useState(false);
 
   const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
 
   const handleLanguageChange = (languageCode: string) => {
+    // Get current path without language prefix
+    const currentPath = location.pathname;
+    const pathWithoutLang = currentPath.replace(/^\/(en|id|zh)/, '') || '/';
+    
+    // Change i18n language
     i18n.changeLanguage(languageCode);
+    
+    // Navigate to new language path
+    const newPath = `/${languageCode}${pathWithoutLang === '/' ? '' : pathWithoutLang}`;
+    navigate(newPath);
+    
     setIsOpen(false);
   };
 

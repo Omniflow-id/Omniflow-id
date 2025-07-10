@@ -32,8 +32,31 @@ i18n
     },
     
     detection: {
-      order: ['localStorage', 'navigator', 'htmlTag'],
-      caches: ['localStorage']
+      order: ['path', 'localStorage', 'navigator', 'htmlTag'],
+      lookupFromPathIndex: 0,
+      checkWhitelist: true,
+      caches: ['localStorage'],
+      convertDetectedLanguage: (lng: string) => {
+        // Handle path-based language detection
+        const pathMatch = window.location.pathname.match(/^\/(en|id|zh)/);
+        if (pathMatch) {
+          return pathMatch[1];
+        }
+        return lng;
+      }
+    },
+    
+    // Whitelist supported languages
+    supportedLngs: ['en', 'id', 'zh'],
+    nonExplicitSupportedLngs: true,
+    
+    // Load namespace
+    ns: ['translation'],
+    defaultNS: 'translation',
+    
+    // React options
+    react: {
+      useSuspense: false
     }
   });
 

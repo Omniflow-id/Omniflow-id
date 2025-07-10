@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="UTF-8" />
@@ -50,10 +50,10 @@
   <link rel="canonical" href="https://omniflow.id">
   
   <!-- Alternate Language Links -->
-  <link rel="alternate" hreflang="en" href="https://omniflow.id">
+  <link rel="alternate" hreflang="en" href="https://omniflow.id/en">
   <link rel="alternate" hreflang="id" href="https://omniflow.id/id">
   <link rel="alternate" hreflang="zh" href="https://omniflow.id/zh">
-  <link rel="alternate" hreflang="x-default" href="https://omniflow.id">
+  <link rel="alternate" hreflang="x-default" href="https://omniflow.id/en">
   
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -85,7 +85,15 @@
       "https://www.twitter.com/omniflowid",
       "https://www.linkedin.com/company/omniflowid",
       "https://www.instagram.com/omniflowid"
-    ]
+    ],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://omniflow.id/en/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
   }
   </script>
 </head>

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 interface SEOHeadProps {
   title?: string;
@@ -29,8 +30,17 @@ export default function SEOHead({
   tags = []
 }: SEOHeadProps) {
   const { t, i18n } = useTranslation();
+  const location = useLocation();
   
-  const currentUrl = url || window.location.href;
+  // Get base URL without language prefix
+  const getBaseUrl = () => {
+    const path = location.pathname;
+    const langPrefix = path.match(/^\/(en|id|zh)/);
+    return langPrefix ? path.replace(langPrefix[0], '') || '/' : path;
+  };
+  
+  const baseUrl = getBaseUrl();
+  const currentUrl = url || `${window.location.origin}${location.pathname}`;
   const siteName = 'Omniflow.id';
   const defaultTitle = t('hero.title');
   const defaultDescription = t('hero.subtitle');
@@ -40,7 +50,21 @@ export default function SEOHead({
   const finalDescription = description || defaultDescription;
   const finalKeywords = keywords || defaultKeywords;
 
+  // Get language-specific URLs
+  const getLanguageUrls = () => {
+    const origin = window.location.origin;
+    return {
+      en: `${origin}/en${baseUrl === '/' ? '' : baseUrl}`,
+      id: `${origin}/id${baseUrl === '/' ? '' : baseUrl}`,
+      zh: `${origin}/zh${baseUrl === '/' ? '' : baseUrl}`,
+      'x-default': `${origin}/en${baseUrl === '/' ? '' : baseUrl}`
+    };
+  };
+
   useEffect(() => {
+    // Update HTML lang attribute
+    document.documentElement.lang = i18n.language;
+    
     // Update document title
     document.title = finalTitle;
 
@@ -83,7 +107,21 @@ export default function SEOHead({
     updateMetaTag('og:url', currentUrl, true);
     updateMetaTag('og:type', type, true);
     updateMetaTag('og:site_name', siteName, true);
-    updateMetaTag('og:locale', i18n.language === 'id' ? 'id_ID' : i18n.language === 'zh' ? 'zh_CN' : 'en_US', true);
+    
+    // Enhanced locale handling
+    const localeMap = {
+      'en': 'en_US',
+      'id': 'id_ID', 
+      'zh': 'zh_CN'
+    };
+    updateMetaTag('og:locale', localeMap[i18n.language as keyof typeof localeMap] || 'en_US', true);
+    
+    // Add alternate locales
+    Object.entries(localeMap).forEach(([lang, locale]) => {
+      if (lang !== i18n.language) {
+        updateMetaTag(`og:locale:alternate`, locale, true);
+      }
+    });
     
     // Twitter Card tags
     updateMetaTag('twitter:card', 'summary_large_image');
@@ -117,32 +155,45 @@ export default function SEOHead({
     canonical.setAttribute('href', currentUrl);
 
     // Alternate language links
-    const languages = [
-      { code: 'en', href: currentUrl.replace(/\/(id|zh)\//, '/') },
-      { code: 'id', href: currentUrl.includes('/id/') ? currentUrl : currentUrl.replace(window.location.origin, `${window.location.origin}/id`) },
-      { code: 'zh', href: currentUrl.includes('/zh/') ? currentUrl : currentUrl.replace(window.location.origin, `${window.location.origin}/zh`) }
-    ];
-
     // Remove existing alternate links
     document.querySelectorAll('link[rel="alternate"][hreflang]').forEach(link => link.remove());
 
-    // Add new alternate links
-    languages.forEach(lang => {
+    // Add language-specific alternate links
+    const languageUrls = getLanguageUrls();
+    Object.entries(languageUrls).forEach(([lang, href]) => {
       const alternate = document.createElement('link');
       alternate.setAttribute('rel', 'alternate');
-      alternate.setAttribute('hreflang', lang.code);
-      alternate.setAttribute('href', lang.href);
+      alternate.setAttribute('hreflang', lang);
+      alternate.setAttribute('href', href);
       document.head.appendChild(alternate);
     });
 
-    // Add x-default
-    const xDefault = document.createElement('link');
-    xDefault.setAttribute('rel', 'alternate');
-    xDefault.setAttribute('hreflang', 'x-default');
-    xDefault.setAttribute('href', languages[0].href);
-    document.head.appendChild(xDefault);
+    // JSON-LD for multilingual website
+    const existingJsonLd = document.querySelector('script[type="application/ld+json"][data-seo="multilingual"]');
+    if (existingJsonLd) {
+      existingJsonLd.remove();
+    }
+    
+    const multilingualJsonLd = document.createElement('script');
+    multilingualJsonLd.type = 'application/ld+json';
+    multilingualJsonLd.setAttribute('data-seo', 'multilingual');
+    multilingualJsonLd.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "url": currentUrl,
+      "inLanguage": i18n.language,
+      "name": finalTitle,
+      "description": finalDescription,
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": siteName,
+        "url": window.location.origin,
+        "inLanguage": ["en", "id", "zh"]
+      }
+    });
+    document.head.appendChild(multilingualJsonLd);
 
-  }, [finalTitle, finalDescription, finalKeywords, image, currentUrl, type, publishedTime, modifiedTime, author, section, tags, i18n.language]);
+  }, [finalTitle, finalDescription, finalKeywords, image, currentUrl, type, publishedTime, modifiedTime, author, section, tags, i18n.language, location.pathname]);
 
   return null;
 }

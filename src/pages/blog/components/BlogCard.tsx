@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { BlogPost } from '../../../types/blog';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
 
@@ -7,6 +7,17 @@ interface BlogCardProps {
 }
 
 export default function BlogCard({ post }: BlogCardProps) {
+  const location = useLocation();
+
+  // Get current language from URL
+  const getCurrentLang = () => {
+    const match = location.pathname.match(/^\/(en|id|zh)/);
+    return match ? match[1] : 'en';
+  };
+
+  const currentLang = getCurrentLang();
+  const langPrefix = `/${currentLang}`;
+
   const formatDate = (dateString: string) => {
     // Convert from "30/06/2025, 01.07" format to readable date
     const [datePart] = dateString.split(', ');
@@ -64,7 +75,7 @@ export default function BlogCard({ post }: BlogCardProps) {
         </div>
         
         <h2 className="text-xl font-bold text-enterprise-primary mb-4 group-hover:text-blue-600 transition-colors leading-tight">
-          <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+          <Link to={`${langPrefix}/blog/${post.slug}`}>{post.title}</Link>
         </h2>
         
         <p className="text-enterprise-secondary mb-6 leading-relaxed">
@@ -73,7 +84,7 @@ export default function BlogCard({ post }: BlogCardProps) {
         
         <div className="flex items-center justify-between">
           <Link 
-            to={`/blog/${post.slug}`}
+            to={`${langPrefix}/blog/${post.slug}`}
             className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors group"
           >
             Read More

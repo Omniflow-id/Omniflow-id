@@ -1,8 +1,19 @@
 import { useTranslation } from 'react-i18next';
+import { useLocation } from 'react-router-dom';
 import { CircuitBoard, Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   const { t } = useTranslation();
+  const location = useLocation();
+
+  // Get current language from URL
+  const getCurrentLang = () => {
+    const match = location.pathname.match(/^\/(en|id|zh)/);
+    return match ? match[1] : 'en';
+  };
+
+  const currentLang = getCurrentLang();
+  const langPrefix = `/${currentLang}`;
 
   return (
     <footer className="gradient-dark text-white">
@@ -37,22 +48,22 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-6">{t('footer.solutions')}</h3>
             <ul className="space-y-3">
-              <li><a href="#modules" className="text-blue-100 hover:text-white transition-colors">{t('navigation.hris')}</a></li>
-              <li><a href="#modules" className="text-blue-100 hover:text-white transition-colors">{t('modules.accounting.name')}</a></li>
-              <li><a href="#modules" className="text-blue-100 hover:text-white transition-colors">{t('modules.crm.name')}</a></li>
-              <li><a href="#modules" className="text-blue-100 hover:text-white transition-colors">{t('modules.inventory.name')}</a></li>
-              <li><a href="#modules" className="text-blue-100 hover:text-white transition-colors">{t('modules.ai.name')}</a></li>
+              <li><a href={`${langPrefix}/modules/hris`} className="text-blue-100 hover:text-white transition-colors">{t('navigation.hris')}</a></li>
+              <li><a href={`${langPrefix}#modules`} className="text-blue-100 hover:text-white transition-colors">{t('modules.accounting.name')}</a></li>
+              <li><a href={`${langPrefix}#modules`} className="text-blue-100 hover:text-white transition-colors">{t('modules.crm.name')}</a></li>
+              <li><a href={`${langPrefix}#modules`} className="text-blue-100 hover:text-white transition-colors">{t('modules.inventory.name')}</a></li>
+              <li><a href={`${langPrefix}#modules`} className="text-blue-100 hover:text-white transition-colors">{t('modules.ai.name')}</a></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-lg font-semibold mb-6">{t('footer.company')}</h3>
             <ul className="space-y-3">
-              <li><a href="/about" className="text-blue-100 hover:text-white transition-colors">{t('footer.aboutUs')}</a></li>
-              <li><a href="/blog" className="text-blue-100 hover:text-white transition-colors">{t('common.blog')}</a></li>
-              <li><a href="/careers" className="text-blue-100 hover:text-white transition-colors">{t('footer.careers')}</a></li>
-              <li><a href="/contact" className="text-blue-100 hover:text-white transition-colors">{t('common.contact')}</a></li>
-              <li><a href="/support" className="text-blue-100 hover:text-white transition-colors">{t('footer.support')}</a></li>
+              <li><a href={`${langPrefix}/about`} className="text-blue-100 hover:text-white transition-colors">{t('footer.aboutUs')}</a></li>
+              <li><a href={`${langPrefix}/blog`} className="text-blue-100 hover:text-white transition-colors">{t('common.blog')}</a></li>
+              <li><a href={`${langPrefix}/careers`} className="text-blue-100 hover:text-white transition-colors">{t('footer.careers')}</a></li>
+              <li><a href={`${langPrefix}/contact`} className="text-blue-100 hover:text-white transition-colors">{t('common.contact')}</a></li>
+              <li><a href={`${langPrefix}/support`} className="text-blue-100 hover:text-white transition-colors">{t('footer.support')}</a></li>
             </ul>
           </div>
         </div>
