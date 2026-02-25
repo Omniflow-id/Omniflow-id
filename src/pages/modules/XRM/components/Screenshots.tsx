@@ -11,11 +11,6 @@ export default function Screenshots() {
 			description: "Native Flutter app for iOS and Android",
 		},
 		{
-			title: "Mobile App",
-			image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=600",
-			description: "Native Flutter app for iOS and Android",
-		},
-		{
 			title: "User Dashboard",
 			image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=600",
 			description: "Complete user management interface",
@@ -34,11 +29,6 @@ export default function Screenshots() {
 			title: "Queue Management",
 			image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600",
 			description: "Monitor and manage background jobs",
-		},
-		{
-			title: "Cache Statistics",
-			image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=600",
-			description: "Real-time performance metrics",
 		},
 	];
 
