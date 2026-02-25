@@ -37,6 +37,9 @@ export default function Header() {
 						<Link to={`${langPrefix}/modules/hris`} className="nav-link">
 							{t("navigation.hris")}
 						</Link>
+						<Link to={`${langPrefix}/modules/commerce`} className="nav-link">
+							{t("navigation.modules")}
+						</Link>
 						<Link to={`${langPrefix}/blog`} className="nav-link">
 							{t("common.blog")}
 						</Link>

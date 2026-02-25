@@ -469,6 +469,62 @@
 				"security": "认证安全"
 			}
 		}
+		},
+	"commerce": {
+		"hero": {
+			"badge": "电商平台",
+			"title": "综合在线商店平台",
+			"subtitle": "Omniflow电商平台为管理您的在线商店提供综合解决方案。在一个易于使用的平台上管理产品、库存、订单和付款，并与您的ERP系统无缝集成。"
+		},
+		"features": {
+			"title": "核心功能",
+			"subtitle": "我们的电商平台提供全面功能，加速您的在线商店运营。",
+			"products": {
+				"title": "产品管理",
+				"description": "轻松管理您的产品目录。上传图片，设置价格，在一个地方管理产品变体。"
+			},
+			"inventory": {
+				"title": "库存控制",
+				"description": "实时跟踪库存并在库存不足时自动提醒。与物理仓库和在线商店同步。"
+			},
+			"orders": {
+				"title": "订单管理",
+				"description": "无缝处理从开始到结束的订单。状态跟踪、电子邮件通知和完整历史记录，以提供更好的客户体验。"
+			},
+			"payments": {
+				"title": "安全支付",
+				"description": "接受多种支付方式，包括信用卡、银行转账和数字钱包。安全且兼容的支付处理。"
+			},
+			"reports": {
+				"title": "综合报告",
+				"description": "深入了解您的商店业绩。销售报告、趋势分析和库存报告，用于数据驱动决策。"
+			},
+			"analytics": {
+				"title": "智能分析",
+				"description": "分析仪表板，深入了解客户行为和销售趋势。帮助优化营销策略并提高转化率。"
+			}
+		},
+		"benefits": {
+			"badge": "为什么选择Omniflow电子商务？",
+			"title": "平台优势",
+			"subtitle": "通过Omniflow电子商务平台的卓越功能提升您的在线商店运营。"
+		},
+		"testimonials": {
+			"badge": "我们的客户",
+			"title": "他们怎么说",
+			"subtitle": "知名企业选择Omniflow电子商务来管理他们的在线商店运营。加入他们，看看我们的平台如何帮助您的业务转型。",
+			"joinSuccess": {
+				"title": "准备开始？",
+				"description": "加入数千家已通过Omniflow转型其电子商务运营的公司。安排演示，看看我们的平台如何帮助您的业务。"
+			},
+			"scheduleDemo": "安排演示"
+		},
+		"cta": {
+			"title": "准备开始？",
+			"subtitle": "今天迁移到Omniflow电商平台，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的业务管理。",
+			"getStarted": "免费开始",
+			"scheduleDemo": "安排演示"
+		}
 	},
 	"footer": {
 		"description": "通过集成ERP解决方案在全球范围内转型企业。加入数千家信任我们简化运营和加速增长的公司。",

@@ -496,6 +496,62 @@
 				"security": "Keamanan Bersertifikat"
 			}
 		}
+		},
+	"commerce": {
+		"hero": {
+			"badge": "E-Commerce Platform",
+			"title": "Platform Toko Online Terintegrasi",
+			"subtitle": "Omniflow E-Commerce menyediakan solusi lengkap untuk mengelola toko online Anda. Kelola produk, stok, pesanan, dan pembayaran dalam satu platform yang mudah digunakan dan dapat diandalkan dengan sistem ERP Anda."
+		},
+		"features": {
+			"title": "Fitur Unggulan",
+			"subtitle": "Platform E-Commerce kami menawarkan fitur-fitur komprehensif untuk mempercepat operasi toko online Anda.",
+			"products": {
+				"title": "Manajemen Produk",
+				"description": "Kelola katalog produk dengan mudah. Upload gambar, atur harga, dan kelola variasi produk dalam satu tempat."
+			},
+			"inventory": {
+				"title": "Kontrol Inventaris",
+				"description": "Lacak stok secara real-time dan terima notifikasi otomatis saat stok menipis. Sinkronisasi dengan gudang fisik dan toko online."
+			},
+			"orders": {
+				"title": "Manajemen Pesanan",
+				"description": "Proses pesanan dari awal hingga akhir dengan mudah. Status tracking, notifikasi email, dan riwayat lengkap untuk pengalaman pelanggan yang lebih baik."
+			},
+			"payments": {
+				"title": "Pembayaran Aman",
+				"description": "Terima berbagai metode pembayaran termasuk kartu kredit, transfer bank, dan dompet digital. Proses pembayaran yang aman dan kompatibel."
+			},
+			"reports": {
+				"title": "Laporan Komprehensif",
+				"description": "Dapatkan wawasan mendalam tentang kinerja toko Anda. Laporan penjualan, analisis tren, dan laporan inventaris untuk pengambilan keputusan berbasis data."
+			},
+			"analytics": {
+				"title": "Analisis Cerdas",
+				"description": "Dashboard analitik yang memberikan wawasan mendalam tentang perilaku pelanggan dan tren penjualan. Bantu optimalkan strategi pemasaran dan meningkatkan konversi."
+			}
+		},
+		"benefits": {
+			"badge": "Kenapa Omniflow E-Commerce?",
+			"title": "Keunggulan Platform",
+			"subtitle": "Tingkatkan operasi toko online Anda dengan fitur-fitur unggulan dari Omniflow E-Commerce."
+		},
+		"testimonials": {
+			"badge": "Klien Kami",
+			"title": "Apa Kata Mereka?",
+			"subtitle": "Ribuan bisnis terkemuka telah mempercayai Omniflow E-Commerce untuk mengelola operasi toko online mereka.",
+			"joinSuccess": {
+				"title": "Siap Memulai?",
+				"description": "Bergabunglah dengan ribuan perusahaan yang telah mentransformasi operasi E-Commerce mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda."
+			},
+			"scheduleDemo": "Jadwalkan Demo"
+		},
+		"cta": {
+			"title": "Siap untuk Memulai?",
+			"subtitle": "Migrasikan ke Omniflow E-Commerce hari ini dan rasakan perbedaannya. Platform kami terintegrasi dengan sistem ERP Omniflow untuk manajemen bisnis yang lebih baik.",
+			"getStarted": "Mulai Gratis",
+			"scheduleDemo": "Jadwalkan Demo"
+		}
 	},
 	"footer": {
 		"description": "Mentransformasi bisnis di seluruh dunia dengan solusi ERP terintegrasi. Bergabunglah dengan ribuan perusahaan yang mempercayai kami untuk menyederhanakan operasi dan mempercepat pertumbuhan.",

@@ -69,36 +69,29 @@ export default function Footer() {
 							</li>
 							<li>
 								<a
-									href={`${langPrefix}#modules`}
+									href={`${langPrefix}/modules/commerce`}
 									className="text-blue-100 hover:text-white transition-colors"
 								>
-									{t("modules.accounting.name")}
+									{t("navigation.modules")}
 								</a>
 							</li>
 							<li>
 								<a
-									href={`${langPrefix}#modules`}
+									href={`${langPrefix}/blog`}
 									className="text-blue-100 hover:text-white transition-colors"
 								>
-									{t("modules.crm.name")}
+									{t("common.blog")}
 								</a>
 							</li>
 							<li>
 								<a
-									href={`${langPrefix}#modules`}
+									href={`${langPrefix}/contact`}
 									className="text-blue-100 hover:text-white transition-colors"
 								>
-									{t("modules.inventory.name")}
+									{t("common.contact")}
 								</a>
 							</li>
-							<li>
-								<a
-									href={`${langPrefix}#modules`}
-									className="text-blue-100 hover:text-white transition-colors"
-								>
-									{t("modules.ai.name")}
-								</a>
-							</li>
+						</ul>
 						</ul>
 					</div>
 
@@ -195,7 +188,7 @@ export default function Footer() {
 
 					<div className="text-center mt-8 pt-8 border-t border-blue-800">
 						<p className="text-blue-100">
-							&copy; {new Date().getFullYear()} Omniflow.id.{" "}
+							{new Date().getFullYear()} Omniflow.id.{" "}
 							{t("footer.copyright")}
 						</p>
 					</div>

@@ -504,6 +504,62 @@
 				"security": "Certified Security"
 			}
 		}
+		},
+	"commerce": {
+		"hero": {
+			"badge": "E-Commerce Platform",
+			"title": "Integrated Online Store Platform",
+			"subtitle": "Omniflow E-Commerce provides comprehensive solutions for managing your online store. Manage products, inventory, orders, and payments in one easy-to-use platform that integrates with your ERP system."
+		},
+		"features": {
+			"title": "Key Features",
+			"subtitle": "Our E-Commerce platform offers comprehensive features to accelerate your online store operations.",
+			"products": {
+				"title": "Product Management",
+				"description": "Easily manage your product catalog. Upload images, set prices, and manage product variations in one place."
+			},
+			"inventory": {
+				"title": "Inventory Control",
+				"description": "Track stock in real-time with automated alerts when inventory runs low. Sync with physical warehouses and online store."
+			},
+			"orders": {
+				"title": "Order Management",
+				"description": "Process orders from start to finish seamlessly. Status tracking, email notifications, and complete history for better customer experience."
+			},
+			"payments": {
+				"title": "Secure Payments",
+				"description": "Accept multiple payment methods including credit cards, bank transfers, and digital wallets. Secure and compatible payment processing."
+			},
+			"reports": {
+				"title": "Comprehensive Reports",
+				"description": "Get deep insights into your store performance. Sales reports, trend analysis, and inventory reports for data-driven decisions."
+			},
+			"analytics": {
+				"title": "Smart Analytics",
+				"description": "Analytics dashboard providing deep insights into customer behavior and sales trends. Help optimize marketing strategies and increase conversion rates."
+			}
+		},
+		"benefits": {
+			"badge": "Why Omniflow E-Commerce?",
+			"title": "Platform Advantages",
+			"subtitle": "Elevate your online store operations with superior features of Omniflow E-Commerce platform."
+		},
+		"testimonials": {
+			"badge": "Our Clients",
+			"title": "What They Say",
+			"subtitle": "Trusted businesses have chosen Omniflow E-Commerce to manage their online store operations. Join them and see how our platform can help transform your business.",
+			"joinSuccess": {
+				"title": "Ready to Start?",
+				"description": "Join thousands of companies that have transformed their E-Commerce operations with Omniflow. Schedule a demo to see how our platform can help your business."
+			},
+			"scheduleDemo": "Schedule Demo"
+		},
+		"cta": {
+			"title": "Ready to Start?",
+			"subtitle": "Migrate to Omniflow E-Commerce today and experience the difference. Our platform integrates seamlessly with Omniflow ERP system for superior business management.",
+			"getStarted": "Start Free",
+			"scheduleDemo": "Schedule Demo"
+		}
 	},
 	"footer": {
 		"description": "Transforming businesses worldwide with integrated ERP solutions. Join thousands of companies that trust us to streamline their operations and accelerate growth.",
