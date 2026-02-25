@@ -1,490 +1,525 @@
 {
-  "common": {
-    "home": "Home",
-    "about": "About",
-    "contact": "Contact",
-    "blog": "Blog",
-    "getStarted": "Get Started",
-    "learnMore": "Learn More",
-    "readMore": "Read More",
-    "scheduleDemo": "Schedule Demo",
-    "contactSales": "Contact Sales",
-    "watchDemo": "Watch Demo",
-    "tryFree": "Try Free",
-    "loading": "Loading...",
-    "error": "Error",
-    "success": "Success",
-    "back": "Back",
-    "next": "Next",
-    "previous": "Previous",
-    "save": "Save",
-    "cancel": "Cancel",
-    "submit": "Submit",
-    "search": "Search",
-    "filter": "Filter",
-    "sort": "Sort",
-    "language": "Language"
-  },
-  "navigation": {
-    "solutions": "Solutions",
-    "modules": "Modules",
-    "hris": "HRIS",
-    "insights": "Insights",
-    "resources": "Resources",
-    "support": "Support",
-    "pricing": "Pricing"
-  },
-  "hero": {
-    "title": "Transform Your Business with Integrated ERP Solutions",
-    "subtitle": "Omniflow.id delivers enterprise-grade business management tools designed to streamline operations, boost productivity, and accelerate growth across your entire organization.",
-    "trustedBy": "Trusted by 10,000+ Businesses",
-    "startJourney": "Start Your Journey",
-    "watchDemo": "Watch Demo",
-    "stats": {
-      "uptime": "Uptime SLA",
-      "users": "Active Users",
-      "support": "Support"
-    }
-  },
-  "modules": {
-    "title": "Comprehensive Business Solutions",
-    "subtitle": "From HR management to AI-powered analytics, our integrated modules work seamlessly together to power your entire business ecosystem.",
-    "badge": "17 Integrated Modules",
-    "hris": {
-      "name": "HRIS",
-      "description": "Complete human resource management system"
-    },
-    "stock": {
-      "name": "Stock Management",
-      "description": "Efficient inventory tracking and control"
-    },
-    "sales": {
-      "name": "Sales Management",
-      "description": "Streamline your sales operations"
-    },
-    "accounting": {
-      "name": "Accounting",
-      "description": "Comprehensive financial management"
-    },
-    "pos": {
-      "name": "PoS",
-      "description": "Modern point of sale system"
-    },
-    "customers": {
-      "name": "Customers",
-      "description": "Customer relationship management"
-    },
-    "crm": {
-      "name": "CRM",
-      "description": "Build stronger customer relationships"
-    },
-    "project": {
-      "name": "Project Management",
-      "description": "Efficient project tracking and delivery"
-    },
-    "marketing": {
-      "name": "Marketing",
-      "description": "Integrated marketing solutions"
-    },
-    "lms": {
-      "name": "LMS",
-      "description": "Learning management system"
-    },
-    "payment": {
-      "name": "Payment Gateway",
-      "description": "Secure payment processing"
-    },
-    "inventory": {
-      "name": "Inventory",
-      "description": "Advanced inventory management"
-    },
-    "ai": {
-      "name": "AI",
-      "description": "Intelligent business automation"
-    },
-    "admin": {
-      "name": "Administration",
-      "description": "Centralized system administration"
-    },
-    "manufacturing": {
-      "name": "Manufacturing",
-      "description": "Manufacturing process management"
-    },
-    "supply": {
-      "name": "Supply Chain",
-      "description": "End-to-end supply chain visibility"
-    },
-    "procurement": {
-      "name": "Procurement",
-      "description": "Streamlined procurement process"
-    }
-  },
-  "advantages": {
-    "title": "Why Choose Omniflow.id?",
-    "subtitle": "Join thousands of forward-thinking companies that have transformed their operations with our enterprise-grade solutions.",
-    "allInOne": {
-      "title": "All-in-One Solution",
-      "description": "Integrate all business processes in a single platform, eliminating the need for multiple software solutions.",
-      "stat": "90% reduction in software complexity"
-    },
-    "analytics": {
-      "title": "Real-time Analytics",
-      "description": "Access comprehensive business insights and reports in real-time for better decision-making.",
-      "stat": "3x faster decision making"
-    },
-    "scalable": {
-      "title": "Scalable Architecture",
-      "description": "Grow your business without worrying about system limitations. Our platform scales with you.",
-      "stat": "Supports 100K+ users"
-    },
-    "costEffective": {
-      "title": "Cost-Effective",
-      "description": "Reduce operational costs by streamlining processes and eliminating redundant systems.",
-      "stat": "40% cost reduction average"
-    },
-    "productivity": {
-      "title": "Enhanced Productivity",
-      "description": "Automate routine tasks and improve team collaboration across departments.",
-      "stat": "60% productivity increase"
-    },
-    "security": {
-      "title": "Security First",
-      "description": "Enterprise-grade security measures to protect your sensitive business data.",
-      "stat": "ISO 27001 certified"
-    }
-  },
-  "faq": {
-    "title": "Got Questions? We Have Answers",
-    "subtitle": "Find answers to common questions about our platform, implementation, and support services.",
-    "badge": "Frequently Asked Questions",
-    "contactExperts": "Contact Our Experts",
-    "stillHaveQuestions": "Still have questions? Our team is here to help.",
-    "questions": {
-      "difference": {
-        "question": "What makes Omniflow.id different from other ERP solutions?",
-        "answer": "Omniflow.id offers a unique combination of comprehensive modules, modern technology, and seamless integration capabilities. Our AI-powered features, intuitive interface, and enterprise-grade security set us apart from traditional ERP systems. We focus on user experience while maintaining powerful functionality."
-      },
-      "implementation": {
-        "question": "How long does implementation typically take?",
-        "answer": "Implementation time varies based on your business size and requirements. Basic setup takes 2-4 weeks for small businesses, while enterprise implementations typically take 2-3 months. We provide dedicated project managers and 24/7 support throughout the entire process to ensure smooth deployment."
-      },
-      "customization": {
-        "question": "Can Omniflow.id be customized for my specific industry?",
-        "answer": "Absolutely. Omniflow.id is highly customizable and can be tailored to meet the specific needs of your industry. Our modular architecture allows for flexible configuration, custom workflows, and industry-specific features. We have experience across manufacturing, retail, services, and more."
-      },
-      "support": {
-        "question": "What kind of support and training do you provide?",
-        "answer": "We provide comprehensive support including 24/7 technical assistance, regular system updates, personalized training sessions, and dedicated account managers. Our support team includes certified experts who understand your business needs and can provide strategic guidance."
-      },
-      "security": {
-        "question": "How secure is my data with Omniflow.id?",
-        "answer": "Security is our top priority. We maintain ISO 27001 certification, use enterprise-grade encryption, implement multi-factor authentication, and conduct regular security audits. Your data is stored in secure, compliant data centers with 99.9% uptime guarantee."
-      },
-      "integration": {
-        "question": "Can I integrate Omniflow.id with my existing systems?",
-        "answer": "Yes, Omniflow.id offers robust integration capabilities with popular business tools, accounting software, CRM systems, and third-party applications. Our API-first approach ensures seamless data flow between systems, minimizing disruption to your current workflows."
-      }
-    }
-  },
-  "contact": {
-    "title": "Ready to Transform Your Business?",
-    "subtitle": "Connect with our enterprise solutions experts and discover how Omniflow.id can streamline your operations, boost productivity, and accelerate growth.",
-    "badge": "Trusted by Enterprise Leaders",
-    "form": {
-      "title": "Let's Start a Conversation",
-      "subtitle": "Fill out the form below and our team will get back to you within 24 hours.",
-      "name": "Full Name",
-      "email": "Email Address",
-      "company": "Company Name",
-      "phone": "Phone Number",
-      "jobTitle": "Job Title",
-      "companySize": "Company Size",
-      "subject": "Subject",
-      "message": "Message",
-      "required": "*",
-      "namePlaceholder": "John Doe",
-      "emailPlaceholder": "john@company.com",
-      "companyPlaceholder": "Your Company Ltd.",
-      "phonePlaceholder": "+62 xxx-xxxx-xxxx",
-      "jobTitlePlaceholder": "CEO, CTO, Manager, etc.",
-      "messagePlaceholder": "Tell us about your business needs, challenges, or how we can help you...",
-      "selectSubject": "Select a subject",
-      "selectCompanySize": "Select company size",
-      "sendMessage": "Send Message",
-      "sending": "Sending Message...",
-      "subjects": {
-        "general": "General Inquiry",
-        "demo": "Product Demo",
-        "support": "Technical Support",
-        "sales": "Sales Question",
-        "partnership": "Partnership Opportunity",
-        "enterprise": "Enterprise Solutions",
-        "other": "Other"
-      },
-      "companySizes": {
-        "small": "1-10 employees",
-        "medium": "11-50 employees",
-        "large": "51-200 employees",
-        "enterprise": "201-1000 employees",
-        "mega": "1000+ employees"
-      },
-      "success": {
-        "title": "Message sent successfully!",
-        "message": "We'll get back to you within 24 hours."
-      },
-      "error": {
-        "title": "Error sending message",
-        "message": "Please try again or contact us directly."
-      }
-    },
-    "info": {
-      "email": {
-        "title": "Email Us",
-        "details": "contact@omniflow.id",
-        "description": "Get in touch anytime"
-      },
-      "phone": {
-        "title": "Call Us",
-        "details": "+62 (21) 1234-5678",
-        "description": "Mon-Fri, 8AM-6PM WIB"
-      },
-      "address": {
-        "title": "Visit Us",
-        "details": "Jakarta, Indonesia",
-        "description": "Schedule an office visit"
-      },
-      "support": {
-        "title": "24/7 Support",
-        "details": "Always Available",
-        "description": "Enterprise support"
-      }
-    },
-    "office": {
-      "title": "Our Office",
-      "name": "Jakarta Office",
-      "country": "Indonesia",
-      "address": "Address:",
-      "addressDetails": "Jl. Sudirman No. 123\nJakarta Pusat 10220",
-      "hours": "Business Hours:",
-      "hoursDetails": "Monday - Friday: 8:00 AM - 6:00 PM WIB",
-      "station": "Nearest Station:",
-      "stationDetails": "MRT Bundaran HI (5 min walk)"
-    },
-    "whyChoose": {
-      "title": "Why Choose Us",
-      "hours": "Hours",
-      "responseTime": "Average response time",
-      "customers": "Happy customers",
-      "uptime": "Uptime guarantee"
-    },
-    "cta": {
-      "title": "Ready to Get Started?",
-      "subtitle": "Join thousands of businesses that trust Omniflow.id to streamline their operations and boost productivity. Let's discuss how we can help transform your business.",
-      "scheduleDemo": "Schedule a Demo",
-      "viewPricing": "View Pricing Plans"
-    },
-    "features": {
-      "security": "Enterprise-grade security",
-      "customers": "10,000+ satisfied customers",
-      "certified": "ISO 27001 certified",
-      "uptime": "99.9% uptime guarantee",
-      "support": "Global support coverage",
-      "roi": "Proven ROI results"
-    }
-  },
-  "blog": {
-    "title": "Enterprise Insights & Resources",
-    "subtitle": "Stay ahead with the latest trends in business technology, digital transformation, and enterprise solutions that drive success.",
-    "badge": "Knowledge Hub",
-    "features": {
-      "trends": {
-        "title": "Industry Trends",
-        "description": "Latest market insights and forecasts"
-      },
-      "practices": {
-        "title": "Best Practices",
-        "description": "Proven strategies from industry leaders"
-      },
-      "stories": {
-        "title": "Success Stories",
-        "description": "Real-world transformation cases"
-      }
-    },
-    "latest": "Latest Articles",
-    "latestSubtitle": "Discover actionable insights to transform your business operations",
-    "comingSoon": {
-      "title": "Coming Soon",
-      "message": "We're preparing valuable content for you. Check back soon for the latest insights and resources."
-    },
-    "error": {
-      "title": "Unable to Load Content",
-      "tryAgain": "Try Again"
-    },
-    "loading": "Loading latest insights...",
-    "backToBlog": "Back to Blog",
-    "readingTime": "min read",
-    "articleNotFound": {
-      "title": "Article Not Found",
-      "message": "The requested blog post could not be found."
-    },
-    "shareArticle": "Share Article",
-    "articleDetails": "Article Details",
-    "published": "Published:",
-    "lastUpdated": "Last Updated:",
-    "readingTimeLabel": "Reading Time:",
-    "wordCount": "Word Count:",
-    "minutes": "minutes",
-    "words": "words",
-    "relatedTopics": "Related Topics",
-    "cta": {
-      "title": "Ready to Transform Your Business?",
-      "subtitle": "Discover how Omniflow.id can help you implement the strategies and solutions discussed in this article.",
-      "consultation": "Schedule a Consultation",
-      "readMore": "Read More Articles"
-    }
-  },
-  "hris": {
-    "title": "Modern HR Management for Enterprise Success",
-    "subtitle": "Transform your HR operations with our comprehensive HRIS solution. Streamline recruitment, manage employee data, and automate HR processes with enterprise-grade security and scalability.",
-    "badge": "Trusted by 10,000+ HR Professionals",
-    "hero": {
-      "scheduleDemo": "Schedule Demo",
-      "watchOverview": "Watch Overview",
-      "stats": {
-        "users": "Active Users",
-        "uptime": "Uptime SLA",
-        "saved": "Saved/Week",
-        "reduction": "Cost Reduction"
-      },
-      "productivityBoost": "Productivity Boost"
-    },
-    "features": {
-      "title": "Everything You Need for Modern HR Management",
-      "subtitle": "Our HRIS platform provides all the tools your HR team needs to manage employees efficiently, ensure compliance, and drive organizational success.",
-      "badge": "Comprehensive HR Features",
-      "recruitment": {
-        "title": "Recruitment Management",
-        "description": "Streamline your hiring process with automated job postings, applicant tracking, and interview scheduling.",
-        "benefits": ["Automated job posting", "Candidate tracking", "Interview scheduling"]
-      },
-      "records": {
-        "title": "Employee Records",
-        "description": "Centralized database for employee information, documents, and history with easy access and updates.",
-        "benefits": ["Digital document storage", "Employee profiles", "History tracking"]
-      },
-      "leave": {
-        "title": "Leave Management",
-        "description": "Automated leave requests, approvals, and balance tracking with calendar integration.",
-        "benefits": ["Leave request workflow", "Balance tracking", "Calendar sync"]
-      },
-      "performance": {
-        "title": "Performance Management",
-        "description": "Set and track KPIs, conduct reviews, and manage employee development plans.",
-        "benefits": ["KPI tracking", "Performance reviews", "Development plans"]
-      },
-      "attendance": {
-        "title": "Time & Attendance",
-        "description": "Track working hours, shifts, and overtime with automated attendance monitoring.",
-        "benefits": ["Time tracking", "Shift management", "Overtime calculation"]
-      },
-      "compliance": {
-        "title": "Compliance Management",
-        "description": "Stay compliant with labor laws and regulations with built-in compliance tools.",
-        "benefits": ["Regulatory compliance", "Audit trails", "Policy management"]
-      }
-    },
-    "screenshots": {
-      "title": "See HRIS in Action",
-      "subtitle": "Experience the power of our intuitive interface designed for both HR professionals and employees across all devices.",
-      "badge": "Platform Overview",
-      "dashboard": {
-        "title": "Employee Dashboard",
-        "description": "Intuitive dashboard providing employees with quick access to personal information, leave balances, and important announcements.",
-        "features": ["Personal information", "Leave management", "Company announcements", "Quick actions"]
-      },
-      "analytics": {
-        "title": "Performance Analytics",
-        "description": "Comprehensive performance metrics and analytics visualization to track employee progress and organizational KPIs.",
-        "features": ["Performance tracking", "Goal management", "Analytics dashboard", "Progress reports"]
-      },
-      "leave": {
-        "title": "Leave Management",
-        "description": "Streamlined leave request and approval process with calendar integration and automated balance calculations.",
-        "features": ["Leave requests", "Approval workflow", "Calendar integration", "Balance tracking"]
-      },
-      "exploreFeature": "Explore Feature"
-    },
-    "benefits": {
-      "title": "Measurable Impact on Your Business",
-      "subtitle": "Join thousands of companies that have transformed their HR operations and achieved remarkable results with our HRIS platform.",
-      "badge": "Proven Results",
-      "productivity": {
-        "title": "Increased Productivity",
-        "description": "Automate routine tasks and streamline workflows to boost HR team productivity by up to 40%.",
-        "stat": "+40%"
-      },
-      "time": {
-        "title": "Time Savings",
-        "description": "Reduce administrative work by 60% with automated processes and self-service portals.",
-        "stat": "15hrs/week"
-      },
-      "cost": {
-        "title": "Cost Reduction",
-        "description": "Cut HR operational costs by 35% through process automation and improved efficiency.",
-        "stat": "35% savings"
-      },
-      "compliance": {
-        "title": "Better Compliance",
-        "description": "Ensure 100% compliance with labor laws and regulations through automated tracking.",
-        "stat": "100% compliant"
-      },
-      "customers": "Happy Customers",
-      "uptime": "Uptime Guarantee",
-      "support": "Expert Support"
-    },
-    "testimonials": {
-      "title": "Trusted by HR Leaders Worldwide",
-      "subtitle": "Discover how organizations like yours have transformed their HR operations and achieved remarkable results with our HRIS platform.",
-      "badge": "Customer Success Stories",
-      "joinSuccess": {
-        "title": "Join Our Success Stories",
-        "description": "Ready to transform your HR operations? Schedule a personalized demo and see how our HRIS can benefit your organization.",
-        "scheduleDemo": "Schedule Your Demo"
-      }
-    },
-    "cta": {
-      "title": "Transform Your HR Operations Today",
-      "subtitle": "Join thousands of companies that have modernized their HR processes with Omniflow HRIS. Experience the power of automation, compliance, and data-driven insights.",
-      "badge": "Ready to Get Started?",
-      "scheduleDemo": "Schedule Demo",
-      "contactSales": "Contact Sales",
-      "features": {
-        "trial": "Free 30-day trial",
-        "setup": "No setup fees",
-        "support": "24/7 support"
-      },
-      "stats": {
-        "users": "Active Users",
-        "uptime": "Uptime SLA",
-        "security": "Certified Security"
-      }
-    }
-  },
-  "footer": {
-    "description": "Transforming businesses worldwide with integrated ERP solutions. Join thousands of companies that trust us to streamline their operations and accelerate growth.",
-    "seo": {
-      "title": "Omniflow.id - Integrated ERP Solutions for Enterprise Success",
-      "description": "Transform your business with Omniflow.id's comprehensive ERP platform. Streamline operations, boost productivity, and accelerate growth with our enterprise-grade solutions trusted by 10,000+ businesses worldwide.",
-      "keywords": "ERP Software, HRIS, Business Management, Enterprise Solutions, Omniflow, Indonesia, Human Resources, Accounting Software, CRM System, Digital Transformation, Business Automation, Cloud ERP, Enterprise Software"
-    },
-    "solutions": "Solutions",
-    "company": "Company",
-    "aboutUs": "About Us",
-    "careers": "Careers",
-    "support": "Support",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "cookies": "Cookie Policy",
-    "copyright": "All rights reserved. Built with excellence for enterprise success."
-  }
+	"common": {
+		"home": "Home",
+		"about": "About",
+		"contact": "Contact",
+		"blog": "Blog",
+		"getStarted": "Get Started",
+		"learnMore": "Learn More",
+		"readMore": "Read More",
+		"scheduleDemo": "Schedule Demo",
+		"contactSales": "Contact Sales",
+		"watchDemo": "Watch Demo",
+		"tryFree": "Try Free",
+		"loading": "Loading...",
+		"error": "Error",
+		"success": "Success",
+		"back": "Back",
+		"next": "Next",
+		"previous": "Previous",
+		"save": "Save",
+		"cancel": "Cancel",
+		"submit": "Submit",
+		"search": "Search",
+		"filter": "Filter",
+		"sort": "Sort",
+		"language": "Language"
+	},
+	"navigation": {
+		"solutions": "Solutions",
+		"modules": "Modules",
+		"hris": "HRIS",
+		"insights": "Insights",
+		"resources": "Resources",
+		"support": "Support",
+		"pricing": "Pricing"
+	},
+	"hero": {
+		"title": "Transform Your Business with Integrated ERP Solutions",
+		"subtitle": "Omniflow.id delivers enterprise-grade business management tools designed to streamline operations, boost productivity, and accelerate growth across your entire organization.",
+		"trustedBy": "Trusted by 10,000+ Businesses",
+		"startJourney": "Start Your Journey",
+		"watchDemo": "Watch Demo",
+		"stats": {
+			"uptime": "Uptime SLA",
+			"users": "Active Users",
+			"support": "Support"
+		}
+	},
+	"modules": {
+		"title": "Comprehensive Business Solutions",
+		"subtitle": "From HR management to AI-powered analytics, our integrated modules work seamlessly together to power your entire business ecosystem.",
+		"badge": "17 Integrated Modules",
+		"hris": {
+			"name": "HRIS",
+			"description": "Complete human resource management system"
+		},
+		"stock": {
+			"name": "Stock Management",
+			"description": "Efficient inventory tracking and control"
+		},
+		"sales": {
+			"name": "Sales Management",
+			"description": "Streamline your sales operations"
+		},
+		"accounting": {
+			"name": "Accounting",
+			"description": "Comprehensive financial management"
+		},
+		"pos": {
+			"name": "PoS",
+			"description": "Modern point of sale system"
+		},
+		"customers": {
+			"name": "Customers",
+			"description": "Customer relationship management"
+		},
+		"crm": {
+			"name": "CRM",
+			"description": "Build stronger customer relationships"
+		},
+		"project": {
+			"name": "Project Management",
+			"description": "Efficient project tracking and delivery"
+		},
+		"marketing": {
+			"name": "Marketing",
+			"description": "Integrated marketing solutions"
+		},
+		"lms": {
+			"name": "LMS",
+			"description": "Learning management system"
+		},
+		"payment": {
+			"name": "Payment Gateway",
+			"description": "Secure payment processing"
+		},
+		"inventory": {
+			"name": "Inventory",
+			"description": "Advanced inventory management"
+		},
+		"ai": {
+			"name": "AI",
+			"description": "Intelligent business automation"
+		},
+		"admin": {
+			"name": "Administration",
+			"description": "Centralized system administration"
+		},
+		"manufacturing": {
+			"name": "Manufacturing",
+			"description": "Manufacturing process management"
+		},
+		"supply": {
+			"name": "Supply Chain",
+			"description": "End-to-end supply chain visibility"
+		},
+		"procurement": {
+			"name": "Procurement",
+			"description": "Streamlined procurement process"
+		}
+	},
+	"advantages": {
+		"title": "Why Choose Omniflow.id?",
+		"subtitle": "Join thousands of forward-thinking companies that have transformed their operations with our enterprise-grade solutions.",
+		"allInOne": {
+			"title": "All-in-One Solution",
+			"description": "Integrate all business processes in a single platform, eliminating the need for multiple software solutions.",
+			"stat": "90% reduction in software complexity"
+		},
+		"analytics": {
+			"title": "Real-time Analytics",
+			"description": "Access comprehensive business insights and reports in real-time for better decision-making.",
+			"stat": "3x faster decision making"
+		},
+		"scalable": {
+			"title": "Scalable Architecture",
+			"description": "Grow your business without worrying about system limitations. Our platform scales with you.",
+			"stat": "Supports 100K+ users"
+		},
+		"costEffective": {
+			"title": "Cost-Effective",
+			"description": "Reduce operational costs by streamlining processes and eliminating redundant systems.",
+			"stat": "40% cost reduction average"
+		},
+		"productivity": {
+			"title": "Enhanced Productivity",
+			"description": "Automate routine tasks and improve team collaboration across departments.",
+			"stat": "60% productivity increase"
+		},
+		"security": {
+			"title": "Security First",
+			"description": "Enterprise-grade security measures to protect your sensitive business data.",
+			"stat": "ISO 27001 certified"
+		}
+	},
+	"faq": {
+		"title": "Got Questions? We Have Answers",
+		"subtitle": "Find answers to common questions about our platform, implementation, and support services.",
+		"badge": "Frequently Asked Questions",
+		"contactExperts": "Contact Our Experts",
+		"stillHaveQuestions": "Still have questions? Our team is here to help.",
+		"questions": {
+			"difference": {
+				"question": "What makes Omniflow.id different from other ERP solutions?",
+				"answer": "Omniflow.id offers a unique combination of comprehensive modules, modern technology, and seamless integration capabilities. Our AI-powered features, intuitive interface, and enterprise-grade security set us apart from traditional ERP systems. We focus on user experience while maintaining powerful functionality."
+			},
+			"implementation": {
+				"question": "How long does implementation typically take?",
+				"answer": "Implementation time varies based on your business size and requirements. Basic setup takes 2-4 weeks for small businesses, while enterprise implementations typically take 2-3 months. We provide dedicated project managers and 24/7 support throughout the entire process to ensure smooth deployment."
+			},
+			"customization": {
+				"question": "Can Omniflow.id be customized for my specific industry?",
+				"answer": "Absolutely. Omniflow.id is highly customizable and can be tailored to meet the specific needs of your industry. Our modular architecture allows for flexible configuration, custom workflows, and industry-specific features. We have experience across manufacturing, retail, services, and more."
+			},
+			"support": {
+				"question": "What kind of support and training do you provide?",
+				"answer": "We provide comprehensive support including 24/7 technical assistance, regular system updates, personalized training sessions, and dedicated account managers. Our support team includes certified experts who understand your business needs and can provide strategic guidance."
+			},
+			"security": {
+				"question": "How secure is my data with Omniflow.id?",
+				"answer": "Security is our top priority. We maintain ISO 27001 certification, use enterprise-grade encryption, implement multi-factor authentication, and conduct regular security audits. Your data is stored in secure, compliant data centers with 99.9% uptime guarantee."
+			},
+			"integration": {
+				"question": "Can I integrate Omniflow.id with my existing systems?",
+				"answer": "Yes, Omniflow.id offers robust integration capabilities with popular business tools, accounting software, CRM systems, and third-party applications. Our API-first approach ensures seamless data flow between systems, minimizing disruption to your current workflows."
+			}
+		}
+	},
+	"contact": {
+		"title": "Ready to Transform Your Business?",
+		"subtitle": "Connect with our enterprise solutions experts and discover how Omniflow.id can streamline your operations, boost productivity, and accelerate growth.",
+		"badge": "Trusted by Enterprise Leaders",
+		"form": {
+			"title": "Let's Start a Conversation",
+			"subtitle": "Fill out the form below and our team will get back to you within 24 hours.",
+			"name": "Full Name",
+			"email": "Email Address",
+			"company": "Company Name",
+			"phone": "Phone Number",
+			"jobTitle": "Job Title",
+			"companySize": "Company Size",
+			"subject": "Subject",
+			"message": "Message",
+			"required": "*",
+			"namePlaceholder": "John Doe",
+			"emailPlaceholder": "john@company.com",
+			"companyPlaceholder": "Your Company Ltd.",
+			"phonePlaceholder": "+62 xxx-xxxx-xxxx",
+			"jobTitlePlaceholder": "CEO, CTO, Manager, etc.",
+			"messagePlaceholder": "Tell us about your business needs, challenges, or how we can help you...",
+			"selectSubject": "Select a subject",
+			"selectCompanySize": "Select company size",
+			"sendMessage": "Send Message",
+			"sending": "Sending Message...",
+			"subjects": {
+				"general": "General Inquiry",
+				"demo": "Product Demo",
+				"support": "Technical Support",
+				"sales": "Sales Question",
+				"partnership": "Partnership Opportunity",
+				"enterprise": "Enterprise Solutions",
+				"other": "Other"
+			},
+			"companySizes": {
+				"small": "1-10 employees",
+				"medium": "11-50 employees",
+				"large": "51-200 employees",
+				"enterprise": "201-1000 employees",
+				"mega": "1000+ employees"
+			},
+			"success": {
+				"title": "Message sent successfully!",
+				"message": "We'll get back to you within 24 hours."
+			},
+			"error": {
+				"title": "Error sending message",
+				"message": "Please try again or contact us directly."
+			}
+		},
+		"info": {
+			"email": {
+				"title": "Email Us",
+				"details": "contact@omniflow.id",
+				"description": "Get in touch anytime"
+			},
+			"phone": {
+				"title": "Call Us",
+				"details": "+62 821 2560 9413",
+				"description": "Mon-Fri, 8AM-6PM WIB"
+			},
+			"address": {
+				"title": "Visit Us",
+				"details": "Jakarta, Indonesia",
+				"description": "Schedule an office visit"
+			},
+			"support": {
+				"title": "24/7 Support",
+				"details": "Always Available",
+				"description": "Enterprise support"
+			}
+		},
+		"office": {
+			"title": "Our Office",
+			"name": "PT. ALGONACCI SOBAT NUSANTARA",
+			"country": "Indonesia",
+			"address": "Address:",
+			"addressDetails": "Jl. Letjen S. Parman No. 28\nGrogol Petamburan\nWest Jakarta City\nSpecial Capital Region of Jakarta 11470",
+			"hours": "Business Hours:",
+			"hoursDetails": "Monday - Friday: 8:00 AM - 6:00 PM WIB",
+			"station": "Nearest Station:",
+			"stationDetails": "MRT Bundaran HI (5 min walk)"
+		},
+		"whyChoose": {
+			"title": "Why Choose Us",
+			"hours": "Hours",
+			"responseTime": "Average response time",
+			"customers": "Happy customers",
+			"uptime": "Uptime guarantee"
+		},
+		"cta": {
+			"title": "Ready to Get Started?",
+			"subtitle": "Join thousands of businesses that trust Omniflow.id to streamline their operations and boost productivity. Let's discuss how we can help transform your business.",
+			"scheduleDemo": "Schedule a Demo",
+			"viewPricing": "View Pricing Plans"
+		},
+		"features": {
+			"security": "Enterprise-grade security",
+			"customers": "10,000+ satisfied customers",
+			"certified": "ISO 27001 certified",
+			"uptime": "99.9% uptime guarantee",
+			"support": "Global support coverage",
+			"roi": "Proven ROI results"
+		}
+	},
+	"blog": {
+		"title": "Enterprise Insights & Resources",
+		"subtitle": "Stay ahead with the latest trends in business technology, digital transformation, and enterprise solutions that drive success.",
+		"badge": "Knowledge Hub",
+		"features": {
+			"trends": {
+				"title": "Industry Trends",
+				"description": "Latest market insights and forecasts"
+			},
+			"practices": {
+				"title": "Best Practices",
+				"description": "Proven strategies from industry leaders"
+			},
+			"stories": {
+				"title": "Success Stories",
+				"description": "Real-world transformation cases"
+			}
+		},
+		"latest": "Latest Articles",
+		"latestSubtitle": "Discover actionable insights to transform your business operations",
+		"comingSoon": {
+			"title": "Coming Soon",
+			"message": "We're preparing valuable content for you. Check back soon for the latest insights and resources."
+		},
+		"error": {
+			"title": "Unable to Load Content",
+			"tryAgain": "Try Again"
+		},
+		"loading": "Loading latest insights...",
+		"backToBlog": "Back to Blog",
+		"readingTime": "min read",
+		"articleNotFound": {
+			"title": "Article Not Found",
+			"message": "The requested blog post could not be found."
+		},
+		"shareArticle": "Share Article",
+		"articleDetails": "Article Details",
+		"published": "Published:",
+		"lastUpdated": "Last Updated:",
+		"readingTimeLabel": "Reading Time:",
+		"wordCount": "Word Count:",
+		"minutes": "minutes",
+		"words": "words",
+		"relatedTopics": "Related Topics",
+		"cta": {
+			"title": "Ready to Transform Your Business?",
+			"subtitle": "Discover how Omniflow.id can help you implement the strategies and solutions discussed in this article.",
+			"consultation": "Schedule a Consultation",
+			"readMore": "Read More Articles"
+		}
+	},
+	"hris": {
+		"title": "Modern HR Management for Enterprise Success",
+		"subtitle": "Transform your HR operations with our comprehensive HRIS solution. Streamline recruitment, manage employee data, and automate HR processes with enterprise-grade security and scalability.",
+		"badge": "Trusted by 10,000+ HR Professionals",
+		"hero": {
+			"scheduleDemo": "Schedule Demo",
+			"watchOverview": "Watch Overview",
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"saved": "Saved/Week",
+				"reduction": "Cost Reduction"
+			},
+			"productivityBoost": "Productivity Boost"
+		},
+		"features": {
+			"title": "Everything You Need for Modern HR Management",
+			"subtitle": "Our HRIS platform provides all the tools your HR team needs to manage employees efficiently, ensure compliance, and drive organizational success.",
+			"badge": "Comprehensive HR Features",
+			"recruitment": {
+				"title": "Recruitment Management",
+				"description": "Streamline your hiring process with automated job postings, applicant tracking, and interview scheduling.",
+				"benefits": [
+					"Automated job posting",
+					"Candidate tracking",
+					"Interview scheduling"
+				]
+			},
+			"records": {
+				"title": "Employee Records",
+				"description": "Centralized database for employee information, documents, and history with easy access and updates.",
+				"benefits": [
+					"Digital document storage",
+					"Employee profiles",
+					"History tracking"
+				]
+			},
+			"leave": {
+				"title": "Leave Management",
+				"description": "Automated leave requests, approvals, and balance tracking with calendar integration.",
+				"benefits": [
+					"Leave request workflow",
+					"Balance tracking",
+					"Calendar sync"
+				]
+			},
+			"performance": {
+				"title": "Performance Management",
+				"description": "Set and track KPIs, conduct reviews, and manage employee development plans.",
+				"benefits": ["KPI tracking", "Performance reviews", "Development plans"]
+			},
+			"attendance": {
+				"title": "Time & Attendance",
+				"description": "Track working hours, shifts, and overtime with automated attendance monitoring.",
+				"benefits": [
+					"Time tracking",
+					"Shift management",
+					"Overtime calculation"
+				]
+			},
+			"compliance": {
+				"title": "Compliance Management",
+				"description": "Stay compliant with labor laws and regulations with built-in compliance tools.",
+				"benefits": [
+					"Regulatory compliance",
+					"Audit trails",
+					"Policy management"
+				]
+			}
+		},
+		"screenshots": {
+			"title": "See HRIS in Action",
+			"subtitle": "Experience the power of our intuitive interface designed for both HR professionals and employees across all devices.",
+			"badge": "Platform Overview",
+			"dashboard": {
+				"title": "Employee Dashboard",
+				"description": "Intuitive dashboard providing employees with quick access to personal information, leave balances, and important announcements.",
+				"features": [
+					"Personal information",
+					"Leave management",
+					"Company announcements",
+					"Quick actions"
+				]
+			},
+			"analytics": {
+				"title": "Performance Analytics",
+				"description": "Comprehensive performance metrics and analytics visualization to track employee progress and organizational KPIs.",
+				"features": [
+					"Performance tracking",
+					"Goal management",
+					"Analytics dashboard",
+					"Progress reports"
+				]
+			},
+			"leave": {
+				"title": "Leave Management",
+				"description": "Streamlined leave request and approval process with calendar integration and automated balance calculations.",
+				"features": [
+					"Leave requests",
+					"Approval workflow",
+					"Calendar integration",
+					"Balance tracking"
+				]
+			},
+			"exploreFeature": "Explore Feature"
+		},
+		"benefits": {
+			"title": "Measurable Impact on Your Business",
+			"subtitle": "Join thousands of companies that have transformed their HR operations and achieved remarkable results with our HRIS platform.",
+			"badge": "Proven Results",
+			"productivity": {
+				"title": "Increased Productivity",
+				"description": "Automate routine tasks and streamline workflows to boost HR team productivity by up to 40%.",
+				"stat": "+40%"
+			},
+			"time": {
+				"title": "Time Savings",
+				"description": "Reduce administrative work by 60% with automated processes and self-service portals.",
+				"stat": "15hrs/week"
+			},
+			"cost": {
+				"title": "Cost Reduction",
+				"description": "Cut HR operational costs by 35% through process automation and improved efficiency.",
+				"stat": "35% savings"
+			},
+			"compliance": {
+				"title": "Better Compliance",
+				"description": "Ensure 100% compliance with labor laws and regulations through automated tracking.",
+				"stat": "100% compliant"
+			},
+			"customers": "Happy Customers",
+			"uptime": "Uptime Guarantee",
+			"support": "Expert Support"
+		},
+		"testimonials": {
+			"title": "Trusted by HR Leaders Worldwide",
+			"subtitle": "Discover how organizations like yours have transformed their HR operations and achieved remarkable results with our HRIS platform.",
+			"badge": "Customer Success Stories",
+			"joinSuccess": {
+				"title": "Join Our Success Stories",
+				"description": "Ready to transform your HR operations? Schedule a personalized demo and see how our HRIS can benefit your organization.",
+				"scheduleDemo": "Schedule Your Demo"
+			}
+		},
+		"cta": {
+			"title": "Transform Your HR Operations Today",
+			"subtitle": "Join thousands of companies that have modernized their HR processes with Omniflow HRIS. Experience the power of automation, compliance, and data-driven insights.",
+			"badge": "Ready to Get Started?",
+			"scheduleDemo": "Schedule Demo",
+			"contactSales": "Contact Sales",
+			"features": {
+				"trial": "Free 30-day trial",
+				"setup": "No setup fees",
+				"support": "24/7 support"
+			},
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"security": "Certified Security"
+			}
+		}
+	},
+	"footer": {
+		"description": "Transforming businesses worldwide with integrated ERP solutions. Join thousands of companies that trust us to streamline their operations and accelerate growth.",
+		"seo": {
+			"title": "Omniflow.id - Integrated ERP Solutions for Enterprise Success",
+			"description": "Transform your business with Omniflow.id's comprehensive ERP platform. Streamline operations, boost productivity, and accelerate growth with our enterprise-grade solutions trusted by 10,000+ businesses worldwide.",
+			"keywords": "ERP Software, HRIS, Business Management, Enterprise Solutions, Omniflow, Indonesia, Human Resources, Accounting Software, CRM System, Digital Transformation, Business Automation, Cloud ERP, Enterprise Software"
+		},
+		"solutions": "Solutions",
+		"company": "Company",
+		"aboutUs": "About Us",
+		"careers": "Careers",
+		"support": "Support",
+		"privacy": "Privacy Policy",
+		"terms": "Terms of Service",
+		"cookies": "Cookie Policy",
+		"copyright": "All rights reserved. Built with excellence for enterprise success."
+	}
 }

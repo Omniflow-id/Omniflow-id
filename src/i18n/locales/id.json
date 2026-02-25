@@ -1,490 +1,517 @@
 {
-  "common": {
-    "home": "Beranda",
-    "about": "Tentang",
-    "contact": "Kontak",
-    "blog": "Blog",
-    "getStarted": "Mulai Sekarang",
-    "learnMore": "Pelajari Lebih Lanjut",
-    "readMore": "Baca Selengkapnya",
-    "scheduleDemo": "Jadwalkan Demo",
-    "contactSales": "Hubungi Sales",
-    "watchDemo": "Tonton Demo",
-    "tryFree": "Coba Gratis",
-    "loading": "Memuat...",
-    "error": "Kesalahan",
-    "success": "Berhasil",
-    "back": "Kembali",
-    "next": "Selanjutnya",
-    "previous": "Sebelumnya",
-    "save": "Simpan",
-    "cancel": "Batal",
-    "submit": "Kirim",
-    "search": "Cari",
-    "filter": "Filter",
-    "sort": "Urutkan",
-    "language": "Bahasa"
-  },
-  "navigation": {
-    "solutions": "Solusi",
-    "modules": "Modul",
-    "hris": "HRIS",
-    "insights": "Wawasan",
-    "resources": "Sumber Daya",
-    "support": "Dukungan",
-    "pricing": "Harga"
-  },
-  "hero": {
-    "title": "Transformasi Bisnis Anda dengan Solusi ERP Terintegrasi",
-    "subtitle": "Omniflow.id menghadirkan alat manajemen bisnis tingkat enterprise yang dirancang untuk menyederhanakan operasi, meningkatkan produktivitas, dan mempercepat pertumbuhan di seluruh organisasi Anda.",
-    "trustedBy": "Dipercaya oleh 10.000+ Bisnis",
-    "startJourney": "Mulai Perjalanan Anda",
-    "watchDemo": "Tonton Demo",
-    "stats": {
-      "uptime": "SLA Uptime",
-      "users": "Pengguna Aktif",
-      "support": "Dukungan"
-    }
-  },
-  "modules": {
-    "title": "Solusi Bisnis Komprehensif",
-    "subtitle": "Dari manajemen HR hingga analitik bertenaga AI, modul terintegrasi kami bekerja secara mulus untuk menggerakkan seluruh ekosistem bisnis Anda.",
-    "badge": "17 Modul Terintegrasi",
-    "hris": {
-      "name": "HRIS",
-      "description": "Sistem manajemen sumber daya manusia lengkap"
-    },
-    "stock": {
-      "name": "Manajemen Stok",
-      "description": "Pelacakan dan kontrol inventori yang efisien"
-    },
-    "sales": {
-      "name": "Manajemen Penjualan",
-      "description": "Sederhanakan operasi penjualan Anda"
-    },
-    "accounting": {
-      "name": "Akuntansi",
-      "description": "Manajemen keuangan komprehensif"
-    },
-    "pos": {
-      "name": "PoS",
-      "description": "Sistem point of sale modern"
-    },
-    "customers": {
-      "name": "Pelanggan",
-      "description": "Manajemen hubungan pelanggan"
-    },
-    "crm": {
-      "name": "CRM",
-      "description": "Bangun hubungan pelanggan yang lebih kuat"
-    },
-    "project": {
-      "name": "Manajemen Proyek",
-      "description": "Pelacakan dan pengiriman proyek yang efisien"
-    },
-    "marketing": {
-      "name": "Pemasaran",
-      "description": "Solusi pemasaran terintegrasi"
-    },
-    "lms": {
-      "name": "LMS",
-      "description": "Sistem manajemen pembelajaran"
-    },
-    "payment": {
-      "name": "Payment Gateway",
-      "description": "Pemrosesan pembayaran yang aman"
-    },
-    "inventory": {
-      "name": "Inventori",
-      "description": "Manajemen inventori lanjutan"
-    },
-    "ai": {
-      "name": "AI",
-      "description": "Otomasi bisnis cerdas"
-    },
-    "admin": {
-      "name": "Administrasi",
-      "description": "Administrasi sistem terpusat"
-    },
-    "manufacturing": {
-      "name": "Manufaktur",
-      "description": "Manajemen proses manufaktur"
-    },
-    "supply": {
-      "name": "Rantai Pasokan",
-      "description": "Visibilitas rantai pasokan end-to-end"
-    },
-    "procurement": {
-      "name": "Pengadaan",
-      "description": "Proses pengadaan yang efisien"
-    }
-  },
-  "advantages": {
-    "title": "Mengapa Memilih Omniflow.id?",
-    "subtitle": "Bergabunglah dengan ribuan perusahaan visioner yang telah mentransformasi operasi mereka dengan solusi tingkat enterprise kami.",
-    "allInOne": {
-      "title": "Solusi All-in-One",
-      "description": "Integrasikan semua proses bisnis dalam satu platform, menghilangkan kebutuhan akan beberapa solusi perangkat lunak.",
-      "stat": "90% pengurangan kompleksitas perangkat lunak"
-    },
-    "analytics": {
-      "title": "Analitik Real-time",
-      "description": "Akses wawasan bisnis komprehensif dan laporan real-time untuk pengambilan keputusan yang lebih baik.",
-      "stat": "3x pengambilan keputusan lebih cepat"
-    },
-    "scalable": {
-      "title": "Arsitektur Skalabel",
-      "description": "Kembangkan bisnis Anda tanpa khawatir tentang keterbatasan sistem. Platform kami berkembang bersama Anda.",
-      "stat": "Mendukung 100K+ pengguna"
-    },
-    "costEffective": {
-      "title": "Hemat Biaya",
-      "description": "Kurangi biaya operasional dengan menyederhanakan proses dan menghilangkan sistem yang berlebihan.",
-      "stat": "40% pengurangan biaya rata-rata"
-    },
-    "productivity": {
-      "title": "Produktivitas Meningkat",
-      "description": "Otomatisasi tugas rutin dan tingkatkan kolaborasi tim di seluruh departemen.",
-      "stat": "60% peningkatan produktivitas"
-    },
-    "security": {
-      "title": "Keamanan Utama",
-      "description": "Langkah-langkah keamanan tingkat enterprise untuk melindungi data bisnis sensitif Anda.",
-      "stat": "Bersertifikat ISO 27001"
-    }
-  },
-  "faq": {
-    "title": "Ada Pertanyaan? Kami Punya Jawabannya",
-    "subtitle": "Temukan jawaban untuk pertanyaan umum tentang platform, implementasi, dan layanan dukungan kami.",
-    "badge": "Pertanyaan yang Sering Diajukan",
-    "contactExperts": "Hubungi Ahli Kami",
-    "stillHaveQuestions": "Masih ada pertanyaan? Tim kami siap membantu.",
-    "questions": {
-      "difference": {
-        "question": "Apa yang membuat Omniflow.id berbeda dari solusi ERP lainnya?",
-        "answer": "Omniflow.id menawarkan kombinasi unik dari modul komprehensif, teknologi modern, dan kemampuan integrasi yang mulus. Fitur bertenaga AI, antarmuka intuitif, dan keamanan tingkat enterprise membedakan kami dari sistem ERP tradisional. Kami fokus pada pengalaman pengguna sambil mempertahankan fungsionalitas yang kuat."
-      },
-      "implementation": {
-        "question": "Berapa lama implementasi biasanya memakan waktu?",
-        "answer": "Waktu implementasi bervariasi berdasarkan ukuran bisnis dan kebutuhan Anda. Pengaturan dasar membutuhkan 2-4 minggu untuk bisnis kecil, sementara implementasi enterprise biasanya membutuhkan 2-3 bulan. Kami menyediakan manajer proyek khusus dan dukungan 24/7 sepanjang proses untuk memastikan deployment yang lancar."
-      },
-      "customization": {
-        "question": "Bisakah Omniflow.id disesuaikan untuk industri spesifik saya?",
-        "answer": "Tentu saja. Omniflow.id sangat dapat disesuaikan dan dapat disesuaikan untuk memenuhi kebutuhan spesifik industri Anda. Arsitektur modular kami memungkinkan konfigurasi fleksibel, alur kerja khusus, dan fitur khusus industri. Kami memiliki pengalaman di berbagai bidang manufaktur, ritel, layanan, dan lainnya."
-      },
-      "support": {
-        "question": "Jenis dukungan dan pelatihan apa yang Anda berikan?",
-        "answer": "Kami menyediakan dukungan komprehensif termasuk bantuan teknis 24/7, pembaruan sistem reguler, sesi pelatihan yang dipersonalisasi, dan manajer akun khusus. Tim dukungan kami termasuk ahli bersertifikat yang memahami kebutuhan bisnis Anda dan dapat memberikan panduan strategis."
-      },
-      "security": {
-        "question": "Seberapa aman data saya dengan Omniflow.id?",
-        "answer": "Keamanan adalah prioritas utama kami. Kami mempertahankan sertifikasi ISO 27001, menggunakan enkripsi tingkat enterprise, menerapkan autentikasi multi-faktor, dan melakukan audit keamanan reguler. Data Anda disimpan di pusat data yang aman dan patuh dengan jaminan uptime 99,9%."
-      },
-      "integration": {
-        "question": "Bisakah saya mengintegrasikan Omniflow.id dengan sistem yang ada?",
-        "answer": "Ya, Omniflow.id menawarkan kemampuan integrasi yang kuat dengan alat bisnis populer, perangkat lunak akuntansi, sistem CRM, dan aplikasi pihak ketiga. Pendekatan API-first kami memastikan aliran data yang mulus antar sistem, meminimalkan gangguan pada alur kerja Anda saat ini."
-      }
-    }
-  },
-  "contact": {
-    "title": "Siap Mentransformasi Bisnis Anda?",
-    "subtitle": "Terhubung dengan ahli solusi enterprise kami dan temukan bagaimana Omniflow.id dapat menyederhanakan operasi, meningkatkan produktivitas, dan mempercepat pertumbuhan.",
-    "badge": "Dipercaya oleh Pemimpin Enterprise",
-    "form": {
-      "title": "Mari Mulai Percakapan",
-      "subtitle": "Isi formulir di bawah ini dan tim kami akan menghubungi Anda dalam 24 jam.",
-      "name": "Nama Lengkap",
-      "email": "Alamat Email",
-      "company": "Nama Perusahaan",
-      "phone": "Nomor Telepon",
-      "jobTitle": "Jabatan",
-      "companySize": "Ukuran Perusahaan",
-      "subject": "Subjek",
-      "message": "Pesan",
-      "required": "*",
-      "namePlaceholder": "John Doe",
-      "emailPlaceholder": "john@perusahaan.com",
-      "companyPlaceholder": "Perusahaan Anda Ltd.",
-      "phonePlaceholder": "+62 xxx-xxxx-xxxx",
-      "jobTitlePlaceholder": "CEO, CTO, Manager, dll.",
-      "messagePlaceholder": "Ceritakan tentang kebutuhan bisnis, tantangan, atau bagaimana kami dapat membantu Anda...",
-      "selectSubject": "Pilih subjek",
-      "selectCompanySize": "Pilih ukuran perusahaan",
-      "sendMessage": "Kirim Pesan",
-      "sending": "Mengirim Pesan...",
-      "subjects": {
-        "general": "Pertanyaan Umum",
-        "demo": "Demo Produk",
-        "support": "Dukungan Teknis",
-        "sales": "Pertanyaan Penjualan",
-        "partnership": "Peluang Kemitraan",
-        "enterprise": "Solusi Enterprise",
-        "other": "Lainnya"
-      },
-      "companySizes": {
-        "small": "1-10 karyawan",
-        "medium": "11-50 karyawan",
-        "large": "51-200 karyawan",
-        "enterprise": "201-1000 karyawan",
-        "mega": "1000+ karyawan"
-      },
-      "success": {
-        "title": "Pesan berhasil dikirim!",
-        "message": "Kami akan menghubungi Anda dalam 24 jam."
-      },
-      "error": {
-        "title": "Kesalahan mengirim pesan",
-        "message": "Silakan coba lagi atau hubungi kami langsung."
-      }
-    },
-    "info": {
-      "email": {
-        "title": "Email Kami",
-        "details": "contact@omniflow.id",
-        "description": "Hubungi kapan saja"
-      },
-      "phone": {
-        "title": "Telepon Kami",
-        "details": "+62 (21) 1234-5678",
-        "description": "Sen-Jum, 8AM-6PM WIB"
-      },
-      "address": {
-        "title": "Kunjungi Kami",
-        "details": "Jakarta, Indonesia",
-        "description": "Jadwalkan kunjungan kantor"
-      },
-      "support": {
-        "title": "Dukungan 24/7",
-        "details": "Selalu Tersedia",
-        "description": "Dukungan enterprise"
-      }
-    },
-    "office": {
-      "title": "Kantor Kami",
-      "name": "Kantor Jakarta",
-      "country": "Indonesia",
-      "address": "Alamat:",
-      "addressDetails": "Jl. Sudirman No. 123\nJakarta Pusat 10220",
-      "hours": "Jam Kerja:",
-      "hoursDetails": "Senin - Jumat: 8:00 AM - 6:00 PM WIB",
-      "station": "Stasiun Terdekat:",
-      "stationDetails": "MRT Bundaran HI (5 menit jalan kaki)"
-    },
-    "whyChoose": {
-      "title": "Mengapa Memilih Kami",
-      "hours": "Jam",
-      "responseTime": "Waktu respons rata-rata",
-      "customers": "Pelanggan puas",
-      "uptime": "Jaminan uptime"
-    },
-    "cta": {
-      "title": "Siap untuk Memulai?",
-      "subtitle": "Bergabunglah dengan ribuan bisnis yang mempercayai Omniflow.id untuk menyederhanakan operasi dan meningkatkan produktivitas. Mari diskusikan bagaimana kami dapat membantu mentransformasi bisnis Anda.",
-      "scheduleDemo": "Jadwalkan Demo",
-      "viewPricing": "Lihat Paket Harga"
-    },
-    "features": {
-      "security": "Keamanan tingkat enterprise",
-      "customers": "10.000+ pelanggan puas",
-      "certified": "Bersertifikat ISO 27001",
-      "uptime": "Jaminan uptime 99,9%",
-      "support": "Dukungan global",
-      "roi": "Hasil ROI terbukti"
-    }
-  },
-  "blog": {
-    "title": "Wawasan & Sumber Daya Enterprise",
-    "subtitle": "Tetap terdepan dengan tren terbaru dalam teknologi bisnis, transformasi digital, dan solusi enterprise yang mendorong kesuksesan.",
-    "badge": "Hub Pengetahuan",
-    "features": {
-      "trends": {
-        "title": "Tren Industri",
-        "description": "Wawasan pasar dan perkiraan terbaru"
-      },
-      "practices": {
-        "title": "Praktik Terbaik",
-        "description": "Strategi terbukti dari pemimpin industri"
-      },
-      "stories": {
-        "title": "Kisah Sukses",
-        "description": "Kasus transformasi dunia nyata"
-      }
-    },
-    "latest": "Artikel Terbaru",
-    "latestSubtitle": "Temukan wawasan yang dapat ditindaklanjuti untuk mentransformasi operasi bisnis Anda",
-    "comingSoon": {
-      "title": "Segera Hadir",
-      "message": "Kami sedang menyiapkan konten berharga untuk Anda. Periksa kembali segera untuk wawasan dan sumber daya terbaru."
-    },
-    "error": {
-      "title": "Tidak Dapat Memuat Konten",
-      "tryAgain": "Coba Lagi"
-    },
-    "loading": "Memuat wawasan terbaru...",
-    "backToBlog": "Kembali ke Blog",
-    "readingTime": "menit baca",
-    "articleNotFound": {
-      "title": "Artikel Tidak Ditemukan",
-      "message": "Artikel blog yang diminta tidak dapat ditemukan."
-    },
-    "shareArticle": "Bagikan Artikel",
-    "articleDetails": "Detail Artikel",
-    "published": "Diterbitkan:",
-    "lastUpdated": "Terakhir Diperbarui:",
-    "readingTimeLabel": "Waktu Baca:",
-    "wordCount": "Jumlah Kata:",
-    "minutes": "menit",
-    "words": "kata",
-    "relatedTopics": "Topik Terkait",
-    "cta": {
-      "title": "Siap Mentransformasi Bisnis Anda?",
-      "subtitle": "Temukan bagaimana Omniflow.id dapat membantu Anda menerapkan strategi dan solusi yang dibahas dalam artikel ini.",
-      "consultation": "Jadwalkan Konsultasi",
-      "readMore": "Baca Artikel Lainnya"
-    }
-  },
-  "hris": {
-    "title": "Manajemen HR Modern untuk Kesuksesan Enterprise",
-    "subtitle": "Transformasi operasi HR Anda dengan solusi HRIS komprehensif kami. Sederhanakan rekrutmen, kelola data karyawan, dan otomatisasi proses HR dengan keamanan dan skalabilitas tingkat enterprise.",
-    "badge": "Dipercaya oleh 10.000+ Profesional HR",
-    "hero": {
-      "scheduleDemo": "Jadwalkan Demo",
-      "watchOverview": "Tonton Ringkasan",
-      "stats": {
-        "users": "Pengguna Aktif",
-        "uptime": "SLA Uptime",
-        "saved": "Hemat/Minggu",
-        "reduction": "Pengurangan Biaya"
-      },
-      "productivityBoost": "Peningkatan Produktivitas"
-    },
-    "features": {
-      "title": "Semua yang Anda Butuhkan untuk Manajemen HR Modern",
-      "subtitle": "Platform HRIS kami menyediakan semua alat yang dibutuhkan tim HR Anda untuk mengelola karyawan secara efisien, memastikan kepatuhan, dan mendorong kesuksesan organisasi.",
-      "badge": "Fitur HR Komprehensif",
-      "recruitment": {
-        "title": "Manajemen Rekrutmen",
-        "description": "Sederhanakan proses perekrutan dengan posting pekerjaan otomatis, pelacakan pelamar, dan penjadwalan wawancara.",
-        "benefits": ["Posting pekerjaan otomatis", "Pelacakan kandidat", "Penjadwalan wawancara"]
-      },
-      "records": {
-        "title": "Catatan Karyawan",
-        "description": "Database terpusat untuk informasi karyawan, dokumen, dan riwayat dengan akses dan pembaruan yang mudah.",
-        "benefits": ["Penyimpanan dokumen digital", "Profil karyawan", "Pelacakan riwayat"]
-      },
-      "leave": {
-        "title": "Manajemen Cuti",
-        "description": "Permintaan cuti otomatis, persetujuan, dan pelacakan saldo dengan integrasi kalender.",
-        "benefits": ["Alur kerja permintaan cuti", "Pelacakan saldo", "Sinkronisasi kalender"]
-      },
-      "performance": {
-        "title": "Manajemen Kinerja",
-        "description": "Tetapkan dan lacak KPI, lakukan review, dan kelola rencana pengembangan karyawan.",
-        "benefits": ["Pelacakan KPI", "Review kinerja", "Rencana pengembangan"]
-      },
-      "attendance": {
-        "title": "Waktu & Kehadiran",
-        "description": "Lacak jam kerja, shift, dan lembur dengan pemantauan kehadiran otomatis.",
-        "benefits": ["Pelacakan waktu", "Manajemen shift", "Perhitungan lembur"]
-      },
-      "compliance": {
-        "title": "Manajemen Kepatuhan",
-        "description": "Tetap patuh dengan hukum ketenagakerjaan dan peraturan dengan alat kepatuhan bawaan.",
-        "benefits": ["Kepatuhan regulasi", "Jejak audit", "Manajemen kebijakan"]
-      }
-    },
-    "screenshots": {
-      "title": "Lihat HRIS Beraksi",
-      "subtitle": "Rasakan kekuatan antarmuka intuitif kami yang dirancang untuk profesional HR dan karyawan di semua perangkat.",
-      "badge": "Tinjauan Platform",
-      "dashboard": {
-        "title": "Dashboard Karyawan",
-        "description": "Dashboard intuitif yang memberikan karyawan akses cepat ke informasi pribadi, saldo cuti, dan pengumuman penting.",
-        "features": ["Informasi pribadi", "Manajemen cuti", "Pengumuman perusahaan", "Tindakan cepat"]
-      },
-      "analytics": {
-        "title": "Analitik Kinerja",
-        "description": "Metrik kinerja komprehensif dan visualisasi analitik untuk melacak kemajuan karyawan dan KPI organisasi.",
-        "features": ["Pelacakan kinerja", "Manajemen tujuan", "Dashboard analitik", "Laporan kemajuan"]
-      },
-      "leave": {
-        "title": "Manajemen Cuti",
-        "description": "Proses permintaan dan persetujuan cuti yang efisien dengan integrasi kalender dan perhitungan saldo otomatis.",
-        "features": ["Permintaan cuti", "Alur kerja persetujuan", "Integrasi kalender", "Pelacakan saldo"]
-      },
-      "exploreFeature": "Jelajahi Fitur"
-    },
-    "benefits": {
-      "title": "Dampak Terukur pada Bisnis Anda",
-      "subtitle": "Bergabunglah dengan ribuan perusahaan yang telah mentransformasi operasi HR mereka dan mencapai hasil luar biasa dengan platform HRIS kami.",
-      "badge": "Hasil Terbukti",
-      "productivity": {
-        "title": "Peningkatan Produktivitas",
-        "description": "Otomatisasi tugas rutin dan sederhanakan alur kerja untuk meningkatkan produktivitas tim HR hingga 40%.",
-        "stat": "+40%"
-      },
-      "time": {
-        "title": "Penghematan Waktu",
-        "description": "Kurangi pekerjaan administratif hingga 60% dengan proses otomatis dan portal layanan mandiri.",
-        "stat": "15jam/minggu"
-      },
-      "cost": {
-        "title": "Pengurangan Biaya",
-        "description": "Potong biaya operasional HR hingga 35% melalui otomatisasi proses dan peningkatan efisiensi.",
-        "stat": "35% penghematan"
-      },
-      "compliance": {
-        "title": "Kepatuhan Lebih Baik",
-        "description": "Pastikan 100% kepatuhan dengan hukum ketenagakerjaan dan peraturan melalui pelacakan otomatis.",
-        "stat": "100% patuh"
-      },
-      "customers": "Pelanggan Puas",
-      "uptime": "Jaminan Uptime",
-      "support": "Dukungan Ahli"
-    },
-    "testimonials": {
-      "title": "Dipercaya oleh Pemimpin HR di Seluruh Dunia",
-      "subtitle": "Temukan bagaimana organisasi seperti Anda telah mentransformasi operasi HR mereka dan mencapai hasil luar biasa dengan platform HRIS kami.",
-      "badge": "Kisah Sukses Pelanggan",
-      "joinSuccess": {
-        "title": "Bergabunglah dengan Kisah Sukses Kami",
-        "description": "Siap mentransformasi operasi HR Anda? Jadwalkan demo yang dipersonalisasi dan lihat bagaimana HRIS kami dapat menguntungkan organisasi Anda.",
-        "scheduleDemo": "Jadwalkan Demo Anda"
-      }
-    },
-    "cta": {
-      "title": "Transformasi Operasi HR Anda Hari Ini",
-      "subtitle": "Bergabunglah dengan ribuan perusahaan yang telah memodernisasi proses HR mereka dengan Omniflow HRIS. Rasakan kekuatan otomatisasi, kepatuhan, dan wawasan berbasis data.",
-      "badge": "Siap untuk Memulai?",
-      "scheduleDemo": "Jadwalkan Demo",
-      "contactSales": "Hubungi Sales",
-      "features": {
-        "trial": "Uji coba gratis 30 hari",
-        "setup": "Tanpa biaya setup",
-        "support": "Dukungan 24/7"
-      },
-      "stats": {
-        "users": "Pengguna Aktif",
-        "uptime": "SLA Uptime",
-        "security": "Keamanan Bersertifikat"
-      }
-    }
-  },
-  "footer": {
-    "description": "Mentransformasi bisnis di seluruh dunia dengan solusi ERP terintegrasi. Bergabunglah dengan ribuan perusahaan yang mempercayai kami untuk menyederhanakan operasi dan mempercepat pertumbuhan.",
-    "seo": {
-      "title": "Omniflow.id - Solusi ERP Terintegrasi untuk Kesuksesan Enterprise",
-      "description": "Transformasi bisnis Anda dengan platform ERP komprehensif Omniflow.id. Sederhanakan operasi, tingkatkan produktivitas, dan percepat pertumbuhan dengan solusi tingkat enterprise yang dipercaya oleh 10.000+ bisnis di seluruh dunia.",
-      "keywords": "Software ERP, HRIS, Manajemen Bisnis, Solusi Enterprise, Omniflow, Indonesia, Sistem Manajemen Bisnis, Sumber Daya Manusia, Software Akuntansi, Sistem CRM, Transformasi Digital, Otomasi Bisnis, ERP Cloud, Software Enterprise"
-    },
-    "solutions": "Solusi",
-    "company": "Perusahaan",
-    "aboutUs": "Tentang Kami",
-    "careers": "Karir",
-    "support": "Dukungan",
-    "privacy": "Kebijakan Privasi",
-    "terms": "Syarat Layanan",
-    "cookies": "Kebijakan Cookie",
-    "copyright": "Semua hak dilindungi. Dibangun dengan keunggulan untuk kesuksesan enterprise."
-  }
+	"common": {
+		"home": "Beranda",
+		"about": "Tentang",
+		"contact": "Kontak",
+		"blog": "Blog",
+		"getStarted": "Mulai Sekarang",
+		"learnMore": "Pelajari Lebih Lanjut",
+		"readMore": "Baca Selengkapnya",
+		"scheduleDemo": "Jadwalkan Demo",
+		"contactSales": "Hubungi Sales",
+		"watchDemo": "Tonton Demo",
+		"tryFree": "Coba Gratis",
+		"loading": "Memuat...",
+		"error": "Kesalahan",
+		"success": "Berhasil",
+		"back": "Kembali",
+		"next": "Selanjutnya",
+		"previous": "Sebelumnya",
+		"save": "Simpan",
+		"cancel": "Batal",
+		"submit": "Kirim",
+		"search": "Cari",
+		"filter": "Filter",
+		"sort": "Urutkan",
+		"language": "Bahasa"
+	},
+	"navigation": {
+		"solutions": "Solusi",
+		"modules": "Modul",
+		"hris": "HRIS",
+		"insights": "Wawasan",
+		"resources": "Sumber Daya",
+		"support": "Dukungan",
+		"pricing": "Harga"
+	},
+	"hero": {
+		"title": "Transformasi Bisnis Anda dengan Solusi ERP Terintegrasi",
+		"subtitle": "Omniflow.id menghadirkan alat manajemen bisnis tingkat enterprise yang dirancang untuk menyederhanakan operasi, meningkatkan produktivitas, dan mempercepat pertumbuhan di seluruh organisasi Anda.",
+		"trustedBy": "Dipercaya oleh 10.000+ Bisnis",
+		"startJourney": "Mulai Perjalanan Anda",
+		"watchDemo": "Tonton Demo",
+		"stats": {
+			"uptime": "SLA Uptime",
+			"users": "Pengguna Aktif",
+			"support": "Dukungan"
+		}
+	},
+	"modules": {
+		"title": "Solusi Bisnis Komprehensif",
+		"subtitle": "Dari manajemen HR hingga analitik bertenaga AI, modul terintegrasi kami bekerja secara mulus untuk menggerakkan seluruh ekosistem bisnis Anda.",
+		"badge": "17 Modul Terintegrasi",
+		"hris": {
+			"name": "HRIS",
+			"description": "Sistem manajemen sumber daya manusia lengkap"
+		},
+		"stock": {
+			"name": "Manajemen Stok",
+			"description": "Pelacakan dan kontrol inventori yang efisien"
+		},
+		"sales": {
+			"name": "Manajemen Penjualan",
+			"description": "Sederhanakan operasi penjualan Anda"
+		},
+		"accounting": {
+			"name": "Akuntansi",
+			"description": "Manajemen keuangan komprehensif"
+		},
+		"pos": {
+			"name": "PoS",
+			"description": "Sistem point of sale modern"
+		},
+		"customers": {
+			"name": "Pelanggan",
+			"description": "Manajemen hubungan pelanggan"
+		},
+		"crm": {
+			"name": "CRM",
+			"description": "Bangun hubungan pelanggan yang lebih kuat"
+		},
+		"project": {
+			"name": "Manajemen Proyek",
+			"description": "Pelacakan dan pengiriman proyek yang efisien"
+		},
+		"marketing": {
+			"name": "Pemasaran",
+			"description": "Solusi pemasaran terintegrasi"
+		},
+		"lms": {
+			"name": "LMS",
+			"description": "Sistem manajemen pembelajaran"
+		},
+		"payment": {
+			"name": "Payment Gateway",
+			"description": "Pemrosesan pembayaran yang aman"
+		},
+		"inventory": {
+			"name": "Inventori",
+			"description": "Manajemen inventori lanjutan"
+		},
+		"ai": {
+			"name": "AI",
+			"description": "Otomasi bisnis cerdas"
+		},
+		"admin": {
+			"name": "Administrasi",
+			"description": "Administrasi sistem terpusat"
+		},
+		"manufacturing": {
+			"name": "Manufaktur",
+			"description": "Manajemen proses manufaktur"
+		},
+		"supply": {
+			"name": "Rantai Pasokan",
+			"description": "Visibilitas rantai pasokan end-to-end"
+		},
+		"procurement": {
+			"name": "Pengadaan",
+			"description": "Proses pengadaan yang efisien"
+		}
+	},
+	"advantages": {
+		"title": "Mengapa Memilih Omniflow.id?",
+		"subtitle": "Bergabunglah dengan ribuan perusahaan visioner yang telah mentransformasi operasi mereka dengan solusi tingkat enterprise kami.",
+		"allInOne": {
+			"title": "Solusi All-in-One",
+			"description": "Integrasikan semua proses bisnis dalam satu platform, menghilangkan kebutuhan akan beberapa solusi perangkat lunak.",
+			"stat": "90% pengurangan kompleksitas perangkat lunak"
+		},
+		"analytics": {
+			"title": "Analitik Real-time",
+			"description": "Akses wawasan bisnis komprehensif dan laporan real-time untuk pengambilan keputusan yang lebih baik.",
+			"stat": "3x pengambilan keputusan lebih cepat"
+		},
+		"scalable": {
+			"title": "Arsitektur Skalabel",
+			"description": "Kembangkan bisnis Anda tanpa khawatir tentang keterbatasan sistem. Platform kami berkembang bersama Anda.",
+			"stat": "Mendukung 100K+ pengguna"
+		},
+		"costEffective": {
+			"title": "Hemat Biaya",
+			"description": "Kurangi biaya operasional dengan menyederhanakan proses dan menghilangkan sistem yang berlebihan.",
+			"stat": "40% pengurangan biaya rata-rata"
+		},
+		"productivity": {
+			"title": "Produktivitas Meningkat",
+			"description": "Otomatisasi tugas rutin dan tingkatkan kolaborasi tim di seluruh departemen.",
+			"stat": "60% peningkatan produktivitas"
+		},
+		"security": {
+			"title": "Keamanan Utama",
+			"description": "Langkah-langkah keamanan tingkat enterprise untuk melindungi data bisnis sensitif Anda.",
+			"stat": "Bersertifikat ISO 27001"
+		}
+	},
+	"faq": {
+		"title": "Ada Pertanyaan? Kami Punya Jawabannya",
+		"subtitle": "Temukan jawaban untuk pertanyaan umum tentang platform, implementasi, dan layanan dukungan kami.",
+		"badge": "Pertanyaan yang Sering Diajukan",
+		"contactExperts": "Hubungi Ahli Kami",
+		"stillHaveQuestions": "Masih ada pertanyaan? Tim kami siap membantu.",
+		"questions": {
+			"difference": {
+				"question": "Apa yang membuat Omniflow.id berbeda dari solusi ERP lainnya?",
+				"answer": "Omniflow.id menawarkan kombinasi unik dari modul komprehensif, teknologi modern, dan kemampuan integrasi yang mulus. Fitur bertenaga AI, antarmuka intuitif, dan keamanan tingkat enterprise membedakan kami dari sistem ERP tradisional. Kami fokus pada pengalaman pengguna sambil mempertahankan fungsionalitas yang kuat."
+			},
+			"implementation": {
+				"question": "Berapa lama implementasi biasanya memakan waktu?",
+				"answer": "Waktu implementasi bervariasi berdasarkan ukuran bisnis dan kebutuhan Anda. Pengaturan dasar membutuhkan 2-4 minggu untuk bisnis kecil, sementara implementasi enterprise biasanya membutuhkan 2-3 bulan. Kami menyediakan manajer proyek khusus dan dukungan 24/7 sepanjang proses untuk memastikan deployment yang lancar."
+			},
+			"customization": {
+				"question": "Bisakah Omniflow.id disesuaikan untuk industri spesifik saya?",
+				"answer": "Tentu saja. Omniflow.id sangat dapat disesuaikan dan dapat disesuaikan untuk memenuhi kebutuhan spesifik industri Anda. Arsitektur modular kami memungkinkan konfigurasi fleksibel, alur kerja khusus, dan fitur khusus industri. Kami memiliki pengalaman di berbagai bidang manufaktur, ritel, layanan, dan lainnya."
+			},
+			"support": {
+				"question": "Jenis dukungan dan pelatihan apa yang Anda berikan?",
+				"answer": "Kami menyediakan dukungan komprehensif termasuk bantuan teknis 24/7, pembaruan sistem reguler, sesi pelatihan yang dipersonalisasi, dan manajer akun khusus. Tim dukungan kami termasuk ahli bersertifikat yang memahami kebutuhan bisnis Anda dan dapat memberikan panduan strategis."
+			},
+			"security": {
+				"question": "Seberapa aman data saya dengan Omniflow.id?",
+				"answer": "Keamanan adalah prioritas utama kami. Kami mempertahankan sertifikasi ISO 27001, menggunakan enkripsi tingkat enterprise, menerapkan autentikasi multi-faktor, dan melakukan audit keamanan reguler. Data Anda disimpan di pusat data yang aman dan patuh dengan jaminan uptime 99,9%."
+			},
+			"integration": {
+				"question": "Bisakah saya mengintegrasikan Omniflow.id dengan sistem yang ada?",
+				"answer": "Ya, Omniflow.id menawarkan kemampuan integrasi yang kuat dengan alat bisnis populer, perangkat lunak akuntansi, sistem CRM, dan aplikasi pihak ketiga. Pendekatan API-first kami memastikan aliran data yang mulus antar sistem, meminimalkan gangguan pada alur kerja Anda saat ini."
+			}
+		}
+	},
+	"contact": {
+		"title": "Siap Mentransformasi Bisnis Anda?",
+		"subtitle": "Terhubung dengan ahli solusi enterprise kami dan temukan bagaimana Omniflow.id dapat menyederhanakan operasi, meningkatkan produktivitas, dan mempercepat pertumbuhan.",
+		"badge": "Dipercaya oleh Pemimpin Enterprise",
+		"form": {
+			"title": "Mari Mulai Percakapan",
+			"subtitle": "Isi formulir di bawah ini dan tim kami akan menghubungi Anda dalam 24 jam.",
+			"name": "Nama Lengkap",
+			"email": "Alamat Email",
+			"company": "Nama Perusahaan",
+			"phone": "Nomor Telepon",
+			"jobTitle": "Jabatan",
+			"companySize": "Ukuran Perusahaan",
+			"subject": "Subjek",
+			"message": "Pesan",
+			"required": "*",
+			"namePlaceholder": "John Doe",
+			"emailPlaceholder": "john@perusahaan.com",
+			"companyPlaceholder": "Perusahaan Anda Ltd.",
+			"phonePlaceholder": "+62 xxx-xxxx-xxxx",
+			"jobTitlePlaceholder": "CEO, CTO, Manager, dll.",
+			"messagePlaceholder": "Ceritakan tentang kebutuhan bisnis, tantangan, atau bagaimana kami dapat membantu Anda...",
+			"selectSubject": "Pilih subjek",
+			"selectCompanySize": "Pilih ukuran perusahaan",
+			"sendMessage": "Kirim Pesan",
+			"sending": "Mengirim Pesan...",
+			"subjects": {
+				"general": "Pertanyaan Umum",
+				"demo": "Demo Produk",
+				"support": "Dukungan Teknis",
+				"sales": "Pertanyaan Penjualan",
+				"partnership": "Peluang Kemitraan",
+				"enterprise": "Solusi Enterprise",
+				"other": "Lainnya"
+			},
+			"companySizes": {
+				"small": "1-10 karyawan",
+				"medium": "11-50 karyawan",
+				"large": "51-200 karyawan",
+				"enterprise": "201-1000 karyawan",
+				"mega": "1000+ karyawan"
+			},
+			"success": {
+				"title": "Pesan berhasil dikirim!",
+				"message": "Kami akan menghubungi Anda dalam 24 jam."
+			},
+			"error": {
+				"title": "Kesalahan mengirim pesan",
+				"message": "Silakan coba lagi atau hubungi kami langsung."
+			}
+		},
+		"info": {
+			"email": {
+				"title": "Email Kami",
+				"details": "contact@omniflow.id",
+				"description": "Hubungi kapan saja"
+			},
+			"phone": {
+				"title": "Telepon Kami",
+				"details": "+62 821 2560 9413",
+				"description": "Sen-Jum, 8AM-6PM WIB"
+			},
+			"address": {
+				"title": "Kunjungi Kami",
+				"details": "Jakarta, Indonesia",
+				"description": "Jadwalkan kunjungan kantor"
+			},
+			"support": {
+				"title": "Dukungan 24/7",
+				"details": "Selalu Tersedia",
+				"description": "Dukungan enterprise"
+			}
+		},
+		"office": {
+			"title": "Kantor Kami",
+			"name": "PT. ALGONACCI SOBAT NUSANTARA",
+			"country": "Indonesia",
+			"address": "Alamat:",
+			"addressDetails": "Jl. Letjen S. Parman No. 28\nGrogol Petamburan\nKota Jakarta Barat\nDaerah Khusus Ibukota Jakarta 11470",
+			"hours": "Jam Kerja:",
+			"hoursDetails": "Senin - Jumat: 8:00 AM - 6:00 PM WIB",
+			"station": "Stasiun Terdekat:",
+			"stationDetails": "MRT Bundaran HI (5 menit jalan kaki)"
+		},
+		"whyChoose": {
+			"title": "Mengapa Memilih Kami",
+			"hours": "Jam",
+			"responseTime": "Waktu respons rata-rata",
+			"customers": "Pelanggan puas",
+			"uptime": "Jaminan uptime"
+		},
+		"cta": {
+			"title": "Siap untuk Memulai?",
+			"subtitle": "Bergabunglah dengan ribuan bisnis yang mempercayai Omniflow.id untuk menyederhanakan operasi dan meningkatkan produktivitas. Mari diskusikan bagaimana kami dapat membantu mentransformasi bisnis Anda.",
+			"scheduleDemo": "Jadwalkan Demo",
+			"viewPricing": "Lihat Paket Harga"
+		},
+		"features": {
+			"security": "Keamanan tingkat enterprise",
+			"customers": "10.000+ pelanggan puas",
+			"certified": "Bersertifikat ISO 27001",
+			"uptime": "Jaminan uptime 99,9%",
+			"support": "Dukungan global",
+			"roi": "Hasil ROI terbukti"
+		}
+	},
+	"blog": {
+		"title": "Wawasan & Sumber Daya Enterprise",
+		"subtitle": "Tetap terdepan dengan tren terbaru dalam teknologi bisnis, transformasi digital, dan solusi enterprise yang mendorong kesuksesan.",
+		"badge": "Hub Pengetahuan",
+		"features": {
+			"trends": {
+				"title": "Tren Industri",
+				"description": "Wawasan pasar dan perkiraan terbaru"
+			},
+			"practices": {
+				"title": "Praktik Terbaik",
+				"description": "Strategi terbukti dari pemimpin industri"
+			},
+			"stories": {
+				"title": "Kisah Sukses",
+				"description": "Kasus transformasi dunia nyata"
+			}
+		},
+		"latest": "Artikel Terbaru",
+		"latestSubtitle": "Temukan wawasan yang dapat ditindaklanjuti untuk mentransformasi operasi bisnis Anda",
+		"comingSoon": {
+			"title": "Segera Hadir",
+			"message": "Kami sedang menyiapkan konten berharga untuk Anda. Periksa kembali segera untuk wawasan dan sumber daya terbaru."
+		},
+		"error": {
+			"title": "Tidak Dapat Memuat Konten",
+			"tryAgain": "Coba Lagi"
+		},
+		"loading": "Memuat wawasan terbaru...",
+		"backToBlog": "Kembali ke Blog",
+		"readingTime": "menit baca",
+		"articleNotFound": {
+			"title": "Artikel Tidak Ditemukan",
+			"message": "Artikel blog yang diminta tidak dapat ditemukan."
+		},
+		"shareArticle": "Bagikan Artikel",
+		"articleDetails": "Detail Artikel",
+		"published": "Diterbitkan:",
+		"lastUpdated": "Terakhir Diperbarui:",
+		"readingTimeLabel": "Waktu Baca:",
+		"wordCount": "Jumlah Kata:",
+		"minutes": "menit",
+		"words": "kata",
+		"relatedTopics": "Topik Terkait",
+		"cta": {
+			"title": "Siap Mentransformasi Bisnis Anda?",
+			"subtitle": "Temukan bagaimana Omniflow.id dapat membantu Anda menerapkan strategi dan solusi yang dibahas dalam artikel ini.",
+			"consultation": "Jadwalkan Konsultasi",
+			"readMore": "Baca Artikel Lainnya"
+		}
+	},
+	"hris": {
+		"title": "Manajemen HR Modern untuk Kesuksesan Enterprise",
+		"subtitle": "Transformasi operasi HR Anda dengan solusi HRIS komprehensif kami. Sederhanakan rekrutmen, kelola data karyawan, dan otomatisasi proses HR dengan keamanan dan skalabilitas tingkat enterprise.",
+		"badge": "Dipercaya oleh 10.000+ Profesional HR",
+		"hero": {
+			"scheduleDemo": "Jadwalkan Demo",
+			"watchOverview": "Tonton Ringkasan",
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"saved": "Hemat/Minggu",
+				"reduction": "Pengurangan Biaya"
+			},
+			"productivityBoost": "Peningkatan Produktivitas"
+		},
+		"features": {
+			"title": "Semua yang Anda Butuhkan untuk Manajemen HR Modern",
+			"subtitle": "Platform HRIS kami menyediakan semua alat yang dibutuhkan tim HR Anda untuk mengelola karyawan secara efisien, memastikan kepatuhan, dan mendorong kesuksesan organisasi.",
+			"badge": "Fitur HR Komprehensif",
+			"recruitment": {
+				"title": "Manajemen Rekrutmen",
+				"description": "Sederhanakan proses perekrutan dengan posting pekerjaan otomatis, pelacakan pelamar, dan penjadwalan wawancara.",
+				"benefits": [
+					"Posting pekerjaan otomatis",
+					"Pelacakan kandidat",
+					"Penjadwalan wawancara"
+				]
+			},
+			"records": {
+				"title": "Catatan Karyawan",
+				"description": "Database terpusat untuk informasi karyawan, dokumen, dan riwayat dengan akses dan pembaruan yang mudah.",
+				"benefits": [
+					"Penyimpanan dokumen digital",
+					"Profil karyawan",
+					"Pelacakan riwayat"
+				]
+			},
+			"leave": {
+				"title": "Manajemen Cuti",
+				"description": "Permintaan cuti otomatis, persetujuan, dan pelacakan saldo dengan integrasi kalender.",
+				"benefits": [
+					"Alur kerja permintaan cuti",
+					"Pelacakan saldo",
+					"Sinkronisasi kalender"
+				]
+			},
+			"performance": {
+				"title": "Manajemen Kinerja",
+				"description": "Tetapkan dan lacak KPI, lakukan review, dan kelola rencana pengembangan karyawan.",
+				"benefits": ["Pelacakan KPI", "Review kinerja", "Rencana pengembangan"]
+			},
+			"attendance": {
+				"title": "Waktu & Kehadiran",
+				"description": "Lacak jam kerja, shift, dan lembur dengan pemantauan kehadiran otomatis.",
+				"benefits": ["Pelacakan waktu", "Manajemen shift", "Perhitungan lembur"]
+			},
+			"compliance": {
+				"title": "Manajemen Kepatuhan",
+				"description": "Tetap patuh dengan hukum ketenagakerjaan dan peraturan dengan alat kepatuhan bawaan.",
+				"benefits": ["Kepatuhan regulasi", "Jejak audit", "Manajemen kebijakan"]
+			}
+		},
+		"screenshots": {
+			"title": "Lihat HRIS Beraksi",
+			"subtitle": "Rasakan kekuatan antarmuka intuitif kami yang dirancang untuk profesional HR dan karyawan di semua perangkat.",
+			"badge": "Tinjauan Platform",
+			"dashboard": {
+				"title": "Dashboard Karyawan",
+				"description": "Dashboard intuitif yang memberikan karyawan akses cepat ke informasi pribadi, saldo cuti, dan pengumuman penting.",
+				"features": [
+					"Informasi pribadi",
+					"Manajemen cuti",
+					"Pengumuman perusahaan",
+					"Tindakan cepat"
+				]
+			},
+			"analytics": {
+				"title": "Analitik Kinerja",
+				"description": "Metrik kinerja komprehensif dan visualisasi analitik untuk melacak kemajuan karyawan dan KPI organisasi.",
+				"features": [
+					"Pelacakan kinerja",
+					"Manajemen tujuan",
+					"Dashboard analitik",
+					"Laporan kemajuan"
+				]
+			},
+			"leave": {
+				"title": "Manajemen Cuti",
+				"description": "Proses permintaan dan persetujuan cuti yang efisien dengan integrasi kalender dan perhitungan saldo otomatis.",
+				"features": [
+					"Permintaan cuti",
+					"Alur kerja persetujuan",
+					"Integrasi kalender",
+					"Pelacakan saldo"
+				]
+			},
+			"exploreFeature": "Jelajahi Fitur"
+		},
+		"benefits": {
+			"title": "Dampak Terukur pada Bisnis Anda",
+			"subtitle": "Bergabunglah dengan ribuan perusahaan yang telah mentransformasi operasi HR mereka dan mencapai hasil luar biasa dengan platform HRIS kami.",
+			"badge": "Hasil Terbukti",
+			"productivity": {
+				"title": "Peningkatan Produktivitas",
+				"description": "Otomatisasi tugas rutin dan sederhanakan alur kerja untuk meningkatkan produktivitas tim HR hingga 40%.",
+				"stat": "+40%"
+			},
+			"time": {
+				"title": "Penghematan Waktu",
+				"description": "Kurangi pekerjaan administratif hingga 60% dengan proses otomatis dan portal layanan mandiri.",
+				"stat": "15jam/minggu"
+			},
+			"cost": {
+				"title": "Pengurangan Biaya",
+				"description": "Potong biaya operasional HR hingga 35% melalui otomatisasi proses dan peningkatan efisiensi.",
+				"stat": "35% penghematan"
+			},
+			"compliance": {
+				"title": "Kepatuhan Lebih Baik",
+				"description": "Pastikan 100% kepatuhan dengan hukum ketenagakerjaan dan peraturan melalui pelacakan otomatis.",
+				"stat": "100% patuh"
+			},
+			"customers": "Pelanggan Puas",
+			"uptime": "Jaminan Uptime",
+			"support": "Dukungan Ahli"
+		},
+		"testimonials": {
+			"title": "Dipercaya oleh Pemimpin HR di Seluruh Dunia",
+			"subtitle": "Temukan bagaimana organisasi seperti Anda telah mentransformasi operasi HR mereka dan mencapai hasil luar biasa dengan platform HRIS kami.",
+			"badge": "Kisah Sukses Pelanggan",
+			"joinSuccess": {
+				"title": "Bergabunglah dengan Kisah Sukses Kami",
+				"description": "Siap mentransformasi operasi HR Anda? Jadwalkan demo yang dipersonalisasi dan lihat bagaimana HRIS kami dapat menguntungkan organisasi Anda.",
+				"scheduleDemo": "Jadwalkan Demo Anda"
+			}
+		},
+		"cta": {
+			"title": "Transformasi Operasi HR Anda Hari Ini",
+			"subtitle": "Bergabunglah dengan ribuan perusahaan yang telah memodernisasi proses HR mereka dengan Omniflow HRIS. Rasakan kekuatan otomatisasi, kepatuhan, dan wawasan berbasis data.",
+			"badge": "Siap untuk Memulai?",
+			"scheduleDemo": "Jadwalkan Demo",
+			"contactSales": "Hubungi Sales",
+			"features": {
+				"trial": "Uji coba gratis 30 hari",
+				"setup": "Tanpa biaya setup",
+				"support": "Dukungan 24/7"
+			},
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"security": "Keamanan Bersertifikat"
+			}
+		}
+	},
+	"footer": {
+		"description": "Mentransformasi bisnis di seluruh dunia dengan solusi ERP terintegrasi. Bergabunglah dengan ribuan perusahaan yang mempercayai kami untuk menyederhanakan operasi dan mempercepat pertumbuhan.",
+		"seo": {
+			"title": "Omniflow.id - Solusi ERP Terintegrasi untuk Kesuksesan Enterprise",
+			"description": "Transformasi bisnis Anda dengan platform ERP komprehensif Omniflow.id. Sederhanakan operasi, tingkatkan produktivitas, dan percepat pertumbuhan dengan solusi tingkat enterprise yang dipercaya oleh 10.000+ bisnis di seluruh dunia.",
+			"keywords": "Software ERP, HRIS, Manajemen Bisnis, Solusi Enterprise, Omniflow, Indonesia, Sistem Manajemen Bisnis, Sumber Daya Manusia, Software Akuntansi, Sistem CRM, Transformasi Digital, Otomasi Bisnis, ERP Cloud, Software Enterprise"
+		},
+		"solutions": "Solusi",
+		"company": "Perusahaan",
+		"aboutUs": "Tentang Kami",
+		"careers": "Karir",
+		"support": "Dukungan",
+		"privacy": "Kebijakan Privasi",
+		"terms": "Syarat Layanan",
+		"cookies": "Kebijakan Cookie",
+		"copyright": "Semua hak dilindungi. Dibangun dengan keunggulan untuk kesuksesan enterprise."
+	}
 }
