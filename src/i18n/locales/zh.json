@@ -481,11 +481,19 @@
 		"hero": {
 			"badge": "电商平台",
 			"title": "综合在线商店平台",
-			"subtitle": "Omniflow电商平台为管理您的在线商店提供综合解决方案。在一个易于使用的平台上管理产品、库存、订单和付款，并与您的ERP系统无缝集成。"
+			"subtitle": "Omniflow电商平台为管理您的在线商店提供综合解决方案。在一个易于使用的平台上管理产品、库存、订单和付款，并与您的ERP系统无缝集成。",
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行时间SLA",
+				"saved": "节省/周",
+				"reduction": "成本降低"
+			},
+			"productivityBoost": "生产力提升"
 		},
 		"features": {
 			"title": "核心功能",
 			"subtitle": "我们的电商平台提供全面功能，加速您的在线商店运营。",
+			"badge": "全面电子商务功能",
 			"products": {
 				"title": "产品管理",
 				"description": "轻松管理您的产品目录。上传图片，设置价格，在一个地方管理产品变体。"
@@ -515,6 +523,29 @@
 			"badge": "为什么选择Omniflow电子商务？",
 			"title": "平台优势",
 			"subtitle": "通过Omniflow电子商务平台的卓越功能提升您的在线商店运营。",
+			"conversion": {
+				"title": "提高转化率",
+				"description": "多种支付方式选项可使客户完成交易的可能性提高多达40%。"
+			},
+			"fastSettlement": {
+				"title": "快速结算",
+				"description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
+			},
+			"fraudProtection": {
+				"title": "欺诈保护",
+				"description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
+			},
+			"compliance": {
+				"title": "法规与合规",
+				"description": "符合PCI DSS安全标准和印度尼西亚银行法规，确保交易安全合法。"
+			},
+			"costEffective": {
+				"title": "价格实惠",
+				"description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
+			},
+			"customers": "满意客户",
+			"uptime": "正常运行时间保证",
+			"support": "专家支持",
 			"easy": {
 				"title": "操作简单",
 				"description": "在一个直观的仪表板中管理商品、订单和客户。"
@@ -543,10 +574,22 @@
 			"scheduleDemo": "安排演示"
 		},
 		"cta": {
+			"badge": "准备开始？",
 			"title": "准备开始？",
 			"subtitle": "今天迁移到Omniflow电商平台，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的业务管理。",
 			"getStarted": "免费开始",
-			"scheduleDemo": "安排演示"
+			"scheduleDemo": "安排演示",
+			"contactSales": "联系销售",
+			"features": {
+				"trial": "免费30天试用",
+				"setup": "无设置费用",
+				"support": "24/7支持"
+			},
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行时间SLA",
+				"security": "认证安全"
+			}
 		}
 	},
 	"xrm": {
@@ -634,11 +677,19 @@
 		"hero": {
 			"badge": "会计系统",
 			"title": "完整会计与财务管理",
-			"subtitle": "通过综合会计软件简化您的财务运营。在一个集成平台中管理总账、应付/应收账款、开票和财务报告。"
+			"subtitle": "通过综合会计软件简化您的财务运营。在一个集成平台中管理总账、应付/应收账款、开票和财务报告。",
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行时间SLA",
+				"saved": "节省/周",
+				"reduction": "成本降低"
+			},
+			"productivityBoost": "生产力提升"
 		},
 		"features": {
 			"title": "全面的会计功能",
 			"subtitle": "企业级财务管理，完全控制您的会计运营。",
+			"badge": "全面会计功能",
 			"generalLedger": {
 				"title": "总账",
 				"description": "完整的总账管理，包括日记账分录、账户对账和多币种支持。"
@@ -673,13 +724,32 @@
 			"badge": "为什么选择会计？",
 			"title": "平台优势",
 			"subtitle": "通过Omniflow会计的卓越功能转型您的财务管理。",
-			"accuracy": {
-				"title": "财务准确性",
-				"description": "自动计算和对账确保无错误的财务记录。"
+			"conversion": {
+				"title": "提高转化率",
+				"description": "多种支付方式选项可使客户完成交易的可能性提高多达40%。"
+			},
+			"fastSettlement": {
+				"title": "快速结算",
+				"description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
+			},
+			"fraudProtection": {
+				"title": "欺诈保护",
+				"description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
 			},
 			"compliance": {
 				"title": "法规合规",
 				"description": "内置控制和审计跟踪，确保符合会计标准。"
+			},
+			"costEffective": {
+				"title": "价格实惠",
+				"description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
+			},
+			"customers": "满意客户",
+			"uptime": "正常运行时间保证",
+			"support": "专家支持",
+			"accuracy": {
+				"title": "财务准确性",
+				"description": "自动计算和对账确保无错误的财务记录。"
 			},
 			"automation": {
 				"title": "流程自动化",
@@ -701,21 +771,41 @@
 			"scheduleDemo": "安排演示"
 		},
 		"cta": {
+			"badge": "准备开始？",
 			"title": "准备开始？",
 			"subtitle": "今天迁移到Omniflow会计，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的业务管理。",
 			"getStarted": "免费开始",
-			"scheduleDemo": "安排演示"
+			"scheduleDemo": "安排演示",
+			"contactSales": "联系销售",
+			"features": {
+				"trial": "免费30天试用",
+				"setup": "无设置费用",
+				"support": "24/7支持"
+			},
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行时间SLA",
+				"security": "认证安全"
+			}
 		}
 	},
 	"pos": {
 		"hero": {
 			"badge": "销售终端系统",
 			"title": "完整的销售终端解决方案",
-			"subtitle": "通过我们综合的POS系统简化您的零售运营。快速结账、实时库存同步、多种支付选项和离线模式支持。"
+			"subtitle": "通过我们综合的POS系统简化您的零售运营。快速结账、实时库存同步、多种支付选项和离线模式支持。",
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行时间SLA",
+				"saved": "节省/周",
+				"reduction": "成本降低"
+			},
+			"productivityBoost": "生产力提升"
 		},
 		"features": {
 			"title": "全面的POS功能",
 			"subtitle": "企业级销售终端系统，专为现代零售业务设计。",
+			"badge": "全面POS功能",
 			"posSystem": {
 				"title": "POS系统",
 				"description": "直观的结账界面，具有产品搜索、条形码扫描和快速产品选择。"
@@ -750,6 +840,29 @@
 			"badge": "为什么选择POS？",
 			"title": "平台优势",
 			"subtitle": "通过Omniflow销售终端的卓越功能转型您的零售运营。",
+			"conversion": {
+				"title": "提高转化率",
+				"description": "多种支付方式选项可使客户完成交易的可能性提高多达40%。"
+			},
+			"fastSettlement": {
+				"title": "快速结算",
+				"description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
+			},
+			"fraudProtection": {
+				"title": "欺诈保护",
+				"description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
+			},
+			"compliance": {
+				"title": "法规与合规",
+				"description": "符合PCI DSS安全标准和印度尼西亚银行法规，确保交易安全合法。"
+			},
+			"costEffective": {
+				"title": "价格实惠",
+				"description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
+			},
+			"customers": "满意客户",
+			"uptime": "正常运行时间保证",
+			"support": "专家支持",
 			"fast": {
 				"title": "快速结账",
 				"description": "通过优化的工作流程和条形码扫描，在几秒钟内处理交易。"
@@ -778,21 +891,41 @@
 			"scheduleDemo": "安排演示"
 		},
 		"cta": {
+			"badge": "准备开始？",
 			"title": "准备开始？",
 			"subtitle": "今天迁移到Omniflow POS，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的零售管理。",
 			"getStarted": "免费开始",
-			"scheduleDemo": "安排演示"
+			"scheduleDemo": "安排演示",
+			"contactSales": "联系销售",
+			"features": {
+				"trial": "免费30天试用",
+				"setup": "无设置费用",
+				"support": "24/7支持"
+			},
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行时间SLA",
+				"security": "认证安全"
+			}
 		}
 	},
 	"lmsModule": {
 		"hero": {
 			"badge": "学习管理系统",
 			"title": "Omniflow LMS - 完整学习平台",
-			"subtitle": "通过我们全面的LMS转变您的培训和评估计划。创建测验、管理题库、跟踪学习者进度，并提供引人入胜的学习体验。"
+			"subtitle": "通过我们全面的LMS转变您的培训和评估计划。创建测验、管理题库、跟踪学习者进度，并提供引人入胜的学习体验。",
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行时间SLA",
+				"saved": "节省/周",
+				"reduction": "成本降低"
+			},
+			"productivityBoost": "生产力提升"
 		},
 		"features": {
 			"title": "全面的LMS功能",
 			"subtitle": "企业级学习管理，具有强大的评估工具和灵活的内容交付。",
+			"badge": "全面LMS功能",
 			"assessments": {
 				"title": "评估与测验管理",
 				"description": "创建各种类型的评估，具有可配置的设置、时间限制和多次尝试选项。"
@@ -845,6 +978,29 @@
 		"benefits": {
 			"title": "平台优势",
 			"subtitle": "通过Omniflow LMS的卓越功能转变您的学习计划。",
+			"conversion": {
+				"title": "提高转化率",
+				"description": "多种支付方式选项可使客户完成交易的可能性提高多达40%。"
+			},
+			"fastSettlement": {
+				"title": "快速结算",
+				"description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
+			},
+			"fraudProtection": {
+				"title": "欺诈保护",
+				"description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
+			},
+			"compliance": {
+				"title": "法规与合规",
+				"description": "符合PCI DSS安全标准和印度尼西亚银行法规，确保交易安全合法。"
+			},
+			"costEffective": {
+				"title": "价格实惠",
+				"description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
+			},
+			"customers": "满意客户",
+			"uptime": "正常运行时间保证",
+			"support": "专家支持",
 			"efficiency": {
 				"title": "提高效率",
 				"description": "自动创建评估、评分和报告，节省时间和资源。"
@@ -887,21 +1043,41 @@
 			]
 		},
 		"cta": {
+			"badge": "准备转变您的学习？",
 			"title": "准备转变您的学习？",
 			"subtitle": "加入数千个已通过Omniflow LMS现代化培训的机构。",
 			"getStarted": "立即开始",
-			"scheduleDemo": "安排演示"
+			"scheduleDemo": "安排演示",
+			"contactSales": "联系销售",
+			"features": {
+				"trial": "免费30天试用",
+				"setup": "无设置费用",
+				"support": "24/7支持"
+			},
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行时间SLA",
+				"security": "认证安全"
+			}
 		}
 	},
 	"telemarketing": {
 		"hero": {
 			"badge": "电话营销与自动拨号器",
 			"title": "集成自动化电话营销系统",
-			"subtitle": "Omniflow电话营销提供完整的解决方案来管理您的电话营销活动。管理联系人、创建TTS音频脚本、运行自动呼叫，并在与Omniflow ERP系统集成的单一平台中监控结果。"
+			"subtitle": "Omniflow电话营销提供完整的解决方案来管理您的电话营销活动。管理联系人、创建TTS音频脚本、运行自动呼叫，并在与Omniflow ERP系统集成的单一平台中监控结果。",
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行时间SLA",
+				"saved": "节省/周",
+				"reduction": "成本降低"
+			},
+			"productivityBoost": "生产力提升"
 		},
 		"features": {
 			"title": "完整的电话营销功能",
 			"subtitle": "我们的电话营销平台提供全面的功能来优化您的外呼活动。",
+			"badge": "全面电话营销功能",
 			"contacts": {
 				"title": "联系人管理",
 				"description": "轻松管理联系人数据库。批量导入联系人，根据标准进行细分，并跟踪与每个联系人的互动状态。"
@@ -942,17 +1118,32 @@
 				"title": "更高的转化率",
 				"description": "通过专业脚本和优化的自动拨号，将您的电话营销活动转化率提高多达40%。"
 			},
-			"efficiency": {
-				"title": "运营效率",
-				"description": "呼叫自动化节省您团队的时间。专注于优质线索和有效的跟进。"
+			"fastSettlement": {
+				"title": "快速结算",
+				"description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
+			},
+			"fraudProtection": {
+				"title": "欺诈保护",
+				"description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
 			},
 			"compliance": {
 				"title": "法规合规",
 				"description": "系统设计时考虑电话营销法规。集成的DNC（请勿致电）和选择退出管理功能。"
 			},
+			"costEffective": {
+				"title": "价格实惠",
+				"description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
+			},
+			"customers": "满意客户",
+			"uptime": "正常运行时间保证",
+			"support": "专家支持",
+			"efficiency": {
+				"title": "运营效率",
+				"description": "呼叫自动化节省您团队的时间。专注于优质线索和有效的跟进。"
+			},
 			"reach": {
 				"title": "更广泛的覆盖",
-				"description": "通过可靠的自动拨号系统在短时间內联系数千个联系人。与全球电信网络集成。"
+				"description": "通过可靠的自动拨号系统在短时间内联系数千个联系人。与全球电信网络集成。"
 			},
 			"automation": {
 				"title": "完全自动化",
@@ -967,19 +1158,38 @@
 			"badge": "准备提升销售？",
 			"title": "今天开始您的电话营销活动",
 			"subtitle": "加入数千家已通过Omniflow优化电话营销运营的公司。安排演示以了解我们的平台如何帮助您的业务。",
+			"getStarted": "免费开始",
 			"scheduleDemo": "安排演示",
-			"contactSales": "联系销售"
+			"contactSales": "联系销售",
+			"features": {
+				"trial": "免费30天试用",
+				"setup": "无设置费用",
+				"support": "24/7支持"
+			},
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行时间SLA",
+				"security": "认证安全"
+			}
 		}
 	},
 	"paymentGateway": {
 		"hero": {
 			"badge": "集成支付网关",
 			"title": "印度尼西亚最佳在线业务支付网关",
-			"subtitle": "轻松接受来自多种支付方式的付款。与Midtrans、虚拟账户、QRIS和电子钱包集成在一个与Omniflow ERP系统连接的平台中。"
+			"subtitle": "轻松接受来自多种支付方式的付款。与Midtrans、虚拟账户、QRIS和电子钱包集成在一个与Omniflow ERP系统连接的平台中。",
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行时间SLA",
+				"saved": "节省/周",
+				"reduction": "成本降低"
+			},
+			"productivityBoost": "生产力提升"
 		},
 		"features": {
 			"title": "完整的支付网关功能",
 			"subtitle": "为电子商务和在线业务提供全面的支付解决方案，支持印度尼西亚各种流行的支付方式。",
+			"badge": "全面支付网关功能",
 			"multipleGateways": {
 				"title": "多渠道支付网关",
 				"description": "与Midtrans和各种其他支付网关集成。根据您的业务需求选择最佳提供商。"
@@ -1045,8 +1255,19 @@
 			"badge": "准备接受在线付款？",
 			"title": "今天开始接受付款",
 			"subtitle": "加入使用Omniflow支付网关的数千商家。集成简单，数小时内即可准备就绪。",
+			"getStarted": "免费开始",
 			"scheduleDemo": "安排演示",
-			"contactSales": "联系销售"
+			"contactSales": "联系销售",
+			"features": {
+				"trial": "免费30天试用",
+				"setup": "无设置费用",
+				"support": "24/7支持"
+			},
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行时间SLA",
+				"security": "认证安全"
+			}
 		}
 	},
 	"footer": {

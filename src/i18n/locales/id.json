@@ -508,11 +508,19 @@
 		"hero": {
 			"badge": "E-Commerce Platform",
 			"title": "Platform Toko Online Terintegrasi",
-			"subtitle": "Omniflow E-Commerce menyediakan solusi lengkap untuk mengelola toko online Anda. Kelola produk, stok, pesanan, dan pembayaran dalam satu platform yang mudah digunakan dan dapat diandalkan dengan sistem ERP Anda."
+			"subtitle": "Omniflow E-Commerce menyediakan solusi lengkap untuk mengelola toko online Anda. Kelola produk, stok, pesanan, dan pembayaran dalam satu platform yang mudah digunakan dan dapat diandalkan dengan sistem ERP Anda.",
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"saved": "Hemat/Minggu",
+				"reduction": "Pengurangan Biaya"
+			},
+			"productivityBoost": "Peningkatan Produktivitas"
 		},
 		"features": {
 			"title": "Fitur Unggulan",
 			"subtitle": "Platform E-Commerce kami menawarkan fitur-fitur komprehensif untuk mempercepat operasi toko online Anda.",
+			"badge": "Fitur E-Commerce Komprehensif",
 			"products": {
 				"title": "Manajemen Produk",
 				"description": "Kelola katalog produk dengan mudah. Upload gambar, atur harga, dan kelola variasi produk dalam satu tempat."
@@ -542,6 +550,29 @@
 			"badge": "Kenapa Omniflow E-Commerce?",
 			"title": "Keunggulan Platform",
 			"subtitle": "Tingkatkan operasi toko online Anda dengan fitur-fitur unggulan dari Omniflow E-Commerce.",
+			"conversion": {
+				"title": "Tingkatkan Konversi",
+				"description": "Berbagai pilihan metode pembayaran meningkatkan kemungkinan customer menyelesaikan transaksi hingga 40%."
+			},
+			"fastSettlement": {
+				"title": "Settlement Cepat",
+				"description": "Dana masuk ke rekening Anda dalam 1-2 hari kerja. Cashflow lebih lancar untuk operasional bisnis."
+			},
+			"fraudProtection": {
+				"title": "Proteksi Fraud",
+				"description": "Sistem deteksi fraud canggih dengan machine learning untuk melindungi bisnis dari transaksi mencurigakan."
+			},
+			"compliance": {
+				"title": "Regulasi & Compliance",
+				"description": "Memenuhi standar keamanan PCI DSS dan regulasi Bank Indonesia untuk transaksi yang aman dan legal."
+			},
+			"costEffective": {
+				"title": "Biaya Terjangkau",
+				"description": "Struktur biaya transparan tanpa biaya setup tersembunyi. Hemat biaya dengan rate kompetitif untuk bisnis Anda."
+			},
+			"customers": "Pelanggan Puas",
+			"uptime": "Jaminan Uptime",
+			"support": "Dukungan Ahli",
 			"easy": {
 				"title": "Mudah Digunakan",
 				"description": "Kelola produk, pesanan, dan pelanggan dari satu dashboard yang intuitif."
@@ -570,10 +601,22 @@
 			"scheduleDemo": "Jadwalkan Demo"
 		},
 		"cta": {
+			"badge": "Siap untuk Memulai?",
 			"title": "Siap untuk Memulai?",
 			"subtitle": "Migrasikan ke Omniflow E-Commerce hari ini dan rasakan perbedaannya. Platform kami terintegrasi dengan sistem ERP Omniflow untuk manajemen bisnis yang lebih baik.",
 			"getStarted": "Mulai Gratis",
-			"scheduleDemo": "Jadwalkan Demo"
+			"scheduleDemo": "Jadwalkan Demo",
+			"contactSales": "Hubungi Sales",
+			"features": {
+				"trial": "Uji coba gratis 30 hari",
+				"setup": "Tanpa biaya setup",
+				"support": "Dukungan 24/7"
+			},
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"security": "Keamanan Bersertifikat"
+			}
 		}
 	},
 	"xrm": {
@@ -661,11 +704,19 @@
 		"hero": {
 			"badge": "Sistem Akuntansi",
 			"title": "Akuntansi & Manajemen Keuangan Lengkap",
-			"subtitle": "Sederhanakan operasi keuangan Anda dengan perangkat lunak akuntansi komprehensif. Kelola buku besar, akun hutang/piutang, penagihan, dan pelaporan keuangan dalam satu platform terintegrasi."
+			"subtitle": "Sederhanakan operasi keuangan Anda dengan perangkat lunak akuntansi komprehensif. Kelola buku besar, akun hutang/piutang, penagihan, dan pelaporan keuangan dalam satu platform terintegrasi.",
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"saved": "Hemat/Minggu",
+				"reduction": "Pengurangan Biaya"
+			},
+			"productivityBoost": "Peningkatan Produktivitas"
 		},
 		"features": {
 			"title": "Fitur Akuntansi Komprehensif",
 			"subtitle": "Manajemen keuangan tingkat enterprise dengan kontrol penuh atas operasi akuntansi Anda.",
+			"badge": "Fitur Akuntansi Komprehensif",
 			"generalLedger": {
 				"title": "Buku Besar",
 				"description": "Manajemen buku besar lengkap dengan jurnal, rekonsiliasi akun, dan dukungan multi-mata uang."
@@ -700,13 +751,32 @@
 			"badge": "Kenapa Akuntansi?",
 			"title": "Keunggulan Platform",
 			"subtitle": "Transformasi manajemen keuangan Anda dengan fitur-fitur unggulan dari Omniflow Akuntansi.",
-			"accuracy": {
-				"title": "Akurasi Keuangan",
-				"description": "Perhitungan dan rekonsiliasi otomatis memastikan catatan keuangan tanpa kesalahan."
+			"conversion": {
+				"title": "Tingkatkan Konversi",
+				"description": "Berbagai pilihan metode pembayaran meningkatkan kemungkinan customer menyelesaikan transaksi hingga 40%."
+			},
+			"fastSettlement": {
+				"title": "Settlement Cepat",
+				"description": "Dana masuk ke rekening Anda dalam 1-2 hari kerja. Cashflow lebih lancar untuk operasional bisnis."
+			},
+			"fraudProtection": {
+				"title": "Proteksi Fraud",
+				"description": "Sistem deteksi fraud canggih dengan machine learning untuk melindungi bisnis dari transaksi mencurigakan."
 			},
 			"compliance": {
 				"title": "Kepatuhan Regulasi",
 				"description": "Kontrol bawaan dan jejak audit untuk memastikan kepatuhan dengan standar akuntansi."
+			},
+			"costEffective": {
+				"title": "Biaya Terjangkau",
+				"description": "Struktur biaya transparan tanpa biaya setup tersembunyi. Hemat biaya dengan rate kompetitif untuk bisnis Anda."
+			},
+			"customers": "Pelanggan Puas",
+			"uptime": "Jaminan Uptime",
+			"support": "Dukungan Ahli",
+			"accuracy": {
+				"title": "Akurasi Keuangan",
+				"description": "Perhitungan dan rekonsiliasi otomatis memastikan catatan keuangan tanpa kesalahan."
 			},
 			"automation": {
 				"title": "Otomasi Proses",
@@ -728,21 +798,41 @@
 			"scheduleDemo": "Jadwalkan Demo"
 		},
 		"cta": {
+			"badge": "Siap untuk Memulai?",
 			"title": "Siap untuk Memulai?",
 			"subtitle": "Migrasikan ke Omniflow Akuntansi hari ini dan rasakan perbedaannya. Platform kami terintegrasi dengan sistem ERP Omniflow untuk manajemen bisnis yang lebih baik.",
 			"getStarted": "Mulai Gratis",
-			"scheduleDemo": "Jadwalkan Demo"
+			"scheduleDemo": "Jadwalkan Demo",
+			"contactSales": "Hubungi Sales",
+			"features": {
+				"trial": "Uji coba gratis 30 hari",
+				"setup": "Tanpa biaya setup",
+				"support": "Dukungan 24/7"
+			},
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"security": "Keamanan Bersertifikat"
+			}
 		}
 	},
 	"pos": {
 		"hero": {
 			"badge": "Sistem Point of Sale",
 			"title": "Solusi Point of Sale Lengkap",
-			"subtitle": "Sederhanakan operasi ritel Anda dengan sistem PoS komprehensif kami. Checkout cepat, sinkronisasi inventaris real-time, opsi pembayaran beragam, dan dukungan mode offline."
+			"subtitle": "Sederhanakan operasi ritel Anda dengan sistem PoS komprehensif kami. Checkout cepat, sinkronisasi inventaris real-time, opsi pembayaran beragam, dan dukungan mode offline.",
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"saved": "Hemat/Minggu",
+				"reduction": "Pengurangan Biaya"
+			},
+			"productivityBoost": "Peningkatan Produktivitas"
 		},
 		"features": {
 			"title": "Fitur PoS Komprehensif",
 			"subtitle": "Sistem point of sale tingkat enterprise yang dirancang untuk bisnis ritel modern.",
+			"badge": "Fitur PoS Komprehensif",
 			"posSystem": {
 				"title": "Sistem PoS",
 				"description": "Antarmuka checkout intuitif dengan pencarian produk, pemindaian barcode, dan seleksi produk cepat."
@@ -777,6 +867,29 @@
 			"badge": "Kenapa PoS?",
 			"title": "Keunggulan Platform",
 			"subtitle": "Transformasi operasi ritel Anda dengan fitur-fitur unggulan dari Omniflow Point of Sale.",
+			"conversion": {
+				"title": "Tingkatkan Konversi",
+				"description": "Berbagai pilihan metode pembayaran meningkatkan kemungkinan customer menyelesaikan transaksi hingga 40%."
+			},
+			"fastSettlement": {
+				"title": "Settlement Cepat",
+				"description": "Dana masuk ke rekening Anda dalam 1-2 hari kerja. Cashflow lebih lancar untuk operasional bisnis."
+			},
+			"fraudProtection": {
+				"title": "Proteksi Fraud",
+				"description": "Sistem deteksi fraud canggih dengan machine learning untuk melindungi bisnis dari transaksi mencurigakan."
+			},
+			"compliance": {
+				"title": "Kepatuhan Regulasi",
+				"description": "Memenuhi standar keamanan PCI DSS dan regulasi Bank Indonesia untuk transaksi yang aman dan legal."
+			},
+			"costEffective": {
+				"title": "Biaya Terjangkau",
+				"description": "Struktur biaya transparan tanpa biaya setup tersembunyi. Hemat biaya dengan rate kompetitif untuk bisnis Anda."
+			},
+			"customers": "Pelanggan Puas",
+			"uptime": "Jaminan Uptime",
+			"support": "Dukungan Ahli",
 			"fast": {
 				"title": "Checkout Cepat",
 				"description": "Proses transaksi dalam hitungan detik dengan alur kerja yang dioptimalkan dan pemindaian barcode."
@@ -805,21 +918,41 @@
 			"scheduleDemo": "Jadwalkan Demo"
 		},
 		"cta": {
+			"badge": "Siap untuk Memulai?",
 			"title": "Siap untuk Memulai?",
 			"subtitle": "Migrasikan ke Omniflow PoS hari ini dan rasakan perbedaannya. Platform kami terintegrasi dengan sistem ERP Omniflow untuk manajemen ritel yang lebih baik.",
 			"getStarted": "Mulai Gratis",
-			"scheduleDemo": "Jadwalkan Demo"
+			"scheduleDemo": "Jadwalkan Demo",
+			"contactSales": "Hubungi Sales",
+			"features": {
+				"trial": "Uji coba gratis 30 hari",
+				"setup": "Tanpa biaya setup",
+				"support": "Dukungan 24/7"
+			},
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"security": "Keamanan Bersertifikat"
+			}
 		}
 	},
 	"lmsModule": {
 		"hero": {
 			"badge": "Learning Management System",
 			"title": "Omniflow LMS - Platform Pembelajaran Lengkap",
-			"subtitle": "Transformasikan program pelatihan dan asesmen Anda dengan LMS komprehensif kami. Buat kuis, kelola bank soal, lacak kemajuan peserta, dan berikan pengalaman pembelajaran yang menarik."
+			"subtitle": "Transformasikan program pelatihan dan asesmen Anda dengan LMS komprehensif kami. Buat kuis, kelola bank soal, lacak kemajuan peserta, dan berikan pengalaman pembelajaran yang menarik.",
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"saved": "Hemat/Minggu",
+				"reduction": "Pengurangan Biaya"
+			},
+			"productivityBoost": "Peningkatan Produktivitas"
 		},
 		"features": {
 			"title": "Fitur LMS Komprehensif",
 			"subtitle": "Manajemen pembelajaran tingkat enterprise dengan alat asesmen yang kuat dan pengiriman konten yang fleksibel.",
+			"badge": "Fitur LMS Komprehensif",
 			"assessments": {
 				"title": "Manajemen Asesmen & Kuis",
 				"description": "Buat berbagai jenis asesmen dengan pengaturan yang dapat dikonfigurasi, batas waktu, dan opsi percobaan berkali."
@@ -872,6 +1005,29 @@
 		"benefits": {
 			"title": "Keunggulan Platform",
 			"subtitle": "Transformasikan program pembelajaran Anda dengan fitur-fitur unggulan dari Omniflow LMS.",
+			"conversion": {
+				"title": "Tingkatkan Konversi",
+				"description": "Berbagai pilihan metode pembayaran meningkatkan kemungkinan customer menyelesaikan transaksi hingga 40%."
+			},
+			"fastSettlement": {
+				"title": "Settlement Cepat",
+				"description": "Dana masuk ke rekening Anda dalam 1-2 hari kerja. Cashflow lebih lancar untuk operasional bisnis."
+			},
+			"fraudProtection": {
+				"title": "Proteksi Fraud",
+				"description": "Sistem deteksi fraud canggih dengan machine learning untuk melindungi bisnis dari transaksi mencurigakan."
+			},
+			"compliance": {
+				"title": "Kepatuhan Regulasi",
+				"description": "Memenuhi standar keamanan PCI DSS dan regulasi Bank Indonesia untuk transaksi yang aman dan legal."
+			},
+			"costEffective": {
+				"title": "Biaya Terjangkau",
+				"description": "Struktur biaya transparan tanpa biaya setup tersembunyi. Hemat biaya dengan rate kompetitif untuk bisnis Anda."
+			},
+			"customers": "Pelanggan Puas",
+			"uptime": "Jaminan Uptime",
+			"support": "Dukungan Ahli",
 			"efficiency": {
 				"title": "Efisiensi Meningkat",
 				"description": "Otomatisasi pembuatan asesmen, penilaian, dan pelaporan untuk menghemat waktu dan sumber daya."
@@ -914,21 +1070,41 @@
 			]
 		},
 		"cta": {
+			"badge": "Siap Mentransformasi Pembelajaran?",
 			"title": "Siap Mentransformasi Pembelajaran Anda?",
 			"subtitle": "Bergabunglah dengan ribuan organisasi yang telah memodernisasi pelatihan mereka dengan Omniflow LMS.",
 			"getStarted": "Mulai Sekarang",
-			"scheduleDemo": "Jadwalkan Demo"
+			"scheduleDemo": "Jadwalkan Demo",
+			"contactSales": "Hubungi Sales",
+			"features": {
+				"trial": "Uji coba gratis 30 hari",
+				"setup": "Tanpa biaya setup",
+				"support": "Dukungan 24/7"
+			},
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"security": "Keamanan Bersertifikat"
+			}
 		}
 	},
 	"telemarketing": {
 		"hero": {
 			"badge": "Telemarketing & Auto Dialer",
 			"title": "Sistem Telemarketing Otomatis Terintegrasi",
-			"subtitle": "Omniflow Telemarketing menyediakan solusi lengkap untuk mengelola kampanye telemarketing Anda. Kelola kontak, buat script audio TTS, jalankan panggilan otomatis, dan pantau hasil dalam satu platform yang terintegrasi dengan sistem ERP Omniflow."
+			"subtitle": "Omniflow Telemarketing menyediakan solusi lengkap untuk mengelola kampanye telemarketing Anda. Kelola kontak, buat script audio TTS, jalankan panggilan otomatis, dan pantau hasil dalam satu platform yang terintegrasi dengan sistem ERP Omniflow.",
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"saved": "Hemat/Minggu",
+				"reduction": "Pengurangan Biaya"
+			},
+			"productivityBoost": "Peningkatan Produktivitas"
 		},
 		"features": {
 			"title": "Fitur Telemarketing Lengkap",
 			"subtitle": "Platform Telemarketing kami menawarkan fitur-fitur komprehensif untuk mengoptimalkan kampanye outbound calling Anda.",
+			"badge": "Fitur Telemarketing Komprehensif",
 			"contacts": {
 				"title": "Manajemen Kontak",
 				"description": "Kelola database kontak dengan mudah. Import kontak massal, segmentasi berdasarkan kriteria, dan pantau status interaksi dengan setiap kontak."
@@ -969,13 +1145,28 @@
 				"title": "Conversion Rate Lebih Tinggi",
 				"description": "Dengan script profesional dan autodial yang teroptimasi, tingkatkan conversion rate kampanye telemarketing Anda hingga 40%."
 			},
-			"efficiency": {
-				"title": "Efisiensi Operasional",
-				"description": "Otomatisasi panggilan menghemat waktu tim Anda. Fokus pada leads yang berkualitas dan follow-up yang efektif."
+			"fastSettlement": {
+				"title": "Settlement Cepat",
+				"description": "Dana masuk ke rekening Anda dalam 1-2 hari kerja. Cashflow lebih lancar untuk operasional bisnis."
+			},
+			"fraudProtection": {
+				"title": "Proteksi Fraud",
+				"description": "Sistem deteksi fraud canggih dengan machine learning untuk melindungi bisnis dari transaksi mencurigakan."
 			},
 			"compliance": {
 				"title": "Kepatuhan Regulasi",
 				"description": "Sistem yang dirancang dengan memperhatikan regulasi telemarketing. Fitur DNC (Do Not Call) dan opt-out management terintegrasi."
+			},
+			"costEffective": {
+				"title": "Biaya Terjangkau",
+				"description": "Struktur biaya transparan tanpa biaya setup tersembunyi. Hemat biaya dengan rate kompetitif untuk bisnis Anda."
+			},
+			"customers": "Pelanggan Puas",
+			"uptime": "Jaminan Uptime",
+			"support": "Dukungan Ahli",
+			"efficiency": {
+				"title": "Efisiensi Operasional",
+				"description": "Otomatisasi panggilan menghemat waktu tim Anda. Fokus pada leads yang berkualitas dan follow-up yang efektif."
 			},
 			"reach": {
 				"title": "Jangkauan Lebih Luas",
@@ -994,19 +1185,38 @@
 			"badge": "Siap Meningkatkan Penjualan?",
 			"title": "Mulai Kampanye Telemarketing Anda Hari Ini",
 			"subtitle": "Bergabunglah dengan ribuan perusahaan yang telah mengoptimalkan operasi telemarketing mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda.",
+			"getStarted": "Mulai Gratis",
 			"scheduleDemo": "Jadwalkan Demo",
-			"contactSales": "Hubungi Sales"
+			"contactSales": "Hubungi Sales",
+			"features": {
+				"trial": "Uji coba gratis 30 hari",
+				"setup": "Tanpa biaya setup",
+				"support": "Dukungan 24/7"
+			},
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"security": "Keamanan Bersertifikat"
+			}
 		}
 	},
 	"paymentGateway": {
 		"hero": {
 			"badge": "Payment Gateway Terintegrasi",
 			"title": "Payment Gateway Indonesia Terbaik untuk Bisnis Online",
-			"subtitle": "Terima pembayaran dari berbagai metode dengan mudah. Integrasi Midtrans, Virtual Account, QRIS, dan E-Wallet dalam satu platform yang terhubung dengan sistem ERP Omniflow."
+			"subtitle": "Terima pembayaran dari berbagai metode dengan mudah. Integrasi Midtrans, Virtual Account, QRIS, dan E-Wallet dalam satu platform yang terhubung dengan sistem ERP Omniflow.",
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"saved": "Hemat/Minggu",
+				"reduction": "Pengurangan Biaya"
+			},
+			"productivityBoost": "Peningkatan Produktivitas"
 		},
 		"features": {
 			"title": "Fitur Payment Gateway Lengkap",
 			"subtitle": "Solusi pembayaran komprehensif untuk e-commerce dan bisnis online Anda dengan berbagai metode pembayaran populer di Indonesia.",
+			"badge": "Fitur Payment Gateway Komprehensif",
 			"multipleGateways": {
 				"title": "Multi Payment Gateway",
 				"description": "Integrasi dengan Midtrans dan berbagai payment gateway lainnya. Pilih provider terbaik sesuai kebutuhan bisnis Anda."
@@ -1072,8 +1282,19 @@
 			"badge": "Siap Menerima Pembayaran Online?",
 			"title": "Mulai Terima Pembayaran Hari Ini",
 			"subtitle": "Bergabunglah dengan ribuan merchant yang telah menggunakan Omniflow Payment Gateway. Integrasi mudah, siap dalam hitungan jam.",
+			"getStarted": "Mulai Gratis",
 			"scheduleDemo": "Jadwalkan Demo",
-			"contactSales": "Hubungi Sales"
+			"contactSales": "Hubungi Sales",
+			"features": {
+				"trial": "Uji coba gratis 30 hari",
+				"setup": "Tanpa biaya setup",
+				"support": "Dukungan 24/7"
+			},
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"security": "Keamanan Bersertifikat"
+			}
 		}
 	},
 	"footer": {

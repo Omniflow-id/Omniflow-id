@@ -516,11 +516,19 @@
 		"hero": {
 			"badge": "E-Commerce Platform",
 			"title": "Integrated Online Store Platform",
-			"subtitle": "Omniflow E-Commerce provides comprehensive solutions for managing your online store. Manage products, inventory, orders, and payments in one easy-to-use platform that integrates with your ERP system."
+			"subtitle": "Omniflow E-Commerce provides comprehensive solutions for managing your online store. Manage products, inventory, orders, and payments in one easy-to-use platform that integrates with your ERP system.",
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"saved": "Saved/Week",
+				"reduction": "Cost Reduction"
+			},
+			"productivityBoost": "Productivity Boost"
 		},
 		"features": {
 			"title": "Key Features",
 			"subtitle": "Our E-Commerce platform offers comprehensive features to accelerate your online store operations.",
+			"badge": "Comprehensive E-Commerce Features",
 			"products": {
 				"title": "Product Management",
 				"description": "Easily manage your product catalog. Upload images, set prices, and manage product variations in one place."
@@ -550,6 +558,29 @@
 			"badge": "Why Omniflow E-Commerce?",
 			"title": "Platform Advantages",
 			"subtitle": "Elevate your online store operations with superior features of Omniflow E-Commerce platform.",
+			"conversion": {
+				"title": "Increase Conversion",
+				"description": "Various payment method options increase the likelihood of customers completing transactions by up to 40%."
+			},
+			"fastSettlement": {
+				"title": "Fast Settlement",
+				"description": "Funds deposited to your account within 1-2 business days. Smoother cashflow for business operations."
+			},
+			"fraudProtection": {
+				"title": "Fraud Protection",
+				"description": "Advanced fraud detection system with machine learning to protect your business from suspicious transactions."
+			},
+			"compliance": {
+				"title": "Regulation & Compliance",
+				"description": "Meets PCI DSS security standards and Bank Indonesia regulations for safe and legal transactions."
+			},
+			"costEffective": {
+				"title": "Affordable Pricing",
+				"description": "Transparent fee structure with no hidden setup costs. Save money with competitive rates for your business."
+			},
+			"customers": "Happy Customers",
+			"uptime": "Uptime Guarantee",
+			"support": "Expert Support",
 			"easy": {
 				"title": "Easy to Use",
 				"description": "Manage products, orders, and customers from one intuitive dashboard."
@@ -578,10 +609,22 @@
 			"scheduleDemo": "Schedule Demo"
 		},
 		"cta": {
+			"badge": "Ready to Start?",
 			"title": "Ready to Start?",
 			"subtitle": "Migrate to Omniflow E-Commerce today and experience the difference. Our platform integrates seamlessly with Omniflow ERP system for superior business management.",
 			"getStarted": "Start Free",
-			"scheduleDemo": "Schedule Demo"
+			"scheduleDemo": "Schedule Demo",
+			"contactSales": "Contact Sales",
+			"features": {
+				"trial": "Free 30-day trial",
+				"setup": "No setup fees",
+				"support": "24/7 support"
+			},
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"security": "Certified Security"
+			}
 		}
 	},
 	"xrm": {
@@ -669,11 +712,19 @@
 		"hero": {
 			"badge": "Accounting System",
 			"title": "Complete Accounting & Financial Management",
-			"subtitle": "Streamline your financial operations with comprehensive accounting software. Manage general ledger, accounts payable/receivable, invoicing, and financial reporting in one integrated platform."
+			"subtitle": "Streamline your financial operations with comprehensive accounting software. Manage general ledger, accounts payable/receivable, invoicing, and financial reporting in one integrated platform.",
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"saved": "Saved/Week",
+				"reduction": "Cost Reduction"
+			},
+			"productivityBoost": "Productivity Boost"
 		},
 		"features": {
 			"title": "Comprehensive Accounting Features",
 			"subtitle": "Enterprise-grade financial management with complete control over your accounting operations.",
+			"badge": "Comprehensive Accounting Features",
 			"generalLedger": {
 				"title": "General Ledger",
 				"description": "Complete ledger management with journal entries, account reconciliation, and multi-currency support."
@@ -708,13 +759,32 @@
 			"badge": "Why Accounting?",
 			"title": "Platform Advantages",
 			"subtitle": "Transform your financial management with superior features of Omniflow Accounting.",
-			"accuracy": {
-				"title": "Financial Accuracy",
-				"description": "Automated calculations and reconciliation ensure error-free financial records."
+			"conversion": {
+				"title": "Increase Conversion",
+				"description": "Various payment method options increase the likelihood of customers completing transactions by up to 40%."
+			},
+			"fastSettlement": {
+				"title": "Fast Settlement",
+				"description": "Funds deposited to your account within 1-2 business days. Smoother cashflow for business operations."
+			},
+			"fraudProtection": {
+				"title": "Fraud Protection",
+				"description": "Advanced fraud detection system with machine learning to protect your business from suspicious transactions."
 			},
 			"compliance": {
 				"title": "Regulatory Compliance",
 				"description": "Built-in controls and audit trails to ensure compliance with accounting standards."
+			},
+			"costEffective": {
+				"title": "Affordable Pricing",
+				"description": "Transparent fee structure with no hidden setup costs. Save money with competitive rates for your business."
+			},
+			"customers": "Happy Customers",
+			"uptime": "Uptime Guarantee",
+			"support": "Expert Support",
+			"accuracy": {
+				"title": "Financial Accuracy",
+				"description": "Automated calculations and reconciliation ensure error-free financial records."
 			},
 			"automation": {
 				"title": "Process Automation",
@@ -736,21 +806,41 @@
 			"scheduleDemo": "Schedule Demo"
 		},
 		"cta": {
+			"badge": "Ready to Start?",
 			"title": "Ready to Start?",
 			"subtitle": "Migrate to Omniflow Accounting today and experience the difference. Our platform integrates seamlessly with Omniflow ERP system for superior business management.",
 			"getStarted": "Start Free",
-			"scheduleDemo": "Schedule Demo"
+			"scheduleDemo": "Schedule Demo",
+			"contactSales": "Contact Sales",
+			"features": {
+				"trial": "Free 30-day trial",
+				"setup": "No setup fees",
+				"support": "24/7 support"
+			},
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"security": "Certified Security"
+			}
 		}
 	},
 	"pos": {
 		"hero": {
 			"badge": "Point of Sale System",
 			"title": "Complete Point of Sale Solution",
-			"subtitle": "Streamline your retail operations with our comprehensive POS system. Fast checkout, real-time inventory sync, multiple payment options, and offline mode support."
+			"subtitle": "Streamline your retail operations with our comprehensive POS system. Fast checkout, real-time inventory sync, multiple payment options, and offline mode support.",
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"saved": "Saved/Week",
+				"reduction": "Cost Reduction"
+			},
+			"productivityBoost": "Productivity Boost"
 		},
 		"features": {
 			"title": "Comprehensive PoS Features",
 			"subtitle": "Enterprise-grade point of sale system designed for modern retail businesses.",
+			"badge": "Comprehensive PoS Features",
 			"posSystem": {
 				"title": "POS System",
 				"description": "Intuitive checkout interface with product search, barcode scanning, and quick product selection."
@@ -785,6 +875,29 @@
 			"badge": "Why PoS?",
 			"title": "Platform Advantages",
 			"subtitle": "Transform your retail operations with superior features of Omniflow Point of Sale.",
+			"conversion": {
+				"title": "Increase Conversion",
+				"description": "Various payment method options increase the likelihood of customers completing transactions by up to 40%."
+			},
+			"fastSettlement": {
+				"title": "Fast Settlement",
+				"description": "Funds deposited to your account within 1-2 business days. Smoother cashflow for business operations."
+			},
+			"fraudProtection": {
+				"title": "Fraud Protection",
+				"description": "Advanced fraud detection system with machine learning to protect your business from suspicious transactions."
+			},
+			"compliance": {
+				"title": "Regulation & Compliance",
+				"description": "Meets PCI DSS security standards and Bank Indonesia regulations for safe and legal transactions."
+			},
+			"costEffective": {
+				"title": "Affordable Pricing",
+				"description": "Transparent fee structure with no hidden setup costs. Save money with competitive rates for your business."
+			},
+			"customers": "Happy Customers",
+			"uptime": "Uptime Guarantee",
+			"support": "Expert Support",
 			"fast": {
 				"title": "Fast Checkout",
 				"description": "Process transactions in seconds with optimized workflow and barcode scanning."
@@ -813,21 +926,41 @@
 			"scheduleDemo": "Schedule Demo"
 		},
 		"cta": {
+			"badge": "Ready to Start?",
 			"title": "Ready to Start?",
 			"subtitle": "Migrate to Omniflow PoS today and experience the difference. Our platform integrates seamlessly with Omniflow ERP system for superior retail management.",
 			"getStarted": "Start Free",
-			"scheduleDemo": "Schedule Demo"
+			"scheduleDemo": "Schedule Demo",
+			"contactSales": "Contact Sales",
+			"features": {
+				"trial": "Free 30-day trial",
+				"setup": "No setup fees",
+				"support": "24/7 support"
+			},
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"security": "Certified Security"
+			}
 		}
 	},
 	"lmsModule": {
 		"hero": {
 			"badge": "Learning Management System",
 			"title": "Omniflow LMS - Complete Learning Platform",
-			"subtitle": "Transform your training and assessment programs with our comprehensive LMS. Create quizzes, manage question banks, track learner progress, and deliver engaging learning experiences."
+			"subtitle": "Transform your training and assessment programs with our comprehensive LMS. Create quizzes, manage question banks, track learner progress, and deliver engaging learning experiences.",
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"saved": "Saved/Week",
+				"reduction": "Cost Reduction"
+			},
+			"productivityBoost": "Productivity Boost"
 		},
 		"features": {
 			"title": "Comprehensive LMS Features",
 			"subtitle": "Enterprise-grade learning management with powerful assessment tools and flexible content delivery.",
+			"badge": "Comprehensive LMS Features",
 			"assessments": {
 				"title": "Assessment & Quiz Management",
 				"description": "Create various types of assessments with configurable settings, time limits, and multiple attempt options."
@@ -880,6 +1013,29 @@
 		"benefits": {
 			"title": "Platform Advantages",
 			"subtitle": "Transform your learning programs with superior features of Omniflow LMS.",
+			"conversion": {
+				"title": "Increase Conversion",
+				"description": "Various payment method options increase the likelihood of customers completing transactions by up to 40%."
+			},
+			"fastSettlement": {
+				"title": "Fast Settlement",
+				"description": "Funds deposited to your account within 1-2 business days. Smoother cashflow for business operations."
+			},
+			"fraudProtection": {
+				"title": "Fraud Protection",
+				"description": "Advanced fraud detection system with machine learning to protect your business from suspicious transactions."
+			},
+			"compliance": {
+				"title": "Regulation & Compliance",
+				"description": "Meets PCI DSS security standards and Bank Indonesia regulations for safe and legal transactions."
+			},
+			"costEffective": {
+				"title": "Affordable Pricing",
+				"description": "Transparent fee structure with no hidden setup costs. Save money with competitive rates for your business."
+			},
+			"customers": "Happy Customers",
+			"uptime": "Uptime Guarantee",
+			"support": "Expert Support",
 			"efficiency": {
 				"title": "Improved Efficiency",
 				"description": "Automate assessment creation, grading, and reporting to save time and resources."
@@ -922,21 +1078,41 @@
 			]
 		},
 		"cta": {
+			"badge": "Ready to Transform Your Learning?",
 			"title": "Ready to Transform Your Learning?",
 			"subtitle": "Join thousands of organizations that have modernized their training with Omniflow LMS.",
 			"getStarted": "Get Started",
-			"scheduleDemo": "Schedule Demo"
+			"scheduleDemo": "Schedule Demo",
+			"contactSales": "Contact Sales",
+			"features": {
+				"trial": "Free 30-day trial",
+				"setup": "No setup fees",
+				"support": "24/7 support"
+			},
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"security": "Certified Security"
+			}
 		}
 	},
 	"telemarketing": {
 		"hero": {
 			"badge": "Telemarketing & Auto Dialer",
 			"title": "Integrated Automated Telemarketing System",
-			"subtitle": "Omniflow Telemarketing provides a complete solution for managing your telemarketing campaigns. Manage contacts, create TTS audio scripts, run automated calls, and monitor results in one platform integrated with Omniflow ERP system."
+			"subtitle": "Omniflow Telemarketing provides a complete solution for managing your telemarketing campaigns. Manage contacts, create TTS audio scripts, run automated calls, and monitor results in one platform integrated with Omniflow ERP system.",
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"saved": "Saved/Week",
+				"reduction": "Cost Reduction"
+			},
+			"productivityBoost": "Productivity Boost"
 		},
 		"features": {
 			"title": "Complete Telemarketing Features",
 			"subtitle": "Our Telemarketing platform offers comprehensive features to optimize your outbound calling campaigns.",
+			"badge": "Comprehensive Telemarketing Features",
 			"contacts": {
 				"title": "Contact Management",
 				"description": "Easily manage contact databases. Import contacts in bulk, segment based on criteria, and track interaction status with each contact."
@@ -977,13 +1153,28 @@
 				"title": "Higher Conversion Rates",
 				"description": "With professional scripts and optimized autodial, increase your telemarketing campaign conversion rates by up to 40%."
 			},
-			"efficiency": {
-				"title": "Operational Efficiency",
-				"description": "Call automation saves your team's time. Focus on quality leads and effective follow-ups."
+			"fastSettlement": {
+				"title": "Fast Settlement",
+				"description": "Funds deposited to your account within 1-2 business days. Smoother cashflow for business operations."
+			},
+			"fraudProtection": {
+				"title": "Fraud Protection",
+				"description": "Advanced fraud detection system with machine learning to protect your business from suspicious transactions."
 			},
 			"compliance": {
 				"title": "Regulatory Compliance",
 				"description": "System designed with telemarketing regulations in mind. Integrated DNC (Do Not Call) and opt-out management features."
+			},
+			"costEffective": {
+				"title": "Affordable Pricing",
+				"description": "Transparent fee structure with no hidden setup costs. Save money with competitive rates for your business."
+			},
+			"customers": "Happy Customers",
+			"uptime": "Uptime Guarantee",
+			"support": "Expert Support",
+			"efficiency": {
+				"title": "Operational Efficiency",
+				"description": "Call automation saves your team's time. Focus on quality leads and effective follow-ups."
 			},
 			"reach": {
 				"title": "Wider Reach",
@@ -1002,19 +1193,38 @@
 			"badge": "Ready to Boost Sales?",
 			"title": "Start Your Telemarketing Campaign Today",
 			"subtitle": "Join thousands of companies that have optimized their telemarketing operations with Omniflow. Schedule a demo to see how our platform can help your business.",
+			"getStarted": "Start Free",
 			"scheduleDemo": "Schedule Demo",
-			"contactSales": "Contact Sales"
+			"contactSales": "Contact Sales",
+			"features": {
+				"trial": "Free 30-day trial",
+				"setup": "No setup fees",
+				"support": "24/7 support"
+			},
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"security": "Certified Security"
+			}
 		}
 	},
 	"paymentGateway": {
 		"hero": {
 			"badge": "Integrated Payment Gateway",
 			"title": "Best Payment Gateway for Online Business",
-			"subtitle": "Accept payments from multiple methods with ease. Integrated with Midtrans, Virtual Account, QRIS, and E-Wallets in one platform connected to Omniflow ERP system."
+			"subtitle": "Accept payments from multiple methods with ease. Integrated with Midtrans, Virtual Account, QRIS, and E-Wallets in one platform connected to Omniflow ERP system.",
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"saved": "Saved/Week",
+				"reduction": "Cost Reduction"
+			},
+			"productivityBoost": "Productivity Boost"
 		},
 		"features": {
 			"title": "Complete Payment Gateway Features",
 			"subtitle": "Comprehensive payment solutions for e-commerce and online businesses with various popular payment methods in Indonesia.",
+			"badge": "Comprehensive Payment Gateway Features",
 			"multipleGateways": {
 				"title": "Multi Payment Gateway",
 				"description": "Integration with Midtrans and various other payment gateways. Choose the best provider according to your business needs."
@@ -1080,8 +1290,19 @@
 			"badge": "Ready to Accept Online Payments?",
 			"title": "Start Accepting Payments Today",
 			"subtitle": "Join thousands of merchants using Omniflow Payment Gateway. Easy integration, ready in hours.",
+			"getStarted": "Start Free",
 			"scheduleDemo": "Schedule Demo",
-			"contactSales": "Contact Sales"
+			"contactSales": "Contact Sales",
+			"features": {
+				"trial": "Free 30-day trial",
+				"setup": "No setup fees",
+				"support": "24/7 support"
+			},
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"security": "Certified Security"
+			}
 		}
 	},
 	"footer": {
