@@ -32,7 +32,7 @@ export default function BizzcardPage() {
 					offers: {
 						"@type": "Offer",
 						price: "0",
-						priceCurrency": "USD",
+						priceCurrency: "USD",
 						description: t("bizzcard.cta.getStarted"),
 					},
 					featureList: [

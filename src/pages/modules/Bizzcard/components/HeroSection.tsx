@@ -5,9 +5,6 @@ import {
 	CheckCircle,
 	Clock,
 	Contact,
-	QrCode,
-	Scan,
-	Smartphone,
 	Users,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";

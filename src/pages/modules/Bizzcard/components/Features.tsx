@@ -5,10 +5,8 @@ import {
 	Globe,
 	Nfc,
 	QrCode,
-	Scan,
 	Smartphone,
 	Users,
-	Wallet,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 

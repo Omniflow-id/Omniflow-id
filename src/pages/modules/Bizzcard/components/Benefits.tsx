@@ -1,12 +1,10 @@
 import {
 	BarChart3,
 	Bolt,
-	Contact,
 	Shield,
 	Smartphone,
 	Star,
 	Wallet,
-	Zap,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 

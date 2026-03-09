@@ -1,11 +1,9 @@
 import { ArrowLeft, Home, Search } from "lucide-react";
 import { useEffect } from "react";
-import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
 import SEOHead from "../components/SEOHead";
 
 export default function NotFoundPage() {
-	const { t } = useTranslation();
 	const navigate = useNavigate();
 	const location = useLocation();
 
