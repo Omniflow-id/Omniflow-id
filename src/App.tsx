@@ -21,6 +21,7 @@ import PaymentGatewayPage from "./pages/modules/PaymentGateway/index.tsx";
 import PoSPage from "./pages/modules/PoS/index.tsx";
 import TelemarketingPage from "./pages/modules/Telemarketing/index.tsx";
 import XRMPage from "./pages/modules/XRM/index.tsx";
+import NotFoundPage from "./pages/NotFound";
 
 function App() {
 	const { i18n } = useTranslation();
@@ -122,6 +123,9 @@ function App() {
 						<Route path="/blog" element={<BlogPage />} />
 						<Route path="/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/contact" element={<ContactPage />} />
+
+						{/* Catch-all route for 404 */}
+						<Route path="*" element={<NotFoundPage />} />
 					</Routes>
 				</main>
 				<Footer />
