@@ -16,7 +16,7 @@ export default function HeroSection() {
 			<div className="container-enterprise">
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 					<div className="space-y-8 animate-fade-in-left">
-						<div className="inline-flex items-center px-4 py-2 bg-violet-100 text-violet-800 rounded-full text-sm font-semibold">
+						<div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold">
 							<CheckCircle className="h-4 w-4 mr-2" />
 							{t("urls.hero.badge")}
 						</div>
@@ -39,37 +39,37 @@ export default function HeroSection() {
 
 						<div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8 border-t border-gray-200">
 							<div className="text-center">
-								<div className="w-12 h-12 bg-violet-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-									<Link className="h-6 w-6 text-violet-600" />
+								<div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-3">
+									<Link className="h-6 w-6 text-blue-600" />
 								</div>
-								<div className="text-2xl font-bold text-violet-600">1M+</div>
+								<div className="text-2xl font-bold text-blue-600">1M+</div>
 								<div className="text-sm text-enterprise-muted">
 									{t("urls.hero.stats.linksCreated")}
 								</div>
 							</div>
 							<div className="text-center">
-								<div className="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-									<Award className="h-6 w-6 text-emerald-600" />
+								<div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-3">
+									<Award className="h-6 w-6 text-blue-600" />
 								</div>
-								<div className="text-2xl font-bold text-emerald-600">99.9%</div>
+								<div className="text-2xl font-bold text-blue-600">99.9%</div>
 								<div className="text-sm text-enterprise-muted">
 									{t("urls.hero.stats.uptime")}
 								</div>
 							</div>
 							<div className="text-center">
-								<div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-									<Clock className="h-6 w-6 text-purple-600" />
+								<div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-3">
+									<Clock className="h-6 w-6 text-blue-600" />
 								</div>
-								<div className="text-2xl font-bold text-purple-600">50ms</div>
+								<div className="text-2xl font-bold text-blue-600">50ms</div>
 								<div className="text-sm text-enterprise-muted">
 									{t("urls.hero.stats.redirectSpeed")}
 								</div>
 							</div>
 							<div className="text-center">
-								<div className="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-									<BarChart className="h-6 w-6 text-orange-600" />
+								<div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-3">
+									<BarChart className="h-6 w-6 text-blue-600" />
 								</div>
-								<div className="text-2xl font-bold text-orange-600">10M+</div>
+								<div className="text-2xl font-bold text-blue-600">10M+</div>
 								<div className="text-sm text-enterprise-muted">
 									{t("urls.hero.stats.clicks")}
 								</div>
@@ -78,7 +78,7 @@ export default function HeroSection() {
 					</div>
 
 					<div className="relative animate-fade-in-right">
-						<div className="absolute inset-0 bg-gradient-to-r from-violet-600/20 to-indigo-700/20 rounded-3xl transform rotate-3"></div>
+						<div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-indigo-700/20 rounded-3xl transform rotate-3"></div>
 						<img
 							src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&q=80&w=800"
 							alt="URL Shortener Dashboard"
@@ -86,14 +86,14 @@ export default function HeroSection() {
 						/>
 						<div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-enterprise">
 							<div className="flex items-center space-x-4">
-								<div className="w-12 h-12 bg-violet-100 rounded-xl flex items-center justify-center">
-									<Link className="h-6 w-6 text-violet-600" />
+								<div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
+									<Link className="h-6 w-6 text-blue-600" />
 								</div>
 								<div>
 									<div className="font-semibold text-enterprise-primary">
 										{t("urls.hero.linkCreated")}
 									</div>
-									<div className="text-2xl font-bold text-violet-600">
+									<div className="text-2xl font-bold text-blue-600">
 										go.braincore.id/abc123
 									</div>
 								</div>

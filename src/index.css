@@ -74,7 +74,10 @@
 	}
 
 	/* Enterprise Section Styles */
-	.section-enterprise {
+	.section-enterprise,
+	.section-cta,
+	.section-features,
+	.section-benefits {
 		@apply py-20 lg:py-28;
 	}
 

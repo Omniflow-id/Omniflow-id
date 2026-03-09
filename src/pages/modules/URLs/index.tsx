@@ -6,6 +6,8 @@ import Benefits from "./components/Benefits";
 import CTASection from "./components/CTASection";
 import Features from "./components/Features";
 import HeroSection from "./components/HeroSection";
+import Screenshots from "./components/Screenshots";
+import Testimonials from "./components/Testimonials";
 
 export default function URLsPage() {
 	const { t } = useTranslation();
@@ -44,10 +46,21 @@ export default function URLsPage() {
 				}}
 			/>
 
+			<StructuredData
+				type="Service"
+				data={{
+					name: "URLs Implementation Services",
+					description: t("urls.hero.subtitle"),
+					serviceType: "URL Management System",
+				}}
+			/>
+
 			<div className="min-h-screen bg-white">
 				<HeroSection />
 				<Features />
+				<Screenshots />
 				<Benefits />
+				<Testimonials />
 				<CTASection />
 			</div>
 		</>

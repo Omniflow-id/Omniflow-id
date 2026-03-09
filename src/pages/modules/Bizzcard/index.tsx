@@ -6,6 +6,8 @@ import Benefits from "./components/Benefits";
 import CTASection from "./components/CTASection";
 import Features from "./components/Features";
 import HeroSection from "./components/HeroSection";
+import Screenshots from "./components/Screenshots";
+import Testimonials from "./components/Testimonials";
 
 export default function BizzcardPage() {
 	const { t } = useTranslation();
@@ -44,10 +46,21 @@ export default function BizzcardPage() {
 				}}
 			/>
 
+			<StructuredData
+				type="Service"
+				data={{
+					name: "Bizzcard Implementation Services",
+					description: t("bizzcard.hero.subtitle"),
+					serviceType: "Digital Business Card System",
+				}}
+			/>
+
 			<div className="min-h-screen bg-white">
 				<HeroSection />
 				<Features />
+				<Screenshots />
 				<Benefits />
+				<Testimonials />
 				<CTASection />
 			</div>
 		</>
