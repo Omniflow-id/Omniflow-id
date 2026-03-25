@@ -136,6 +136,19 @@ export default function Header() {
 		setIsMobileModulesOpen(false);
 	}, [location.pathname]);
 
+	React.useEffect(() => {
+		if (!isMenuOpen) {
+			document.body.style.overflow = "";
+			return;
+		}
+
+		document.body.style.overflow = "hidden";
+
+		return () => {
+			document.body.style.overflow = "";
+		};
+	}, [isMenuOpen]);
+
 	return (
 		<header className="fixed w-full backdrop-enterprise shadow-enterprise z-50">
 			<nav className="container-enterprise py-6">
@@ -261,8 +274,8 @@ export default function Header() {
 				</div>
 
 				{isMenuOpen && (
-					<div className="md:hidden mt-6 p-6 bg-white rounded-2xl shadow-enterprise-lg border border-gray-100">
-						<div className="space-y-4">
+					<div className="md:hidden mt-6 max-h-[calc(100vh-7.5rem)] overflow-y-auto overscroll-contain rounded-2xl border border-gray-100 bg-white p-6 shadow-enterprise-lg">
+						<div className="space-y-4 pb-2">
 							<Link to={langPrefix} className={getNavLinkClass(langPrefix, true, true)}>
 								{t("common.home")}
 							</Link>
