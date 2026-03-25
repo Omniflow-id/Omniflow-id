@@ -1,4 +1,19 @@
-import { ChevronDown, Menu, X } from "lucide-react";
+import {
+	BarChart3,
+	ChevronDown,
+	Contact,
+	CreditCard,
+	GraduationCap,
+	Headset,
+	Link2,
+	Menu,
+	ReceiptText,
+	ShoppingBag,
+	Store,
+	Users,
+	WalletCards,
+	X,
+} from "lucide-react";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
@@ -8,6 +23,8 @@ export default function Header() {
 	const { t } = useTranslation();
 	const location = useLocation();
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+	const [isModulesOpen, setIsModulesOpen] = React.useState(false);
+	const [isMobileModulesOpen, setIsMobileModulesOpen] = React.useState(false);
 
 	// Get current language from URL
 	const getCurrentLang = () => {
@@ -18,6 +35,85 @@ export default function Header() {
 	const currentLang = getCurrentLang();
 	const langPrefix = `/${currentLang}`;
 	const currentPath = location.pathname;
+	const modules = [
+		{
+			key: "hris",
+			href: `${langPrefix}/modules/hris`,
+			icon: Users,
+			title: t("navigation.hris"),
+			description: t("modules.hris.description"),
+		},
+		{
+			key: "ecommerce",
+			href: `${langPrefix}/modules/ecommerce`,
+			icon: Store,
+			title: t("navigation.ecommerce"),
+			description: t("modulesPage.modules.ecommerce"),
+		},
+		{
+			key: "xrm",
+			href: `${langPrefix}/modules/xrm`,
+			icon: Contact,
+			title: t("navigation.xrm"),
+			description: t("modulesPage.modules.xrm"),
+		},
+		{
+			key: "accounting",
+			href: `${langPrefix}/modules/accounting`,
+			icon: ReceiptText,
+			title: t("navigation.accounting"),
+			description: t("modules.accounting.description"),
+		},
+		{
+			key: "analytics",
+			href: `${langPrefix}/modules/analytics`,
+			icon: BarChart3,
+			title: t("navigation.analytics"),
+			description: t("modules.analytics.description"),
+		},
+		{
+			key: "urls",
+			href: `${langPrefix}/modules/urls`,
+			icon: Link2,
+			title: t("navigation.urls"),
+			description: t("modules.urls.description"),
+		},
+		{
+			key: "bizzcard",
+			href: `${langPrefix}/modules/bizzcard`,
+			icon: CreditCard,
+			title: t("navigation.bizzcard"),
+			description: t("modules.bizzcard.description"),
+		},
+		{
+			key: "pos",
+			href: `${langPrefix}/modules/pos`,
+			icon: ShoppingBag,
+			title: t("navigation.pos"),
+			description: t("modules.pos.description"),
+		},
+		{
+			key: "lms",
+			href: `${langPrefix}/modules/lms`,
+			icon: GraduationCap,
+			title: t("navigation.lms"),
+			description: t("modules.lms.description"),
+		},
+		{
+			key: "telemarketing",
+			href: `${langPrefix}/modules/telemarketing`,
+			icon: Headset,
+			title: t("navigation.telemarketing"),
+			description: t("modulesPage.modules.telemarketing"),
+		},
+		{
+			key: "payment-gateway",
+			href: `${langPrefix}/modules/payment-gateway`,
+			icon: WalletCards,
+			title: t("navigation.paymentGateway"),
+			description: t("modulesPage.modules.payment-gateway"),
+		},
+	];
 
 	const isLinkActive = (path: string, exact = false) => {
 		if (exact) {
@@ -32,7 +128,13 @@ export default function Header() {
 	};
 
 	const getModuleLinkClass = (path: string, isMobile = false) =>
-		`block px-4 py-2 transition-colors ${isMobile ? "text-lg " : ""}${currentPath === path ? "bg-blue-50 text-blue-700 font-semibold" : "text-slate-700 hover:bg-blue-50 hover:text-blue-700"}`;
+		`block transition-all duration-300 ${isMobile ? "rounded-xl px-3.5 py-2.5 text-lg " : "rounded-2xl p-4 "}${currentPath === path ? "bg-blue-50 text-blue-700 shadow-sm ring-1 ring-blue-100" : "text-slate-700 hover:bg-slate-50 hover:text-blue-700"}`;
+
+	React.useEffect(() => {
+		setIsModulesOpen(false);
+		setIsMenuOpen(false);
+		setIsMobileModulesOpen(false);
+	}, [location.pathname]);
 
 	return (
 		<header className="fixed w-full backdrop-enterprise shadow-enterprise z-50">
@@ -53,99 +155,84 @@ export default function Header() {
 						<Link to={`${langPrefix}/integrations`} className={getNavLinkClass(`${langPrefix}/integrations`)}>
 							{t("navigation.integrations")}
 						</Link>
-						<div className="relative group">
+						<div
+							className="relative"
+							onMouseEnter={() => setIsModulesOpen(true)}
+							onMouseLeave={() => setIsModulesOpen(false)}
+						>
 							<button
 								type="button"
 								className={`nav-link inline-flex items-center gap-1 ${currentPath.startsWith(`${langPrefix}/modules`) ? "active" : ""}`}
+								onClick={() => setIsModulesOpen((prev) => !prev)}
+								aria-expanded={isModulesOpen}
 							>
 								{t("navigation.modulesDropdown")}
-								<ChevronDown className="h-4 w-4 transition-transform duration-200 group-hover:rotate-180 group-focus-within:rotate-180" />
+								<ChevronDown
+									className={`h-4 w-4 transition-transform duration-200 ${isModulesOpen ? "rotate-180" : ""}`}
+								/>
 							</button>
-							<div className="absolute left-0 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-200">
-								<div className="w-56 rounded-xl border border-gray-100 bg-white shadow-enterprise-lg py-2">
-									<Link
-										to={`${langPrefix}/modules`}
-										className={getModuleLinkClass(`${langPrefix}/modules`)}
-									>
-										{t("navigation.allModules")}
-									</Link>
-									<div className="border-t border-gray-100 my-1"></div>
-									<Link
-										to={`${langPrefix}/modules/hris`}
-										className={getModuleLinkClass(`${langPrefix}/modules/hris`)}
-									>
-										{t("navigation.hris")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/ecommerce`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/ecommerce`
-										)}
-									>
-										{t("navigation.ecommerce")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/xrm`}
-										className={getModuleLinkClass(`${langPrefix}/modules/xrm`)}
-									>
-										{t("navigation.xrm")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/accounting`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/accounting`
-										)}
-									>
-										{t("navigation.accounting")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/analytics`}
-										className={getModuleLinkClass(`${langPrefix}/modules/analytics`)}
-									>
-										{t("navigation.analytics")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/urls`}
-										className={getModuleLinkClass(`${langPrefix}/modules/urls`)}
-									>
-										{t("navigation.urls")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/bizzcard`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/bizzcard`
-										)}
-									>
-										{t("navigation.bizzcard")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/pos`}
-										className={getModuleLinkClass(`${langPrefix}/modules/pos`)}
-									>
-										{t("navigation.pos")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/lms`}
-										className={getModuleLinkClass(`${langPrefix}/modules/lms`)}
-									>
-										{t("navigation.lms")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/telemarketing`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/telemarketing`
-										)}
-									>
-										{t("navigation.telemarketing")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/payment-gateway`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/payment-gateway`
-										)}
-									>
-										{t("navigation.paymentGateway")}
-									</Link>
+							<div
+								className={`absolute left-1/2 top-full w-[min(96vw,1180px)] -translate-x-1/2 pt-4 transition-all duration-200 ${isModulesOpen ? "visible opacity-100" : "invisible opacity-0"}`}
+							>
+								<div className="overflow-hidden rounded-[28px] border border-slate-200/80 bg-white shadow-enterprise-lg">
+									<div className="grid grid-cols-[320px_minmax(0,1fr)]">
+										<div className="relative overflow-hidden bg-gradient-to-br from-slate-950 via-blue-900 to-blue-700 p-8 text-white">
+											<div className="absolute -left-10 top-10 h-32 w-32 rounded-full bg-white/10 blur-2xl" />
+											<div className="absolute bottom-0 right-0 h-24 w-24 rounded-full bg-cyan-300/20 blur-2xl" />
+											<div className="relative">
+												<p className="text-xs font-semibold uppercase tracking-[0.24em] text-blue-100/80">
+													{t("navigation.modules")}
+												</p>
+												<h3 className="mt-3 text-2xl font-semibold leading-tight">
+													{t("navigation.allModules")}
+												</h3>
+												<p className="mt-4 max-w-[28ch] text-[15px] leading-7 text-blue-50/88">
+													{t("modules.subtitle")}
+												</p>
+												<Link
+													to={`${langPrefix}/modules`}
+													className="mt-7 inline-flex items-center rounded-full border border-white/20 bg-white/12 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/20"
+												>
+													{t("common.learnMore")}
+												</Link>
+											</div>
+										</div>
+										<div className="p-5">
+											<div className="grid grid-cols-3 gap-2.5">
+												{modules.map((module) => {
+													const Icon = module.icon;
+
+													return (
+														<Link
+															key={module.key}
+															to={module.href}
+															className={getModuleLinkClass(module.href)}
+														>
+															<div className="flex items-start gap-3">
+																<div
+																	className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl ${
+																		currentPath === module.href
+																			? "bg-blue-600 text-white"
+																			: "bg-blue-50 text-blue-700"
+																	}`}
+																>
+																	<Icon className="h-4 w-4" />
+																</div>
+																<div className="min-w-0">
+																	<p className="font-semibold leading-5 text-slate-900">
+																		{module.title}
+																	</p>
+																	<p className="mt-1 line-clamp-2 text-[13px] leading-5 text-slate-500">
+																		{module.description}
+																	</p>
+																</div>
+															</div>
+														</Link>
+													);
+												})}
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -185,119 +272,72 @@ export default function Header() {
 							>
 								{t("navigation.integrations")}
 							</Link>
-							<div className="pt-2">
-								<p className="text-sm font-semibold text-slate-500 uppercase tracking-wide">
-									{t("navigation.modulesDropdown")}
-								</p>
-								<div className="mt-2 ml-3 pl-4 border-l border-gray-200 space-y-3">
+							<div className="border-t border-slate-200/80 pt-4">
+								<button
+									type="button"
+									className="flex w-full items-center justify-between rounded-xl px-1 py-1 text-left transition-colors duration-200 hover:text-blue-700"
+									onClick={() => setIsMobileModulesOpen((prev) => !prev)}
+									aria-expanded={isMobileModulesOpen}
+								>
+									<p className="text-sm font-semibold uppercase tracking-wide text-slate-500">
+										{t("navigation.modulesDropdown")}
+									</p>
+									<ChevronDown
+										className={`h-4 w-4 text-slate-500 transition-transform duration-200 ${
+											isMobileModulesOpen ? "rotate-180" : ""
+										}`}
+									/>
+								</button>
+								<div
+									className={`overflow-hidden transition-all duration-500 ease-out ${
+										isMobileModulesOpen
+											? "mt-3 max-h-[1200px] opacity-100"
+											: "max-h-0 opacity-0"
+									}`}
+								>
+									<div className="space-y-2 border-l border-slate-200 pl-3">
 									<Link
 										to={`${langPrefix}/modules`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules`,
-											true
-										)}
+										className={`block rounded-xl px-3 py-2.5 transition-all duration-300 ${
+											currentPath === `${langPrefix}/modules`
+												? "bg-blue-50 text-blue-700 shadow-sm ring-1 ring-blue-100"
+												: "text-slate-700 hover:bg-slate-50 hover:text-blue-700"
+										}`}
 									>
-										{t("navigation.allModules")}
+										<p className="text-base font-semibold">{t("navigation.allModules")}</p>
 									</Link>
-									<Link
-										to={`${langPrefix}/modules/hris`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/hris`,
-											true
-										)}
-									>
-										{t("navigation.hris")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/ecommerce`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/ecommerce`,
-											true
-										)}
-									>
-										{t("navigation.ecommerce")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/xrm`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/xrm`,
-											true
-										)}
-									>
-										{t("navigation.xrm")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/accounting`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/accounting`,
-											true
-										)}
-									>
-										{t("navigation.accounting")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/analytics`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/analytics`,
-											true
-										)}
-									>
-										{t("navigation.analytics")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/urls`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/urls`,
-											true
-										)}
-									>
-										{t("navigation.urls")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/bizzcard`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/bizzcard`,
-											true
-										)}
-									>
-										{t("navigation.bizzcard")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/pos`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/pos`,
-											true
-										)}
-									>
-										{t("navigation.pos")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/lms`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/lms`,
-											true
-										)}
-									>
-										{t("navigation.lms")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/telemarketing`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/telemarketing`,
-											true
-										)}
-									>
-										{t("navigation.telemarketing")}
-									</Link>
-									<Link
-										to={`${langPrefix}/modules/payment-gateway`}
-										className={getModuleLinkClass(
-											`${langPrefix}/modules/payment-gateway`,
-											true
-										)}
-									>
-										{t("navigation.paymentGateway")}
-									</Link>
+									{modules.map((module) => {
+										const Icon = module.icon;
+
+										return (
+											<Link
+												key={module.key}
+												to={module.href}
+												className={getModuleLinkClass(module.href, true)}
+											>
+												<div className="flex items-start gap-3">
+													<div
+														className={`mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl ${
+															currentPath === module.href
+																? "bg-blue-600 text-white"
+																: "bg-blue-50 text-blue-700"
+														}`}
+													>
+														<Icon className="h-4 w-4" />
+													</div>
+													<div className="min-w-0">
+														<p className="text-base font-semibold leading-6">
+															{module.title}
+														</p>
+														<p className="mt-1 line-clamp-2 text-sm leading-6 text-slate-500">
+															{module.description}
+														</p>
+													</div>
+												</div>
+											</Link>
+										);
+									})}
+									</div>
 								</div>
 							</div>
 							<Link
