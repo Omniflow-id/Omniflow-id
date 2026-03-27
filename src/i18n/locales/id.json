@@ -440,11 +440,20 @@
 		"minutes": "menit",
 		"words": "kata",
 		"relatedTopics": "Topik Terkait",
+		"stats": {
+			"articles": "Artikel",
+			"languages": "Bahasa",
+			"totalReading": "Menit Baca"
+		},
+		"articles": "artikel",
+		"loadingDescription": "Memuat konten terbaru untuk Anda...",
+		"readMore": "Baca Selengkapnya",
 		"cta": {
 			"title": "Siap Mentransformasi Bisnis Anda?",
 			"subtitle": "Temukan bagaimana Omniflow.id dapat membantu Anda menerapkan strategi dan solusi yang dibahas dalam artikel ini.",
 			"consultation": "Jadwalkan Konsultasi",
-			"readMore": "Baca Artikel Lainnya"
+			"readMore": "Baca Artikel Lainnya",
+			"exploreProducts": "Jelajahi Produk"
 		}
 	},
 	"hris": {

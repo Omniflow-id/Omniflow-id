@@ -18,18 +18,50 @@ export default function LanguageSwitcher() {
 	const currentLanguage =
 		languages.find((lang) => lang.code === i18n.language) || languages[0];
 
-	const handleLanguageChange = (languageCode: string) => {
+	const handleLanguageChange = async (languageCode: string) => {
 		// Get current path without language prefix
 		const currentPath = location.pathname;
 		const pathWithoutLang = currentPath.replace(/^\/(en|id|zh)/, "") || "/";
+		const currentLang = currentPath.match(/^\/(en|id|zh)/)?.[1] || "id";
 
-		// Change i18n language
+		// Handle blog detail pages with proper slug mapping
+		if (pathWithoutLang.startsWith("/blog/") && pathWithoutLang !== "/blog/") {
+			const slug = pathWithoutLang.replace("/blog/", "");
+
+			try {
+				// Call slug mapping API to get correct target slug
+				const response = await fetch(
+					`${window.location.protocol}//${window.location.hostname}:8003/api/blogs/slug-mapping/${currentLang}/${slug}/${languageCode}`
+				);
+				const data = await response.json();
+
+				if (data.success && data.data.available) {
+					// Navigate to correct mapped slug
+					i18n.changeLanguage(languageCode);
+					navigate(`/${languageCode}/blog/${data.data.targetSlug}`);
+					setIsOpen(false);
+					return;
+				} else {
+					// Translation not available, go to blog list
+					i18n.changeLanguage(languageCode);
+					navigate(`/${languageCode}/blog`);
+					setIsOpen(false);
+					return;
+				}
+			} catch (error) {
+				// Fallback: go to blog list if API fails
+				console.warn("Slug mapping API failed:", error);
+				i18n.changeLanguage(languageCode);
+				navigate(`/${languageCode}/blog`);
+				setIsOpen(false);
+				return;
+			}
+		}
+
+		// Default behavior for non-blog pages
 		i18n.changeLanguage(languageCode);
-
-		// Navigate to new language path
 		const newPath = `/${languageCode}${pathWithoutLang === "/" ? "" : pathWithoutLang}`;
 		navigate(newPath);
-
 		setIsOpen(false);
 	};
 

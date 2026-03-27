@@ -1,6 +1,6 @@
 export type WebsiteLocale = "en" | "id" | "zh";
 
-const DEFAULT_API_BASE_URL = "http://localhost:3000";
+const DEFAULT_API_BASE_URL = "http://localhost:8003";
 
 function normalizeApiBaseUrl() {
 	const configured = import.meta.env.VITE_API_BASE_URL?.trim();
@@ -84,7 +84,6 @@ export async function fetchWebsiteBlogs(
 			method: "GET",
 			headers: {
 				Accept: "application/json",
-				"Content-Type": "application/json",
 			},
 		}
 	);
@@ -104,7 +103,6 @@ export async function fetchWebsiteBlogDetail(
 			method: "GET",
 			headers: {
 				Accept: "application/json",
-				"Content-Type": "application/json",
 			},
 		}
 	);
