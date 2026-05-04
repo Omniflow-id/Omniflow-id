@@ -18,6 +18,7 @@ import {
 	Package,
 	Boxes,
 	Brain,
+	Bot,
 	Calendar,
 	Coins,
 	Ticket,
@@ -142,6 +143,11 @@ const modules = [
 		key: "helpdesk",
 		icon: Headphones,
 		color: "from-blue-500 to-cyan-600",
+	},
+	{
+		key: "vecta",
+		icon: Bot,
+		color: "from-violet-500 to-indigo-600",
 	},
 	{
 		key: "profilex",
@@ -269,9 +275,9 @@ export default function ModulesPage() {
 									to={getModulePath(module.key)}
 									className="card-feature group cursor-pointer"
 								>
-									<div
-										className={`inline-flex p-4 rounded-2xl bg-gradient-to-r ${module.color} mb-6 group-hover:scale-110 transition-transform duration-300`}
-									>
+								<div
+									className={`inline-flex p-4 rounded-2xl bg-gradient-to-r ${module.color} mb-6 group-hover:scale-110 transition-transform duration-300`}
+								>
 										<Icon className="h-8 w-8 text-white" />
 									</div>
 									<h3 className="text-xl font-bold text-enterprise-primary mb-3 group-hover:text-blue-600 transition-colors">

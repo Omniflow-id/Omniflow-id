@@ -57,6 +57,7 @@
     "eventTicketing": "Tiket Acara",
     "habitat": "Habitat",
     "helpdesk": "Helpdesk",
+    "vecta": "Vecta AI Bot CRM",
     "profilex": "Profilex",
     "propertyManagement": "Manajemen Properti",
     "simklinik": "SIMKlinik",
@@ -80,7 +81,7 @@
     },
     "exploreAll": "Lihat semua modul",
     "megaMenuTitle": "Modul Kami",
-    "megaMenuSubtitle": "25 modul siap menggerakkan bisnis Anda. Pilih kategori untuk mulai."
+    "megaMenuSubtitle": "26 modul siap menggerakkan bisnis Anda. Pilih kategori untuk mulai."
   },
   "hero": {
     "title": "Solusi ERP Terintegrasi untuk Transformasi Bisnis Anda",
@@ -97,7 +98,7 @@
   "modulesPage": {
     "title": "Transformasi Bisnis dengan Modul Terpadu",
     "subtitle": "Akselerasi pertumbuhan perusahaan dengan rangkaian modul ERP terlengkap yang saling terintegrasi. Dirancang secara modular untuk menjawab tantangan operasional unik di setiap lini bisnis Anda.",
-    "badge": "25 Modul Tersedia",
+    "badge": "26 Modul Tersedia",
     "getStarted": "Mulai Sekarang",
     "modules": {
       "hris": "Sistem manajemen sumber daya manusia lengkap dengan payroll, kehadiran, dan pelacakan kinerja.",
@@ -122,6 +123,7 @@
       "eventTicketing": "Manajemen acara dari ujung ke ujung dengan check-in QR code.",
       "habitat": "Manajemen komunitas digital untuk lingkungan hunian.",
       "helpdesk": "Dukungan pelanggan multi-channel dengan pelacakan SLA dan basis pengetahuan.",
+      "vecta": "AI bot CRM untuk percakapan pelanggan, agent assistance, dan workflow layanan.",
       "profilex": "Asesmen MBTI, DISC, dan kustom dengan auto-grading.",
       "propertyManagement": "Manajemen properti terintegrasi untuk pemilik dan manajer properti.",
       "simklinik": "Sistem informasi klinik dengan EMR, apotek, dan penagihan."
@@ -177,7 +179,7 @@
   "modules": {
     "title": "Modul Aplikasi ERP untuk Perusahaan",
     "subtitle": "Software ERP terbaik di Indonesia dengan 18+ modul terintegrasi. Sistem ERP perusahaan lengkap dari manajemen HR, akuntansi, manajemen dokumen, hingga analitik bertenaga AI untuk mengoptimalkan seluruh operasi bisnis Anda.",
-    "badge": "25 Modul Terintegrasi",
+    "badge": "26 Modul Terintegrasi",
     "hris": {
       "name": "HRIS",
       "description": "Sistem manajemen sumber daya manusia lengkap"

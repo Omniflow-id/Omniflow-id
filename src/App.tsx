@@ -40,6 +40,7 @@ import HelpdeskPage from "./pages/modules/Helpdesk/index.tsx";
 import ProfilexPage from "./pages/modules/Profilex/index.tsx";
 import PropertyManagementPage from "./pages/modules/PropertyManagement/index.tsx";
 import SIMKlinikPage from "./pages/modules/SIMKlinik/index.tsx";
+import ModuleOverviewPage from "./pages/modules/ModuleOverviewPage";
 import NotFoundPage from "./pages/NotFound";
 
 function App() {
@@ -95,6 +96,7 @@ function App() {
 						<Route path="/en/modules/event-ticketing" element={<EventTicketingPage />} />
 						<Route path="/en/modules/habitat" element={<HabitatPage />} />
 						<Route path="/en/modules/helpdesk" element={<HelpdeskPage />} />
+						<Route path="/en/modules/vecta" element={<ModuleOverviewPage moduleId="vecta" />} />
 						<Route path="/en/modules/profilex" element={<ProfilexPage />} />
 						<Route path="/en/modules/property-management" element={<PropertyManagementPage />} />
 						<Route path="/en/modules/simklinik" element={<SIMKlinikPage />} />
@@ -138,6 +140,7 @@ function App() {
 						<Route path="/id/modules/event-ticketing" element={<EventTicketingPage />} />
 						<Route path="/id/modules/habitat" element={<HabitatPage />} />
 						<Route path="/id/modules/helpdesk" element={<HelpdeskPage />} />
+						<Route path="/id/modules/vecta" element={<ModuleOverviewPage moduleId="vecta" />} />
 						<Route path="/id/modules/profilex" element={<ProfilexPage />} />
 						<Route path="/id/modules/property-management" element={<PropertyManagementPage />} />
 						<Route path="/id/modules/simklinik" element={<SIMKlinikPage />} />
@@ -181,6 +184,7 @@ function App() {
 						<Route path="/zh/modules/event-ticketing" element={<EventTicketingPage />} />
 						<Route path="/zh/modules/habitat" element={<HabitatPage />} />
 						<Route path="/zh/modules/helpdesk" element={<HelpdeskPage />} />
+						<Route path="/zh/modules/vecta" element={<ModuleOverviewPage moduleId="vecta" />} />
 						<Route path="/zh/modules/profilex" element={<ProfilexPage />} />
 						<Route path="/zh/modules/property-management" element={<PropertyManagementPage />} />
 						<Route path="/zh/modules/simklinik" element={<SIMKlinikPage />} />
@@ -210,6 +214,7 @@ function App() {
 						<Route path="/modules/event-ticketing" element={<EventTicketingPage />} />
 						<Route path="/modules/habitat" element={<HabitatPage />} />
 						<Route path="/modules/helpdesk" element={<HelpdeskPage />} />
+						<Route path="/modules/vecta" element={<ModuleOverviewPage moduleId="vecta" />} />
 						<Route path="/modules/profilex" element={<ProfilexPage />} />
 						<Route path="/modules/property-management" element={<PropertyManagementPage />} />
 						<Route path="/modules/simklinik" element={<SIMKlinikPage />} />

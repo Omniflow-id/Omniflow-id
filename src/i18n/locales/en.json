@@ -57,6 +57,7 @@
     "eventTicketing": "Event Ticketing",
     "habitat": "Habitat",
     "helpdesk": "Helpdesk",
+    "vecta": "Vecta AI Bot CRM",
     "profilex": "Profilex",
     "propertyManagement": "Property Management",
     "simklinik": "SIMKlinik",
@@ -80,7 +81,7 @@
     },
     "exploreAll": "Explore all modules",
     "megaMenuTitle": "Our Modules",
-    "megaMenuSubtitle": "25 modules ready to power your business. Pick a category to get started."
+    "megaMenuSubtitle": "26 modules ready to power your business. Pick a category to get started."
   },
   "hero": {
     "title": "Integrated ERP Solutions for Business Transformation",
@@ -97,7 +98,7 @@
   "modulesPage": {
     "title": "Unified Business Solutions",
     "subtitle": "Scale your enterprise with our comprehensive suite of integrated ERP modules. Tailored to meet unique operational challenges across every department.",
-    "badge": "25 Modules Available",
+    "badge": "26 Modules Available",
     "getStarted": "Get Started",
     "modules": {
       "hris": "Complete human resource management system with payroll, attendance, and performance tracking.",
@@ -122,6 +123,7 @@
       "eventTicketing": "End-to-end event management with QR code check-in.",
       "habitat": "Digital community management for residential environments.",
       "helpdesk": "Multi-channel customer support with SLA tracking and knowledge base.",
+      "vecta": "AI bot CRM for customer conversations, agent assistance, and service workflows.",
       "profilex": "MBTI, DISC, and custom psychological assessments with auto-grading.",
       "propertyManagement": "Integrated property management for landlords and property managers.",
       "simklinik": "Clinic information system with EMR, pharmacy, and billing."
@@ -177,7 +179,7 @@
   "modules": {
     "title": "Comprehensive Business Solutions",
     "subtitle": "From HR and Document management to AI-powered analytics, our 18 integrated modules work seamlessly together to power your entire business ecosystem.",
-    "badge": "25 Integrated Modules",
+    "badge": "26 Integrated Modules",
     "hris": {
       "name": "HRIS",
       "description": "Complete human resource management system"

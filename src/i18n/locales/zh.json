@@ -57,6 +57,7 @@
     "eventTicketing": "活动票务",
     "habitat": "社区管理",
     "helpdesk": "帮助台",
+    "vecta": "Vecta AI Bot CRM",
     "profilex": "Profilex",
     "propertyManagement": "物业管理",
     "simklinik": "诊所管理",
@@ -80,7 +81,7 @@
     },
     "exploreAll": "探索所有模块",
     "megaMenuTitle": "我们的模块",
-    "megaMenuSubtitle": "25 个模块助力您的业务。选择类别开始。"
+    "megaMenuSubtitle": "26 个模块助力您的业务。选择类别开始。"
   },
   "hero": {
     "title": "通过全方位 ERP 解决方案实现业务转型",
@@ -97,7 +98,7 @@
   "modulesPage": {
     "title": "业务转型的核心驱动力",
     "subtitle": "通过我们最全面的集成 ERP 模块组合，加速企业增长。专为解决每个业务条线的独特运营挑战而设计。",
-    "badge": "25个可用模块",
+    "badge": "26个可用模块",
     "getStarted": "开始使用",
     "modules": {
       "hris": "完整的人力资源管理系统，包含工资单、考勤和绩效跟踪。",
@@ -122,6 +123,7 @@
       "eventTicketing": "端到端活动管理，支持二维码签到。",
       "habitat": "住宅环境的数字化社区管理。",
       "helpdesk": "多渠道客户支持，具有SLA跟踪和知识库。",
+      "vecta": "面向客户对话、坐席辅助与服务流程的 AI Bot CRM。",
       "profilex": "MBTI、DISC和自定义测评，配备自动评分。",
       "propertyManagement": "面向房东和物业经理的集成物业管理。",
       "simklinik": "含EMR、药房和账单的诊所信息系统。"
@@ -177,7 +179,7 @@
   "modules": {
     "title": "全面的业务解决方案",
     "subtitle": "从人力资源管理、会计到 AI 驱动的分析和文档管理系统 (DMS)，我们的集成模块无缝协作，为您的整个业务生态系统提供动力。",
-    "badge": "25 个集成模块",
+    "badge": "26 个集成模块",
     "hris": {
       "name": "人力资源",
       "description": "完整的人力资源管理系统"
