@@ -7,6 +7,7 @@ const X_DEFAULT = "en";
 const TODAY = new Date().toISOString().split("T")[0];
 const OUT_DIR = path.join(__dirname, "..", "public");
 
+// Keep this list in sync with `moduleCatalog` in src/lib/moduleCatalog.ts
 const MODULE_SLUGS = [
 	"hris",
 	"accounting",
@@ -21,6 +22,7 @@ const MODULE_SLUGS = [
 	"pos",
 	"telemarketing",
 	"helpdesk",
+	"vecta",
 	"payment-gateway",
 	"lms",
 	"booking-engine",
@@ -54,10 +56,10 @@ const ALL_PAGES = [...STATIC_PAGES, ...MODULE_PAGES];
 function buildAlternates(pagePath) {
 	const lines = LOCALES.map(
 		(lang) =>
-			`    <xhtml:link rel="alternate" hreflang="${lang}" href="${SITE}/${lang}${pagePath}"/>`,
+			`    <xhtml:link rel="alternate" hreflang="${lang}" href="${SITE}/${lang}${pagePath}"/>`
 	);
 	lines.push(
-		`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE}/${X_DEFAULT}${pagePath}"/>`,
+		`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE}/${X_DEFAULT}${pagePath}"/>`
 	);
 	return lines.join("\n");
 }
@@ -91,7 +93,7 @@ function buildIndex() {
 			`    <loc>${SITE}/sitemap-${lang}.xml</loc>`,
 			`    <lastmod>${TODAY}</lastmod>`,
 			"  </sitemap>",
-		].join("\n"),
+		].join("\n")
 	).join("\n");
 	return `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -118,7 +120,7 @@ function main() {
 		writeFile(`sitemap-${lang}.xml`, buildLocaleSitemap(lang));
 	}
 	console.log(
-		`Done. ${LOCALES.length} locales × ${ALL_PAGES.length} pages = ${LOCALES.length * ALL_PAGES.length} URLs total.`,
+		`Done. ${LOCALES.length} locales × ${ALL_PAGES.length} pages = ${LOCALES.length * ALL_PAGES.length} URLs total.`
 	);
 }
 
