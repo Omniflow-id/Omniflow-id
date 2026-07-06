@@ -1,57 +1,11 @@
 const fs = require("node:fs");
 const path = require("node:path");
+const { LOCALES, ALL_PAGES } = require("./routes.cjs");
 
 const SITE = "https://omniflow.id";
-const LOCALES = ["en", "id", "zh"];
 const X_DEFAULT = "en";
 const TODAY = new Date().toISOString().split("T")[0];
 const OUT_DIR = path.join(__dirname, "..", "public");
-
-// Keep this list in sync with `moduleCatalog` in src/lib/moduleCatalog.ts
-const MODULE_SLUGS = [
-	"hris",
-	"accounting",
-	"sales",
-	"purchasing",
-	"inventory",
-	"asset-management",
-	"analytics",
-	"xrm",
-	"customers",
-	"ecommerce",
-	"pos",
-	"telemarketing",
-	"helpdesk",
-	"vecta",
-	"payment-gateway",
-	"lms",
-	"booking-engine",
-	"event-ticketing",
-	"habitat",
-	"property-management",
-	"simklinik",
-	"profilex",
-	"urls",
-	"bizzcard",
-	"ai",
-	"ecf",
-];
-
-const STATIC_PAGES = [
-	{ path: "", priority: "1.0", changefreq: "weekly" },
-	{ path: "/modules", priority: "0.9", changefreq: "weekly" },
-	{ path: "/integrations", priority: "0.8", changefreq: "monthly" },
-	{ path: "/blog", priority: "0.7", changefreq: "daily" },
-	{ path: "/contact", priority: "0.6", changefreq: "monthly" },
-];
-
-const MODULE_PAGES = MODULE_SLUGS.map((slug) => ({
-	path: `/modules/${slug}`,
-	priority: "0.8",
-	changefreq: "monthly",
-}));
-
-const ALL_PAGES = [...STATIC_PAGES, ...MODULE_PAGES];
 
 function buildAlternates(pagePath) {
 	const lines = LOCALES.map(
