@@ -31,6 +31,7 @@
     "modulesDropdown": "所有模块",
     "allModules": "所有模块",
     "integrations": "集成",
+    "industries": "行业",
     "hris": "人力资源",
     "ecommerce": "E-Commerce",
     "xrm": "XRM",
@@ -127,6 +128,133 @@
       "profilex": "MBTI、DISC和自定义测评，配备自动评分。",
       "propertyManagement": "面向房东和物业经理的集成物业管理。",
       "simklinik": "含EMR、药房和账单的诊所信息系统。"
+    }
+  },
+  "industriesPage": {
+    "badge": "支持的行业",
+    "title": "为您的行业量身打造",
+    "subtitle": "从健身工作室到诊所和场地租赁，Omniflow 适配您所在行业的预订、销售与运营方式。",
+    "getStarted": "联系销售",
+    "viewModules": "查看模块",
+    "cta": {
+      "title": "没有找到您的行业？",
+      "description": "我们还支持更多垂直行业。告诉我们您的业务，我们会根据您的工作流程定制 Omniflow。",
+      "button": "联系我们"
+    },
+    "categories": {
+      "fitness-wellness": {
+        "title": "健身与健康",
+        "tagline": "工作室、健身房与教练",
+        "items": {
+          "pilates": "普拉提",
+          "yoga": "瑜伽",
+          "gym": "健身房",
+          "personalTrainer": "私人教练",
+          "danceStudio": "舞蹈工作室",
+          "martialArts": "武术",
+          "crossfit": "CrossFit"
+        }
+      },
+      "sports-recreation": {
+        "title": "运动与休闲",
+        "tagline": "场地、俱乐部与场馆",
+        "items": {
+          "padel": "板式网球",
+          "billiard": "台球",
+          "futsal": "五人制足球",
+          "badminton": "羽毛球",
+          "tennis": "网球",
+          "golf": "高尔夫",
+          "golfSimulator": "高尔夫模拟器",
+          "tableTennis": "乒乓球",
+          "archery": "射箭"
+        }
+      },
+      "beauty-personal-care": {
+        "title": "美容与个人护理",
+        "tagline": "沙龙、水疗与工作室",
+        "items": {
+          "barbershop": "理发店",
+          "hairSalon": "美发沙龙",
+          "nailSalon": "美甲沙龙",
+          "eyelash": "睫毛工作室",
+          "spa": "水疗",
+          "massage": "按摩",
+          "reflexology": "足疗",
+          "tattoo": "纹身工作室"
+        }
+      },
+      "medical-clinical": {
+        "title": "医疗与诊所",
+        "tagline": "诊所与健康服务",
+        "items": {
+          "simklinik": "诊所 (SIMKlinik)",
+          "simrs": "医院 (SIMRS)",
+          "dental": "牙科",
+          "aestheticClinic": "医美诊所",
+          "physiotherapy": "物理治疗",
+          "psychology": "心理咨询",
+          "nutritionist": "营养师",
+          "chiropractic": "脊椎按摩"
+        }
+      },
+      "education-training": {
+        "title": "教育与培训",
+        "tagline": "学校、课程与家教",
+        "items": {
+          "musicSchool": "音乐学校",
+          "languageCourse": "语言课程",
+          "privateTutor": "私人辅导",
+          "codingBootcamp": "编程训练营",
+          "artClass": "艺术课程",
+          "workshop": "工作坊",
+          "school": "学校",
+          "university": "大学"
+        }
+      },
+      "space-rental": {
+        "title": "空间与资源租赁",
+        "tagline": "可预订的房间与工作室",
+        "items": {
+          "coworking": "联合办公",
+          "meetingRoom": "会议室",
+          "studioRental": "工作室租赁",
+          "podcastStudio": "播客工作室",
+          "eventRoom": "活动室",
+          "photoStudio": "摄影棚"
+        }
+      },
+      "pet-services": {
+        "title": "宠物服务",
+        "tagline": "呵护每一位伙伴",
+        "items": {
+          "petGrooming": "宠物美容",
+          "vetClinic": "宠物诊所",
+          "petHotel": "宠物酒店",
+          "petDaycare": "宠物日托"
+        }
+      },
+      "automotive-services": {
+        "title": "汽车服务",
+        "tagline": "维修与养护",
+        "items": {
+          "carWash": "洗车",
+          "autoDetailing": "汽车美容",
+          "workshop": "轻型维修",
+          "tireService": "轮胎服务"
+        }
+      },
+      "professional-services": {
+        "title": "咨询与专业服务",
+        "tagline": "基于预约的专家",
+        "items": {
+          "psychologist": "心理咨询师",
+          "coach": "教练",
+          "consultant": "顾问",
+          "financialAdvisor": "财务顾问",
+          "legalConsultation": "法律咨询"
+        }
+      }
     }
   },
   "integrationsPage": {

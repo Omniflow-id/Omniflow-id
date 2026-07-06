@@ -10,8 +10,10 @@ export default function Header() {
 	const location = useLocation();
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 	const [isModulesOpen, setIsModulesOpen] = React.useState(false);
-	const [activeCategory, setActiveCategory] = React.useState<ModuleCategoryKey>("core");
-	const [mobileOpenCategory, setMobileOpenCategory] = React.useState<ModuleCategoryKey | null>(null);
+	const [activeCategory, setActiveCategory] =
+		React.useState<ModuleCategoryKey>("core");
+	const [mobileOpenCategory, setMobileOpenCategory] =
+		React.useState<ModuleCategoryKey | null>(null);
 
 	const getCurrentLang = () => {
 		const match = location.pathname.match(/^\/(en|id|zh)/);
@@ -25,7 +27,8 @@ export default function Header() {
 	const buildHref = (slug: string) => `${langPrefix}/modules/${slug}`;
 
 	const activeCategoryDef =
-		moduleCategories.find((c) => c.key === activeCategory) ?? moduleCategories[0];
+		moduleCategories.find((c) => c.key === activeCategory) ??
+		moduleCategories[0];
 
 	const isLinkActive = (path: string, exact = false) => {
 		if (exact) {
@@ -74,8 +77,31 @@ export default function Header() {
 						<Link to={langPrefix} className={getNavLinkClass(langPrefix, true)}>
 							{t("common.home")}
 						</Link>
-						<Link to={`${langPrefix}/integrations`} className={getNavLinkClass(`${langPrefix}/integrations`)}>
+						<Link
+							to={`${langPrefix}/integrations`}
+							className={getNavLinkClass(
+								`${langPrefix}/integrations`,
+								false,
+								true
+							)}
+						>
 							{t("navigation.integrations")}
+						</Link>
+						<Link
+							to={`${langPrefix}/industries`}
+							className={getNavLinkClass(
+								`${langPrefix}/industries`,
+								false,
+								true
+							)}
+						>
+							{t("navigation.industries")}
+						</Link>
+						<Link
+							to={`${langPrefix}/industries`}
+							className={getNavLinkClass(`${langPrefix}/industries`)}
+						>
+							{t("navigation.industries")}
 						</Link>
 						<div
 							className="relative"
@@ -123,11 +149,19 @@ export default function Header() {
 																}`}
 															>
 																<div className="min-w-0">
-																	<p className={`text-[15px] font-semibold ${isActive ? "text-blue-800" : "text-white"}`}>
-																		{t(`navigation.categories.${cat.key}.label`)}
+																	<p
+																		className={`text-[15px] font-semibold ${isActive ? "text-blue-800" : "text-white"}`}
+																	>
+																		{t(
+																			`navigation.categories.${cat.key}.label`
+																		)}
 																	</p>
-																	<p className={`mt-0.5 truncate text-xs ${isActive ? "text-slate-500" : "text-blue-100/80"}`}>
-																		{t(`navigation.categories.${cat.key}.tagline`)}
+																	<p
+																		className={`mt-0.5 truncate text-xs ${isActive ? "text-slate-500" : "text-blue-100/80"}`}
+																	>
+																		{t(
+																			`navigation.categories.${cat.key}.tagline`
+																		)}
 																	</p>
 																</div>
 																<ArrowRight
@@ -166,14 +200,19 @@ export default function Header() {
 											<div className="mb-5 flex items-baseline justify-between">
 												<div>
 													<p className="text-[11px] font-bold uppercase tracking-[0.22em] text-slate-500">
-														{t(`navigation.categories.${activeCategoryDef.key}.label`)}
+														{t(
+															`navigation.categories.${activeCategoryDef.key}.label`
+														)}
 													</p>
 													<h3 className="mt-1 text-lg font-semibold text-slate-900">
-														{t(`navigation.categories.${activeCategoryDef.key}.tagline`)}
+														{t(
+															`navigation.categories.${activeCategoryDef.key}.tagline`
+														)}
 													</h3>
 												</div>
 												<span className="text-xs font-medium text-slate-400">
-													{activeCategoryDef.modules.length} {t("navigation.modules").toLowerCase()}
+													{activeCategoryDef.modules.length}{" "}
+													{t("navigation.modules").toLowerCase()}
 												</span>
 											</div>
 											<div className="grid grid-cols-3 gap-2">
@@ -202,7 +241,9 @@ export default function Header() {
 																	<Icon className="h-[18px] w-[18px]" />
 																</div>
 																<div className="min-w-0">
-																	<p className={`text-[14px] font-semibold leading-5 ${active ? "text-blue-700" : "text-slate-900"}`}>
+																	<p
+																		className={`text-[14px] font-semibold leading-5 ${active ? "text-blue-700" : "text-slate-900"}`}
+																	>
 																		{t(module.titleKey)}
 																	</p>
 																	<p className="mt-1 line-clamp-2 text-[12.5px] leading-5 text-slate-500">
@@ -219,10 +260,16 @@ export default function Header() {
 								</div>
 							</div>
 						</div>
-						<Link to={`${langPrefix}/blog`} className={getNavLinkClass(`${langPrefix}/blog`)}>
+						<Link
+							to={`${langPrefix}/blog`}
+							className={getNavLinkClass(`${langPrefix}/blog`)}
+						>
 							{t("common.blog")}
 						</Link>
-						<Link to={`${langPrefix}/contact`} className={getNavLinkClass(`${langPrefix}/contact`)}>
+						<Link
+							to={`${langPrefix}/contact`}
+							className={getNavLinkClass(`${langPrefix}/contact`)}
+						>
 							{t("common.contact")}
 						</Link>
 						<LanguageSwitcher />
@@ -246,12 +293,19 @@ export default function Header() {
 				{isMenuOpen && (
 					<div className="md:hidden mt-6 max-h-[calc(100dvh-7.5rem)] overflow-y-auto overscroll-contain rounded-2xl border border-gray-100 bg-white p-6 shadow-enterprise-lg">
 						<div className="space-y-4 pb-[calc(env(safe-area-inset-bottom)+1.5rem)]">
-							<Link to={langPrefix} className={getNavLinkClass(langPrefix, true, true)}>
+							<Link
+								to={langPrefix}
+								className={getNavLinkClass(langPrefix, true, true)}
+							>
 								{t("common.home")}
 							</Link>
 							<Link
 								to={`${langPrefix}/integrations`}
-								className={getNavLinkClass(`${langPrefix}/integrations`, false, true)}
+								className={getNavLinkClass(
+									`${langPrefix}/integrations`,
+									false,
+									true
+								)}
 							>
 								{t("navigation.integrations")}
 							</Link>
@@ -267,14 +321,19 @@ export default function Header() {
 											: "text-slate-700 hover:bg-slate-50 hover:text-blue-700"
 									}`}
 								>
-									<span className="text-base font-semibold">{t("navigation.allModules")}</span>
+									<span className="text-base font-semibold">
+										{t("navigation.allModules")}
+									</span>
 									<ArrowRight className="h-4 w-4" />
 								</Link>
 								<div className="mt-3 space-y-2">
 									{moduleCategories.map((cat) => {
 										const open = mobileOpenCategory === cat.key;
 										return (
-											<div key={cat.key} className="rounded-xl border border-slate-200/80">
+											<div
+												key={cat.key}
+												className="rounded-xl border border-slate-200/80"
+											>
 												<button
 													type="button"
 													onClick={() =>
@@ -348,7 +407,11 @@ export default function Header() {
 							</Link>
 							<Link
 								to={`${langPrefix}/contact`}
-								className={getNavLinkClass(`${langPrefix}/contact`, false, true)}
+								className={getNavLinkClass(
+									`${langPrefix}/contact`,
+									false,
+									true
+								)}
 							>
 								{t("common.contact")}
 							</Link>

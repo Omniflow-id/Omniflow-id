@@ -37,6 +37,7 @@ const MODULE_SLUGS = [
 const STATIC_PAGES = [
 	{ path: "", priority: "1.0", changefreq: "weekly" },
 	{ path: "/modules", priority: "0.9", changefreq: "weekly" },
+	{ path: "/industries", priority: "0.8", changefreq: "monthly" },
 	{ path: "/integrations", priority: "0.8", changefreq: "monthly" },
 	{ path: "/blog", priority: "0.7", changefreq: "daily" },
 	{ path: "/contact", priority: "0.6", changefreq: "monthly" },

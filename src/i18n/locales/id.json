@@ -31,6 +31,7 @@
     "modulesDropdown": "Semua Modul",
     "allModules": "Semua Modul",
     "integrations": "Integrasi",
+    "industries": "Industri",
     "hris": "HRIS",
     "ecommerce": "E-Commerce",
     "xrm": "XRM",
@@ -127,6 +128,133 @@
       "profilex": "Asesmen MBTI, DISC, dan kustom dengan auto-grading.",
       "propertyManagement": "Manajemen properti terintegrasi untuk pemilik dan manajer properti.",
       "simklinik": "Sistem informasi klinik dengan EMR, apotek, dan penagihan."
+    }
+  },
+  "industriesPage": {
+    "badge": "Industri yang Didukung",
+    "title": "Dibuat untuk industri Anda",
+    "subtitle": "Dari studio fitness hingga klinik dan penyewaan ruang, Omniflow menyesuaikan dengan cara industri Anda melakukan booking, penjualan, dan operasional.",
+    "getStarted": "Hubungi Sales",
+    "viewModules": "Lihat Modul",
+    "cta": {
+      "title": "Industri Anda belum ada?",
+      "description": "Kami mendukung banyak vertikal lainnya. Ceritakan bisnis Anda dan kami sesuaikan Omniflow dengan alur kerja Anda.",
+      "button": "Hubungi Kami"
+    },
+    "categories": {
+      "fitness-wellness": {
+        "title": "Fitness & Wellness",
+        "tagline": "Studio, gym, dan trainer",
+        "items": {
+          "pilates": "Pilates",
+          "yoga": "Yoga",
+          "gym": "Gym",
+          "personalTrainer": "Personal Trainer",
+          "danceStudio": "Studio Dansa",
+          "martialArts": "Bela Diri",
+          "crossfit": "CrossFit"
+        }
+      },
+      "sports-recreation": {
+        "title": "Olahraga & Rekreasi",
+        "tagline": "Lapangan, klub, dan venue",
+        "items": {
+          "padel": "Padel",
+          "billiard": "Biliar",
+          "futsal": "Futsal",
+          "badminton": "Bulu Tangkis",
+          "tennis": "Tenis",
+          "golf": "Golf",
+          "golfSimulator": "Golf Simulator",
+          "tableTennis": "Tenis Meja",
+          "archery": "Panahan"
+        }
+      },
+      "beauty-personal-care": {
+        "title": "Kecantikan & Perawatan Diri",
+        "tagline": "Salon, spa, dan studio",
+        "items": {
+          "barbershop": "Barbershop",
+          "hairSalon": "Salon Rambut",
+          "nailSalon": "Nail Salon",
+          "eyelash": "Studio Eyelash",
+          "spa": "Spa",
+          "massage": "Massage",
+          "reflexology": "Refleksi",
+          "tattoo": "Studio Tato"
+        }
+      },
+      "medical-clinical": {
+        "title": "Medis & Klinik",
+        "tagline": "Klinik dan layanan kesehatan",
+        "items": {
+          "simklinik": "Klinik (SIMKlinik)",
+          "simrs": "Rumah Sakit (SIMRS)",
+          "dental": "Gigi",
+          "aestheticClinic": "Klinik Estetika",
+          "physiotherapy": "Fisioterapi",
+          "psychology": "Psikologi",
+          "nutritionist": "Ahli Gizi",
+          "chiropractic": "Kiropraktik"
+        }
+      },
+      "education-training": {
+        "title": "Pendidikan & Pelatihan",
+        "tagline": "Sekolah, kursus, dan tutor",
+        "items": {
+          "musicSchool": "Sekolah Musik",
+          "languageCourse": "Kursus Bahasa",
+          "privateTutor": "Les Privat",
+          "codingBootcamp": "Coding Bootcamp",
+          "artClass": "Kelas Seni",
+          "workshop": "Workshop",
+          "school": "Sekolah",
+          "university": "Universitas"
+        }
+      },
+      "space-rental": {
+        "title": "Sewa Ruang & Fasilitas",
+        "tagline": "Ruang dan studio yang bisa dibooking",
+        "items": {
+          "coworking": "Coworking",
+          "meetingRoom": "Ruang Meeting",
+          "studioRental": "Sewa Studio",
+          "podcastStudio": "Studio Podcast",
+          "eventRoom": "Ruang Acara",
+          "photoStudio": "Studio Foto"
+        }
+      },
+      "pet-services": {
+        "title": "Layanan Hewan",
+        "tagline": "Perawatan untuk hewan kesayangan",
+        "items": {
+          "petGrooming": "Grooming Hewan",
+          "vetClinic": "Klinik Hewan",
+          "petHotel": "Pet Hotel",
+          "petDaycare": "Pet Daycare"
+        }
+      },
+      "automotive-services": {
+        "title": "Layanan Otomotif",
+        "tagline": "Bengkel dan perawatan mobil",
+        "items": {
+          "carWash": "Cuci Mobil",
+          "autoDetailing": "Auto Detailing",
+          "workshop": "Bengkel Ringan",
+          "tireService": "Layanan Ban"
+        }
+      },
+      "professional-services": {
+        "title": "Terapi & Layanan Profesional",
+        "tagline": "Pakar berbasis janji temu",
+        "items": {
+          "psychologist": "Psikolog",
+          "coach": "Coach",
+          "consultant": "Konsultan",
+          "financialAdvisor": "Penasihat Keuangan",
+          "legalConsultation": "Konsultasi Hukum"
+        }
+      }
     }
   },
   "integrationsPage": {

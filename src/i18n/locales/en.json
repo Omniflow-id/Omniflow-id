@@ -31,6 +31,7 @@
     "modulesDropdown": "All Modules",
     "allModules": "All Modules",
     "integrations": "Integrations",
+    "industries": "Industries",
     "hris": "HRIS",
     "ecommerce": "E-Commerce",
     "xrm": "XRM",
@@ -127,6 +128,133 @@
       "profilex": "MBTI, DISC, and custom psychological assessments with auto-grading.",
       "propertyManagement": "Integrated property management for landlords and property managers.",
       "simklinik": "Clinic information system with EMR, pharmacy, and billing."
+    }
+  },
+  "industriesPage": {
+    "badge": "Industries We Support",
+    "title": "Built for your industry",
+    "subtitle": "From fitness studios to clinics and rental spaces, Omniflow adapts to the way your industry books, sells, and operates.",
+    "getStarted": "Talk to Sales",
+    "viewModules": "View Modules",
+    "cta": {
+      "title": "Don't see your industry?",
+      "description": "We support many more verticals. Tell us about your business and we'll tailor Omniflow to your workflows.",
+      "button": "Contact Us"
+    },
+    "categories": {
+      "fitness-wellness": {
+        "title": "Fitness & Wellness",
+        "tagline": "Studios, gyms, and trainers",
+        "items": {
+          "pilates": "Pilates",
+          "yoga": "Yoga",
+          "gym": "Gym",
+          "personalTrainer": "Personal Trainer",
+          "danceStudio": "Dance Studio",
+          "martialArts": "Martial Arts",
+          "crossfit": "CrossFit"
+        }
+      },
+      "sports-recreation": {
+        "title": "Sports & Recreation",
+        "tagline": "Courts, clubs, and venues",
+        "items": {
+          "padel": "Padel",
+          "billiard": "Billiard",
+          "futsal": "Futsal",
+          "badminton": "Badminton",
+          "tennis": "Tennis",
+          "golf": "Golf",
+          "golfSimulator": "Golf Simulator",
+          "tableTennis": "Table Tennis",
+          "archery": "Archery"
+        }
+      },
+      "beauty-personal-care": {
+        "title": "Beauty & Personal Care",
+        "tagline": "Salons, spas, and studios",
+        "items": {
+          "barbershop": "Barbershop",
+          "hairSalon": "Hair Salon",
+          "nailSalon": "Nail Salon",
+          "eyelash": "Eyelash Studio",
+          "spa": "Spa",
+          "massage": "Massage",
+          "reflexology": "Reflexology",
+          "tattoo": "Tattoo Studio"
+        }
+      },
+      "medical-clinical": {
+        "title": "Medical & Clinical",
+        "tagline": "Clinics and health providers",
+        "items": {
+          "simklinik": "Clinic (SIMKlinik)",
+          "simrs": "Hospital (SIMRS)",
+          "dental": "Dental",
+          "aestheticClinic": "Aesthetic Clinic",
+          "physiotherapy": "Physiotherapy",
+          "psychology": "Psychology",
+          "nutritionist": "Nutritionist",
+          "chiropractic": "Chiropractic"
+        }
+      },
+      "education-training": {
+        "title": "Education & Training",
+        "tagline": "Schools, courses, and tutors",
+        "items": {
+          "musicSchool": "Music School",
+          "languageCourse": "Language Course",
+          "privateTutor": "Private Tutoring",
+          "codingBootcamp": "Coding Bootcamp",
+          "artClass": "Art Class",
+          "workshop": "Workshop",
+          "school": "School",
+          "university": "University"
+        }
+      },
+      "space-rental": {
+        "title": "Space & Resource Rental",
+        "tagline": "Bookable rooms and studios",
+        "items": {
+          "coworking": "Coworking",
+          "meetingRoom": "Meeting Room",
+          "studioRental": "Studio Rental",
+          "podcastStudio": "Podcast Studio",
+          "eventRoom": "Event Room",
+          "photoStudio": "Photo Studio"
+        }
+      },
+      "pet-services": {
+        "title": "Pet Services",
+        "tagline": "Care for every companion",
+        "items": {
+          "petGrooming": "Pet Grooming",
+          "vetClinic": "Vet Clinic",
+          "petHotel": "Pet Hotel",
+          "petDaycare": "Pet Daycare"
+        }
+      },
+      "automotive-services": {
+        "title": "Automotive Services",
+        "tagline": "Workshops and car care",
+        "items": {
+          "carWash": "Car Wash",
+          "autoDetailing": "Auto Detailing",
+          "workshop": "Light Workshop",
+          "tireService": "Tire Service"
+        }
+      },
+      "professional-services": {
+        "title": "Therapy & Professional Services",
+        "tagline": "Appointment-based experts",
+        "items": {
+          "psychologist": "Psychologist",
+          "coach": "Coach",
+          "consultant": "Consultant",
+          "financialAdvisor": "Financial Advisor",
+          "legalConsultation": "Legal Consultation"
+        }
+      }
     }
   },
   "integrationsPage": {
