@@ -35,7 +35,8 @@ export default function IndustriesPage() {
 					<div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-[0.03]"></div>
 				</div>
 
-				<div className="container-enterprise relative z-10">
+			<div className="container-enterprise relative z-10">
+				<div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 					<div className="max-w-3xl space-y-8 animate-fade-in-left">
 						<div className="inline-flex items-center px-4 py-2 bg-blue-100/80 backdrop-blur-sm text-blue-800 rounded-full text-sm font-bold shadow-sm border border-blue-200">
 							<Layers className="h-4 w-4 mr-2 text-blue-600" />
@@ -66,7 +67,15 @@ export default function IndustriesPage() {
 							</Link>
 						</div>
 					</div>
+					<div className="hidden lg:block">
+						<img
+							src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
+							alt="Business team collaboration"
+							className="rounded-2xl shadow-2xl"
+						/>
+					</div>
 				</div>
+			</div>
 			</section>
 
 			<section className="section-enterprise bg-white py-20">
