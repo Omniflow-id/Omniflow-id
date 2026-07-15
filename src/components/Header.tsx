@@ -74,9 +74,6 @@ export default function Header() {
 					</Link>
 
 					<div className="hidden md:flex items-center space-x-8">
-						<Link to={langPrefix} className={getNavLinkClass(langPrefix, true)}>
-							{t("common.home")}
-						</Link>
 						<Link
 							to={`${langPrefix}/integrations`}
 							className={getNavLinkClass(`${langPrefix}/integrations`)}
@@ -279,12 +276,6 @@ export default function Header() {
 				{isMenuOpen && (
 					<div className="md:hidden mt-6 max-h-[calc(100dvh-7.5rem)] overflow-y-auto overscroll-contain rounded-2xl border border-gray-100 bg-white p-6 shadow-enterprise-lg">
 						<div className="space-y-4 pb-[calc(env(safe-area-inset-bottom)+1.5rem)]">
-							<Link
-								to={langPrefix}
-								className={getNavLinkClass(langPrefix, true, true)}
-							>
-								{t("common.home")}
-							</Link>
 							<Link
 								to={`${langPrefix}/integrations`}
 								className={getNavLinkClass(
