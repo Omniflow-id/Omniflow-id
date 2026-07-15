@@ -13,6 +13,7 @@ import BlogPage from "./pages/blog";
 import BlogDetailPage from "./pages/blog/[slug]";
 import ContactPage from "./pages/Contact";
 import HomePage from "./pages/Home";
+import AffiliatePage from "./pages/Affiliate";
 import IndustriesPage from "./pages/industries";
 import IntegrationsPage from "./pages/integrations";
 import ModulesPage from "./pages/modules";
@@ -120,6 +121,7 @@ function App() {
 						<Route path="/en/blog" element={<BlogPage />} />
 						<Route path="/en/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/en/contact" element={<ContactPage />} />
+						<Route path="/en/affiliate" element={<AffiliatePage />} />
 
 						{/* Indonesian routes */}
 						<Route path="/id" element={<HomePage />} />
@@ -180,6 +182,7 @@ function App() {
 						<Route path="/id/blog" element={<BlogPage />} />
 						<Route path="/id/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/id/contact" element={<ContactPage />} />
+						<Route path="/id/affiliate" element={<AffiliatePage />} />
 
 						{/* Chinese routes */}
 						<Route path="/zh" element={<HomePage />} />
@@ -240,6 +243,7 @@ function App() {
 						<Route path="/zh/blog" element={<BlogPage />} />
 						<Route path="/zh/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/zh/contact" element={<ContactPage />} />
+						<Route path="/zh/affiliate" element={<AffiliatePage />} />
 
 						{/* Legacy routes (redirect to language-specific) */}
 						<Route path="/" element={<HomePage />} />
@@ -286,6 +290,7 @@ function App() {
 						<Route path="/blog" element={<BlogPage />} />
 						<Route path="/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/contact" element={<ContactPage />} />
+						<Route path="/affiliate" element={<AffiliatePage />} />
 
 						{/* Catch-all route for 404 */}
 						<Route path="*" element={<NotFoundPage />} />

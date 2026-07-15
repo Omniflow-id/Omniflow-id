@@ -61,26 +61,10 @@ export default function Footer() {
 						<ul className="space-y-3">
 							<li>
 								<a
-									href={`${langPrefix}/modules/hris`}
+									href={`${langPrefix}/affiliate`}
 									className="text-blue-100 hover:text-white transition-colors"
 								>
-									{t("navigation.hris")}
-								</a>
-							</li>
-							<li>
-								<a
-									href={`${langPrefix}/modules/ecommerce`}
-									className="text-blue-100 hover:text-white transition-colors"
-								>
-									{t("navigation.ecommerce")}
-								</a>
-							</li>
-							<li>
-								<a
-									href={`${langPrefix}/blog`}
-									className="text-blue-100 hover:text-white transition-colors"
-								>
-									{t("common.blog")}
+									{t("common.affiliate")}
 								</a>
 							</li>
 							<li>

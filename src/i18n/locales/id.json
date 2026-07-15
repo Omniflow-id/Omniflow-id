@@ -3,6 +3,7 @@
     "home": "Beranda",
     "about": "Tentang",
     "contact": "Kontak",
+    "affiliate": "Afiliasi",
     "blog": "Blog",
     "getStarted": "Mulai Sekarang",
     "learnMore": "Pelajari Lebih Lanjut",
@@ -4667,6 +4668,85 @@
         "uptime": "Uptime SLA",
         "reduction": "Admin Time Saved"
       }
+    }
+  },
+  "affiliate": {
+    "title": "Program Afiliasi & Reseller Omniflow",
+    "subtitle": "Hasilkan pendapatan dari ekosistem Omniflow. Referensikan, jual kembali, atau whitelabel — kami dukung penuh.",
+    "hero": {
+      "badge": "Program Afiliasi",
+      "title": "Dapatkan Komisi dari Setiap Modul Terjual",
+      "subtitle": "Komisi hingga 15% per modul. Tanpa target, tanpa biaya pendaftaran, berlaku selamanya.",
+      "ctaText": "Daftar via WhatsApp",
+      "howItWorks": "Cara Kerja",
+      "ctaWhatsapp": "https://wa.me/6282125609413?text=Halo%20Omniflow,%20saya%20ingin%20bergabung%20dengan%20program%20afiliasi",
+      "commissionPct": "15%",
+      "commissionLabel": "Komisi Maksimal",
+      "cardDesc": "Dapatkan komisi dari setiap referral sukses. Komisi ditransfer maks 7 hari kerja."
+    },
+    "tiers": {
+      "badge": "Tingkat Komisi",
+      "title": "Semakin Banyak Direferensikan, Semakin Besar Komisi",
+      "subtitle": "Komisi meningkat seiring jumlah modul yang dibeli klien Anda.",
+      "popular": "Paling Diminati",
+      "items": [
+        { "name": "BRONZE", "mods": "1–2 modul", "pct": "10%", "desc": "Komisi Rp 2–4jt per modul" },
+        { "name": "SILVER", "mods": "3–4 modul", "pct": "12%", "desc": "Komisi Rp 5–8jt per modul", "featured": true },
+        { "name": "GOLD", "mods": "5+ modul", "pct": "15%", "desc": "Rp 10.5jt untuk full suite (Rp 70jt)" }
+      ]
+    },
+    "schemes": {
+      "title": "Tiga Skema Kerja Sama",
+      "subtitle": "Pilih skema yang sesuai dengan model bisnis Anda.",
+      "items": [
+        { "icon": "Users", "title": "Afiliasi", "desc": "Referensikan klien, dapatkan komisi per modul terjual. Kami yang presentasi, demo, dan support teknis.", "audience": "Cocok untuk: konsultan IT, akuntan publik, agency" },
+        { "icon": "TrendingUp", "title": "Reseller", "desc": "Jual dengan harga spesial, ambil margin sendiri. Dapatkan materi marketing dan technical briefing eksklusif.", "audience": "Cocok untuk: software house, vendor IT, system integrator" },
+        { "icon": "Globe", "title": "Whitelabel", "desc": "Branding penuh dengan nama perusahaan Anda. Dedicated instance dan custom domain.", "audience": "Cocok untuk: korporasi besar, holding company, multi-brand" }
+      ]
+    },
+    "benefits": {
+      "title": "Kenapa Bergabung dengan Omniflow Affiliate?",
+      "subtitle": "Kami yang kerjakan — Anda yang dapat hasilnya.",
+      "items": [
+        { "icon": "BadgePercent", "title": "Komisi Kompetitif", "desc": "10-15% dari nilai lisensi, ditransfer langsung ke rekening Anda." },
+        { "icon": "Infinity", "title": "Tanpa Target Minimum", "desc": "Tidak ada kuota. Satu referral sukses pun sudah menghasilkan komisi." },
+        { "icon": "Shield", "title": "Berlaku Selamanya", "desc": "Komisi berlaku untuk setiap pembelian klien yang Anda referensikan, tanpa batas waktu." },
+        { "icon": "Award", "title": "Kredibilitas Brand", "desc": "Omniflow dipercaya 10.000+ bisnis dengan reputasi pasar yang kuat." },
+        { "icon": "Zap", "title": "Daftar Gratis", "desc": "Pendaftaran gratis. Tidak ada biaya tersembunyi, tidak ada komitmen." },
+        { "icon": "Star", "title": "Pembayaran Cepat", "desc": "Komisi ditransfer maksimal 7 hari kerja setelah klien melunasi." }
+      ]
+    },
+    "steps": {
+      "title": "Cara Bergabung",
+      "subtitle": "Tiga langkah mudah untuk mulai menghasilkan.",
+      "items": [
+        { "step": "1", "title": "Daftar via WhatsApp", "desc": "Kirim pesan singkat. Kami verifikasi dan berikan kode referral unik. Gratis." },
+        { "step": "2", "title": "Referensikan Klien", "desc": "Bagikan kode referral Anda ke jaringan. Klien menyebutkan kode saat inquiry." },
+        { "step": "3", "title": "Dapatkan Komisi", "desc": "Komisi ditransfer maks 7 hari kerja setelah klien melunasi pembayaran." }
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan Umum",
+      "items": [
+        { "q": "Apakah ada biaya pendaftaran?", "a": "Tidak. Pendaftaran 100% gratis." },
+        { "q": "Bagaimana cara tracking referral?", "a": "Klien menyebutkan kode referral Anda saat inquiry. Sistem kami mencatat atribusi dan Anda mendapat notifikasi real-time." },
+        { "q": "Kapan komisi dibayarkan?", "a": "Maksimal 7 hari kerja setelah klien melunasi pembayaran lisensi." },
+        { "q": "Apakah ada minimal penjualan?", "a": "Tidak ada. Satu klien pun sudah menghasilkan komisi." },
+        { "q": "Apakah whitelabel tersedia untuk semua partner?", "a": "Whitelabel tersedia untuk partner reseller level Gold (5+ modul). Hubungi kami untuk detailnya." }
+      ]
+    },
+    "testimonials": {
+      "title": "Apa Kata Partner Kami",
+      "items": [
+        { "quote": "Saya konsultan IT yang sering ditanya klien soal ERP. Dulu saya tolak karena tidak punya produk. Sekarang tinggal referensikan Omniflow, mereka yang handle semuanya.", "name": "Hendra Gunawan", "role": "IT Consultant, Partner sejak 2024" },
+        { "quote": "Whitelabel Omniflow mengubah bisnis kami. Kami jual ERP dengan brand sendiri, harga kami tentukan. Tim Omniflow handle semua teknis di belakang.", "name": "Mira Andini", "role": "CEO, Software House, Partner Whitelabel" }
+      ]
+    },
+    "cta": {
+      "title": "Siap Mulai Menghasilkan?",
+      "subtitle": "Bergabung dengan ratusan partner yang sudah menghasilkan dari ekosistem Omniflow.",
+      "button": "Daftar via WhatsApp",
+      "note": "Pendaftaran gratis. Tanpa target. Tanpa kartu kredit."
     }
   }
 }
