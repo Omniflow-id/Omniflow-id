@@ -4682,7 +4682,13 @@
       "ctaWhatsapp": "https://wa.me/6282125609413?text=Halo%20Omniflow,%20saya%20ingin%20bergabung%20dengan%20program%20afiliasi",
       "commissionPct": "15%",
       "commissionLabel": "Komisi Maksimal",
-      "cardDesc": "Dapatkan komisi dari setiap referral sukses. Komisi ditransfer maks 7 hari kerja."
+      "cardDesc": "Dapatkan komisi dari setiap referral sukses. Komisi ditransfer maks 7 hari kerja.",
+      "stats": {
+        "commission": "Komisi Maksimal",
+        "lifetime": "Berlaku Selamanya",
+        "businesses": "Bisnis Terpercaya",
+        "payout": "Pembayaran Cepat"
+      }
     },
     "tiers": {
       "badge": "Tingkat Komisi",

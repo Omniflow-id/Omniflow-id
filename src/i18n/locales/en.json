@@ -4569,7 +4569,13 @@
       "ctaWhatsapp": "https://wa.me/6282125609413?text=Hi%20Omniflow,%20I%20would%20like%20to%20join%20the%20affiliate%20program",
       "commissionPct": "15%",
       "commissionLabel": "Maximum Commission",
-      "cardDesc": "Earn from every successful referral. Commission paid within 7 business days."
+      "cardDesc": "Earn from every successful referral. Commission paid within 7 business days.",
+      "stats": {
+        "commission": "Maximum Commission",
+        "lifetime": "Lifetime Attribution",
+        "businesses": "Trusted Businesses",
+        "payout": "Fast Payout"
+      }
     },
     "tiers": {
       "badge": "Commission Tiers",
