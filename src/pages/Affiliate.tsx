@@ -93,6 +93,36 @@ export default function AffiliatePage() {
                 </div>
               </div>
             </div>
+            <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 pt-8 border-t border-white/10">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-3">
+                  <BadgePercent className="w-6 h-6 text-blue-300" />
+                </div>
+                <div className="text-2xl font-bold text-white">15%</div>
+                <div className="text-sm text-blue-200/70">{t("affiliate.hero.commissionLabel")}</div>
+              </div>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-emerald-500/20 rounded-xl flex items-center justify-center mx-auto mb-3">
+                  <Infinity className="w-6 h-6 text-emerald-300" />
+                </div>
+                <div className="text-2xl font-bold text-white">{t("affiliate.benefits.items.3.title")}</div>
+                <div className="text-sm text-blue-200/70">{t("affiliate.benefits.items.4.title")}</div>
+              </div>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-purple-500/20 rounded-xl flex items-center justify-center mx-auto mb-3">
+                  <Award className="w-6 h-6 text-purple-300" />
+                </div>
+                <div className="text-2xl font-bold text-white">10.000+</div>
+                <div className="text-sm text-blue-200/70">{t("affiliate.benefits.items.3.desc")}</div>
+              </div>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center mx-auto mb-3">
+                  <Zap className="w-6 h-6 text-amber-300" />
+                </div>
+                <div className="text-2xl font-bold text-white">&lt;7 {t("affiliate.benefits.items.5.title").toLowerCase()}</div>
+                <div className="text-sm text-blue-200/70">{t("affiliate.cta.note")}</div>
+              </div>
+            </div>
           </div>
         </section>
 
