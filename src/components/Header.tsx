@@ -79,11 +79,7 @@ export default function Header() {
 						</Link>
 						<Link
 							to={`${langPrefix}/integrations`}
-							className={getNavLinkClass(
-								`${langPrefix}/integrations`,
-								false,
-								true
-							)}
+							className={getNavLinkClass(`${langPrefix}/integrations`)}
 						>
 							{t("navigation.integrations")}
 						</Link>
