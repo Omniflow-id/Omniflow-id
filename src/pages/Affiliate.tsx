@@ -44,7 +44,7 @@ export default function AffiliatePage() {
       />
       <div className="min-h-screen bg-white">
         {/* ── Hero ── */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 py-20 lg:py-28">
+        <section className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 pt-32 pb-20 lg:pt-40 lg:pb-28">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(37,99,235,0.15),transparent_50%)]" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(5,150,105,0.1),transparent_50%)]" />
           <div className="container-enterprise relative z-10">
