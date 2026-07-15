@@ -257,12 +257,6 @@ export default function Header() {
 							{t("common.blog")}
 						</Link>
 						<Link
-							to={`${langPrefix}/affiliate`}
-							className={getNavLinkClass(`${langPrefix}/affiliate`)}
-						>
-							{t("common.affiliate")}
-						</Link>
-						<Link
 							to={`${langPrefix}/contact`}
 							className={getNavLinkClass(`${langPrefix}/contact`)}
 						>
@@ -400,16 +394,6 @@ export default function Header() {
 								className={getNavLinkClass(`${langPrefix}/blog`, false, true)}
 							>
 								{t("common.blog")}
-							</Link>
-							<Link
-								to={`${langPrefix}/affiliate`}
-								className={getNavLinkClass(
-									`${langPrefix}/affiliate`,
-									false,
-									true
-								)}
-							>
-								{t("common.affiliate")}
 							</Link>
 							<Link
 								to={`${langPrefix}/contact`}
