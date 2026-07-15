@@ -89,16 +89,6 @@ export default function Header() {
 						</Link>
 						<Link
 							to={`${langPrefix}/industries`}
-							className={getNavLinkClass(
-								`${langPrefix}/industries`,
-								false,
-								true
-							)}
-						>
-							{t("navigation.industries")}
-						</Link>
-						<Link
-							to={`${langPrefix}/industries`}
 							className={getNavLinkClass(`${langPrefix}/industries`)}
 						>
 							{t("navigation.industries")}
