@@ -1,6 +1,4 @@
 {
-	"installCommand": "npx puppeteer browsers install chrome",
-	"buildCommand": "npm run build:static",
 	"redirects": [
 		{
 			"source": "/modules/commerce",
