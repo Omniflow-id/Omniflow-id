@@ -1,6 +1,5 @@
 {
-	"trailingSlash": true,
-	"cleanUrls": false,
+	"buildCommand": "npm run build:static",
 	"redirects": [
 		{
 			"source": "/modules/commerce",
@@ -11,6 +10,12 @@
 			"source": "/:lang/modules/commerce",
 			"destination": "/:lang/modules/ecommerce",
 			"permanent": true
+		}
+	],
+	"rewrites": [
+		{
+			"source": "/(.*)",
+			"destination": "/index.html"
 		}
 	]
 }
