@@ -56,23 +56,35 @@ function resolveOGImage(
 	const first = segments[0];
 	const staticKey = STATIC_BANNER_KEYS[first];
 	if (staticKey && segments.length === 1) {
-		// Language-specific static banners exist for home page
-		// For others like modules/integrations/etc, we have language variants too
+		// Home always has lang suffix: banner_home-en.webp
+		if (staticKey === "home") {
+			return `${OG_BASE}/${toBannerKey(staticKey)}-${lang}.webp`;
+		}
+		// Other static pages: English = no suffix, others have -id / -zh
+		if (lang === "en") {
+			return `${OG_BASE}/${toBannerKey(staticKey)}.webp`;
+		}
 		return `${OG_BASE}/${toBannerKey(staticKey)}-${lang}.webp`;
 	}
 
-	// Module detail: "modules/hris" → banner_module-hris-{lang}.webp
+	// Module detail: "modules/hris" → banner_module-hris.webp (en) or banner_module-hris-{lang}.webp (id/zh)
 	if (first === "modules" && segments.length >= 2) {
 		const moduleSlug = segments[1];
-		return `${OG_BASE}/${toBannerKey(`module-${moduleSlug}`)}-${lang}.webp`;
+		const key = `module-${moduleSlug}`;
+		if (lang === "en") {
+			return `${OG_BASE}/${toBannerKey(key)}.webp`;
+		}
+		return `${OG_BASE}/${toBannerKey(key)}-${lang}.webp`;
 	}
 
 	// Blog detail pages
 	if (first === "blog" && segments.length >= 2) {
+		if (lang === "en") return `${OG_BASE}/banner_blog.webp`;
 		return `${OG_BASE}/banner_blog-${lang}.webp`;
 	}
 
 	// Fallback to home banner for the current language
+	if (lang === "en") return `${OG_BASE}/banner_home-en.webp`;
 	return `${OG_BASE}/banner_home-${lang}.webp`;
 }
 

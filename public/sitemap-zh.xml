@@ -67,6 +67,17 @@
   </url>
 
   <url>
+    <loc>https://omniflow.id/zh/affiliate</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/affiliate"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://omniflow.id/id/affiliate"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://omniflow.id/zh/affiliate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://omniflow.id/en/affiliate"/>
+  </url>
+
+  <url>
     <loc>https://omniflow.id/zh/modules/hris</loc>
     <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
