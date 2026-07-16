@@ -33,6 +33,7 @@
 		"@types/react-dom": "^18.3.0",
 		"@vitejs/plugin-react": "^4.3.1",
 		"puppeteer": "^24.43.1",
+		"sharp": "^0.35.3",
 		"tailwindcss": "^4.1.10",
 		"typescript": "^5.5.3",
 		"vite": "^6.4.3"

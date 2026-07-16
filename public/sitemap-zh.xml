@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://omniflow.id/zh</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en"/>
@@ -13,7 +13,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules"/>
@@ -24,7 +24,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/industries</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/industries"/>
@@ -35,7 +35,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/integrations</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/integrations"/>
@@ -46,7 +46,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/blog</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/blog"/>
@@ -57,7 +57,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/contact</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/contact"/>
@@ -68,7 +68,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/hris</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/hris"/>
@@ -79,7 +79,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/accounting</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/accounting"/>
@@ -90,7 +90,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/sales</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/sales"/>
@@ -101,7 +101,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/purchasing</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/purchasing"/>
@@ -112,7 +112,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/inventory</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/inventory"/>
@@ -123,7 +123,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/asset-management</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/asset-management"/>
@@ -134,7 +134,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/analytics</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/analytics"/>
@@ -145,7 +145,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/xrm</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/xrm"/>
@@ -156,7 +156,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/customers</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/customers"/>
@@ -167,7 +167,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/ecommerce</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/ecommerce"/>
@@ -178,7 +178,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/pos</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/pos"/>
@@ -189,7 +189,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/telemarketing</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/telemarketing"/>
@@ -200,7 +200,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/helpdesk</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/helpdesk"/>
@@ -211,7 +211,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/vecta</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/vecta"/>
@@ -222,7 +222,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/payment-gateway</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/payment-gateway"/>
@@ -233,7 +233,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/lms</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/lms"/>
@@ -244,7 +244,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/booking-engine</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/booking-engine"/>
@@ -255,7 +255,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/event-ticketing</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/event-ticketing"/>
@@ -266,7 +266,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/habitat</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/habitat"/>
@@ -277,7 +277,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/property-management</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/property-management"/>
@@ -288,7 +288,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/simklinik</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/simklinik"/>
@@ -299,7 +299,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/profilex</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/profilex"/>
@@ -310,7 +310,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/urls</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/urls"/>
@@ -321,7 +321,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/bizzcard</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/bizzcard"/>
@@ -332,7 +332,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/ai</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/ai"/>
@@ -343,7 +343,7 @@
 
   <url>
     <loc>https://omniflow.id/zh/modules/ecf</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/ecf"/>

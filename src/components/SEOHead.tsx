@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
 
@@ -16,11 +16,71 @@ interface SEOHeadProps {
 	tags?: string[];
 }
 
+const OG_BASE = "https://omniflow.id/og";
+const OG_WIDTH = "1200";
+const OG_HEIGHT = "630";
+const OG_TYPE = "image/webp";
+
+// Known route segments that map to language-specific banners
+const STATIC_BANNER_KEYS: Record<string, string> = {
+	"": "home",
+	modules: "modules",
+	industries: "industries",
+	integrations: "integrations",
+	blog: "blog",
+	contact: "contact",
+	affiliate: "affiliate",
+};
+
+function toBannerKey(slug: string): string {
+	return `banner_${slug}`;
+}
+
+function resolveOGImage(
+	baseUrl: string,
+	lang: string,
+	explicitImage?: string
+): string {
+	if (explicitImage && explicitImage !== OG_BASE) return explicitImage;
+
+	// Strip lang prefix: "/en/modules/hris" → "modules/hris"
+	const normalized = baseUrl.replace(/^\/+/, "");
+	const segments = normalized.replace(/\/$/, "").split("/");
+
+	// Home (empty path)
+	if (normalized === "" || normalized === "/") {
+		return `${OG_BASE}/banner_home-${lang}.webp`;
+	}
+
+	// Check for known static pages by first segment
+	const first = segments[0];
+	const staticKey = STATIC_BANNER_KEYS[first];
+	if (staticKey && segments.length === 1) {
+		// Language-specific static banners exist for home page
+		// For others like modules/integrations/etc, we have language variants too
+		return `${OG_BASE}/${toBannerKey(staticKey)}-${lang}.webp`;
+	}
+
+	// Module detail: "modules/hris" → banner_module-hris-{lang}.webp
+	if (first === "modules" && segments.length >= 2) {
+		const moduleSlug = segments[1];
+		return `${OG_BASE}/${toBannerKey(`module-${moduleSlug}`)}-${lang}.webp`;
+	}
+
+	// Blog detail pages
+	if (first === "blog" && segments.length >= 2) {
+		return `${OG_BASE}/banner_blog-${lang}.webp`;
+	}
+
+	// Fallback to home banner for the current language
+	return `${OG_BASE}/banner_home-${lang}.webp`;
+}
+
 export default function SEOHead({
 	title,
 	description,
 	keywords,
-	image = "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200",
+	image,
 	url,
 	type = "website",
 	publishedTime,
@@ -93,8 +153,16 @@ export default function SEOHead({
 		? `${title} | ${langContent.siteName}`
 		: `${langContent.title} | ${langContent.siteName}`;
 	const finalDescription = description || langContent.description;
-	const finalKeywords = keywords ? `${keywords}, ${langContent.keywords}` : langContent.keywords;
+	const finalKeywords = keywords
+		? `${keywords}, ${langContent.keywords}`
+		: langContent.keywords;
 	const finalAuthor = author || langContent.author;
+
+	// Resolve OG image based on current route
+	const ogImage = useMemo(
+		() => resolveOGImage(baseUrl, i18n.language, image),
+		[baseUrl, i18n.language, image]
+	);
 
 	// Get language-specific URLs
 	const getLanguageUrls = () => {
@@ -105,25 +173,6 @@ export default function SEOHead({
 			zh: `${origin}/zh${baseUrl === "/" ? "" : baseUrl}`,
 			"x-default": `${origin}/en${baseUrl === "/" ? "" : baseUrl}`,
 		};
-	};
-
-	// Language-specific Open Graph images
-	const getLanguageSpecificImage = () => {
-		const baseImageUrl =
-			"https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200";
-
-		// You can customize images per language if needed
-		const languageImages = {
-			en: baseImageUrl,
-			id: baseImageUrl,
-			zh: baseImageUrl,
-		};
-
-		return (
-			image ||
-			languageImages[i18n.language as keyof typeof languageImages] ||
-			baseImageUrl
-		);
 	};
 
 	useEffect(() => {
@@ -189,7 +238,11 @@ export default function SEOHead({
 		// Open Graph tags with language-specific content
 		updateMetaTag("og:title", finalTitle, true);
 		updateMetaTag("og:description", finalDescription, true);
-		updateMetaTag("og:image", getLanguageSpecificImage(), true);
+		updateMetaTag("og:image", ogImage, true);
+		updateMetaTag("og:image:width", OG_WIDTH, true);
+		updateMetaTag("og:image:height", OG_HEIGHT, true);
+		updateMetaTag("og:image:type", OG_TYPE, true);
+		updateMetaTag("og:image:alt", finalTitle, true);
 		updateMetaTag("og:url", currentUrl, true);
 		updateMetaTag("og:type", type, true);
 		updateMetaTag("og:site_name", langContent.siteName, true);
@@ -217,14 +270,14 @@ export default function SEOHead({
 			}
 		});
 
-		// Twitter Card tags with language-specific content
+		// Twitter Card tags
 		updateMetaTag("twitter:card", "summary_large_image");
 		updateMetaTag("twitter:title", finalTitle);
 		updateMetaTag("twitter:description", finalDescription);
-		updateMetaTag("twitter:image", getLanguageSpecificImage());
+		updateMetaTag("twitter:image", ogImage);
+		updateMetaTag("twitter:image:alt", finalTitle);
 		updateMetaTag("twitter:site", "@omniflowid");
 		updateMetaTag("twitter:creator", "@omniflowid");
-		updateMetaTag("twitter:image:alt", finalTitle);
 
 		// Article specific tags
 		if (type === "article") {
@@ -368,7 +421,7 @@ export default function SEOHead({
 		finalTitle,
 		finalDescription,
 		finalKeywords,
-		getLanguageSpecificImage(),
+		ogImage,
 		currentUrl,
 		type,
 		publishedTime,
@@ -377,8 +430,8 @@ export default function SEOHead({
 		section,
 		tags,
 		i18n.language,
-		location.pathname,
 		langContent,
+		getLanguageUrls,
 	]);
 
 	return null;
