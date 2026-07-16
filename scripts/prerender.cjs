@@ -1,7 +1,8 @@
 const fs = require("node:fs");
 const http = require("node:http");
 const path = require("node:path");
-const puppeteer = require("puppeteer");
+const puppeteer = require("puppeteer-core");
+const chromium = require("@sparticuz/chromium");
 const { getPrerenderPaths } = require("./routes.cjs");
 
 const DIST = path.join(__dirname, "..", "dist");
@@ -114,12 +115,9 @@ async function main() {
 	console.log(`Prerendering ${routes.length} routes from ${ORIGIN}`);
 
 	const browser = await puppeteer.launch({
-		headless: "new",
-		args: [
-			"--no-sandbox",
-			"--disable-setuid-sandbox",
-			"--disable-dev-shm-usage",
-		],
+		args: chromium.default.args,
+		executablePath: await chromium.default.executablePath(),
+		headless: true,
 	});
 
 	let ok = 0;
