@@ -1,4 +1,6 @@
 {
+	"trailingSlash": true,
+	"cleanUrls": false,
 	"redirects": [
 		{
 			"source": "/modules/commerce",
@@ -9,12 +11,6 @@
 			"source": "/:lang/modules/commerce",
 			"destination": "/:lang/modules/ecommerce",
 			"permanent": true
-		}
-	],
-	"rewrites": [
-		{
-			"source": "/((?!og/|assets/|favicon\\.svg|robots\\.txt|sitemap.*\\.xml|llms\\.txt|logo.*\\.svg).*)",
-			"destination": "/index.html"
 		}
 	]
 }
