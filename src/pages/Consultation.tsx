@@ -4,7 +4,6 @@ import {
 	CheckCircle,
 	Clock,
 	Headphones,
-	MessageCircle,
 	MessageSquare,
 	Shield,
 	Users,
@@ -30,24 +29,18 @@ export default function ConsultationPage() {
 		module: "",
 		message: "",
 	});
-	const [isSubmitting, setIsSubmitting] = useState(false);
-	const [submitStatus, setSubmitStatus] = useState<
-		"idle" | "success" | "error"
-	>("idle");
-	const [submittedData, setSubmittedData] = useState<typeof formData | null>(null);
 	const WA_NUMBER = "6282125609413";
 
 	const generateWhatsAppLink = () => {
-		const d = submittedData || formData;
 		const lines = [
 			t("consultation.wa.greeting"),
 			"",
-			`*${t("consultation.form.name")}:* ${d.name}`,
-			`*${t("consultation.form.email")}:* ${d.email}`,
-			d.company ? `*${t("consultation.form.company")}:* ${d.company}` : "",
-			d.phone ? `*${t("consultation.form.phone")}:* ${d.phone}` : "",
-			d.module ? `*${t("consultation.form.module")}:* ${d.module}` : "",
-			d.message ? `*${t("consultation.form.message")}:* ${d.message}` : "",
+			`*${t("consultation.form.name")}:* ${formData.name}`,
+			`*${t("consultation.form.email")}:* ${formData.email}`,
+			formData.company ? `*${t("consultation.form.company")}:* ${formData.company}` : "",
+			formData.phone ? `*${t("consultation.form.phone")}:* ${formData.phone}` : "",
+			formData.module ? `*${t("consultation.form.module")}:* ${formData.module}` : "",
+			formData.message ? `*${t("consultation.form.message")}:* ${formData.message}` : "",
 		].filter(Boolean).join("\n");
 		return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(lines)}`;
 	};
@@ -64,15 +57,9 @@ export default function ConsultationPage() {
 		}));
 	};
 
-	const handleSubmit = async (e: React.FormEvent) => {
+	const handleSubmit = (e: React.FormEvent) => {
 		e.preventDefault();
-		setIsSubmitting(true);
-
-		setTimeout(() => {
-			setIsSubmitting(false);
-			setSubmittedData({ ...formData });
-			setSubmitStatus("success");
-		}, 1500);
+		window.open(generateWhatsAppLink(), "_blank");
 	};
 
 	const modules = [
@@ -209,44 +196,8 @@ export default function ConsultationPage() {
 								</p>
 							</div>
 
-							{submitStatus === "success" && (
-								<div className="mb-8 p-8 bg-green-50 border-2 border-green-200 rounded-2xl">
-									<div className="flex items-center mb-6">
-										<CheckCircle className="h-7 w-7 text-green-600 mr-4 flex-shrink-0" />
-										<div>
-											<p className="font-semibold text-green-800 text-lg">
-												{t("consultation.form.successTitle")}
-											</p>
-											<p className="text-green-700">
-												{t("consultation.form.successMessage")}
-											</p>
-										</div>
-									</div>
-									<a
-										href={generateWhatsAppLink()}
-										target="_blank"
-										rel="noopener noreferrer"
-										className="btn-primary inline-flex items-center bg-green-600 hover:bg-green-700 w-full justify-center"
-									>
-										<MessageCircle className="mr-3 h-5 w-5" />
-										{t("consultation.wa.send")}
-									</a>
-									<button
-										type="button"
-										onClick={() => {
-											setSubmitStatus("idle");
-											setSubmittedData(null);
-											setFormData({ name: "", email: "", company: "", phone: "", module: "", message: "" });
-										}}
-										className="mt-4 w-full text-sm text-slate-500 hover:text-slate-700 underline"
-									>
-										{t("consultation.wa.newRequest")}
-									</button>
-								</div>
-							)}
-
 							<div className="card-enterprise p-10">
-								{submitStatus !== "success" && (<form onSubmit={handleSubmit} className="space-y-6">
+								<form onSubmit={handleSubmit} className="space-y-6">
 									<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 										<div>
 											<label className="block text-sm font-semibold text-enterprise-primary mb-3">
@@ -344,23 +295,12 @@ export default function ConsultationPage() {
 
 									<button
 										type="submit"
-										disabled={isSubmitting}
-										className="btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed"
+										className="btn-primary w-full inline-flex items-center justify-center bg-green-600 hover:bg-green-700"
 									>
-										{isSubmitting ? (
-											<>
-												<div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-3"></div>
-												{t("consultation.form.submitting")}
-											</>
-										) : (
-											<>
-												{t("consultation.form.submit")}
-												<ArrowRight className="ml-3 h-5 w-5" />
-											</>
-										)}
+										{t("consultation.form.submit")}
+										<ArrowRight className="ml-3 h-5 w-5" />
 									</button>
 								</form>
-								)}
 							</div>
 						</div>
 					</div>
