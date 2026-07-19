@@ -4679,6 +4679,11 @@
       "successTitle": "Request Sent!",
       "successMessage": "Thank you. Our team will contact you within 1 business day."
     },
+    "wa": {
+      "greeting": "Hi Omniflow, I would like to schedule a consultation:",
+      "send": "Send via WhatsApp",
+      "newRequest": "Send a new request"
+    },
     "modules": {
       "hris": "HRIS (HR & Payroll)",
       "accounting": "Accounting & Finance",

@@ -4596,6 +4596,11 @@
       "successTitle": "请求已发送！",
       "successMessage": "谢谢。我们的团队将在 1 个工作日内与您联系。"
     },
+    "wa": {
+      "greeting": "您好 Omniflow，我想预约咨询：",
+      "send": "通过 WhatsApp 发送",
+      "newRequest": "发送新请求"
+    },
     "modules": {
       "hris": "HRIS（人力资源与薪酬）",
       "accounting": "会计与财务",

@@ -4792,6 +4792,11 @@
       "successTitle": "Permintaan Terkirim!",
       "successMessage": "Terima kasih. Tim kami akan menghubungi Anda dalam 1×24 jam kerja."
     },
+    "wa": {
+      "greeting": "Halo Omniflow, saya ingin menjadwalkan konsultasi:",
+      "send": "Kirim via WhatsApp",
+      "newRequest": "Kirim permintaan baru"
+    },
     "modules": {
       "hris": "HRIS (SDM & Payroll)",
       "accounting": "Akuntansi & Keuangan",

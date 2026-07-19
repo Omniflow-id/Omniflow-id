@@ -4,6 +4,7 @@ import {
 	CheckCircle,
 	Clock,
 	Headphones,
+	MessageCircle,
 	MessageSquare,
 	Shield,
 	Users,
@@ -33,6 +34,23 @@ export default function ConsultationPage() {
 	const [submitStatus, setSubmitStatus] = useState<
 		"idle" | "success" | "error"
 	>("idle");
+	const [submittedData, setSubmittedData] = useState<typeof formData | null>(null);
+	const WA_NUMBER = "6282125609413";
+
+	const generateWhatsAppLink = () => {
+		const d = submittedData || formData;
+		const lines = [
+			t("consultation.wa.greeting"),
+			"",
+			`*${t("consultation.form.name")}:* ${d.name}`,
+			`*${t("consultation.form.email")}:* ${d.email}`,
+			d.company ? `*${t("consultation.form.company")}:* ${d.company}` : "",
+			d.phone ? `*${t("consultation.form.phone")}:* ${d.phone}` : "",
+			d.module ? `*${t("consultation.form.module")}:* ${d.module}` : "",
+			d.message ? `*${t("consultation.form.message")}:* ${d.message}` : "",
+		].filter(Boolean).join("\n");
+		return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(lines)}`;
+	};
 
 	const handleInputChange = (
 		e: React.ChangeEvent<
@@ -52,17 +70,9 @@ export default function ConsultationPage() {
 
 		setTimeout(() => {
 			setIsSubmitting(false);
+			setSubmittedData({ ...formData });
 			setSubmitStatus("success");
-			setFormData({
-				name: "",
-				email: "",
-				company: "",
-				phone: "",
-				module: "",
-				message: "",
-			});
-			setTimeout(() => setSubmitStatus("idle"), 5000);
-		}, 2000);
+		}, 1500);
 	};
 
 	const modules = [
@@ -200,21 +210,43 @@ export default function ConsultationPage() {
 							</div>
 
 							{submitStatus === "success" && (
-								<div className="mb-8 p-6 bg-green-50 border-2 border-green-200 rounded-2xl flex items-center">
-									<CheckCircle className="h-6 w-6 text-green-600 mr-4 flex-shrink-0" />
-									<div>
-										<p className="font-semibold text-green-800">
-											{t("consultation.form.successTitle")}
-										</p>
-										<p className="text-green-700">
-											{t("consultation.form.successMessage")}
-										</p>
+								<div className="mb-8 p-8 bg-green-50 border-2 border-green-200 rounded-2xl">
+									<div className="flex items-center mb-6">
+										<CheckCircle className="h-7 w-7 text-green-600 mr-4 flex-shrink-0" />
+										<div>
+											<p className="font-semibold text-green-800 text-lg">
+												{t("consultation.form.successTitle")}
+											</p>
+											<p className="text-green-700">
+												{t("consultation.form.successMessage")}
+											</p>
+										</div>
 									</div>
+									<a
+										href={generateWhatsAppLink()}
+										target="_blank"
+										rel="noopener noreferrer"
+										className="btn-primary inline-flex items-center bg-green-600 hover:bg-green-700 w-full justify-center"
+									>
+										<MessageCircle className="mr-3 h-5 w-5" />
+										{t("consultation.wa.send")}
+									</a>
+									<button
+										type="button"
+										onClick={() => {
+											setSubmitStatus("idle");
+											setSubmittedData(null);
+											setFormData({ name: "", email: "", company: "", phone: "", module: "", message: "" });
+										}}
+										className="mt-4 w-full text-sm text-slate-500 hover:text-slate-700 underline"
+									>
+										{t("consultation.wa.newRequest")}
+									</button>
 								</div>
 							)}
 
 							<div className="card-enterprise p-10">
-								<form onSubmit={handleSubmit} className="space-y-6">
+								{submitStatus !== "success" && (<form onSubmit={handleSubmit} className="space-y-6">
 									<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 										<div>
 											<label className="block text-sm font-semibold text-enterprise-primary mb-3">
@@ -328,6 +360,7 @@ export default function ConsultationPage() {
 										)}
 									</button>
 								</form>
+								)}
 							</div>
 						</div>
 					</div>
