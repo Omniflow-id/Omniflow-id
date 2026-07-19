@@ -4754,5 +4754,58 @@
       "button": "Daftar via WhatsApp",
       "note": "Pendaftaran gratis. Tanpa target. Tanpa kartu kredit."
     }
+  },
+  "consultation": {
+    "title": "Jadwalkan Konsultasi Gratis dengan Tim Omniflow",
+    "subtitle": "Tim kami siap memandu Anda melihat sistem yang sesuai dengan skala dan kebutuhan bisnis Anda, tanpa tekanan, tanpa biaya.",
+    "badge": "Konsultasi Gratis",
+    "benefits": {
+      "title": "Mengapa Konsultasi dengan Kami?",
+      "subtitle": "Kami fokus mendengarkan kebutuhan Anda, bukan menjual produk.",
+      "schedule": "Sesi 30 menit yang fokus pada kebutuhan bisnis Anda",
+      "tailored": "Rekomendasi modul yang sesuai, bukan paket bundling",
+      "noObligation": "Tanpa kewajiban membeli, tanpa tekanan",
+      "quick": "Demo langsung dari sistem yang sudah berjalan"
+    },
+    "stats": {
+      "customers": "Bisnis Terpercaya",
+      "support": "Dukungan",
+      "session": "Durasi Sesi"
+    },
+    "form": {
+      "title": "Isi Form di Bawah",
+      "subtitle": "Ceritakan sedikit tentang kebutuhan Anda. Kami akan hubungi dalam 1×24 jam.",
+      "name": "Nama Lengkap",
+      "namePlaceholder": "Masukkan nama lengkap Anda",
+      "email": "Email",
+      "emailPlaceholder": "Masukkan email bisnis Anda",
+      "company": "Perusahaan",
+      "companyPlaceholder": "Nama perusahaan atau bisnis",
+      "phone": "Nomor Telepon",
+      "phonePlaceholder": "Contoh: 0812-3456-7890",
+      "module": "Modul yang Diminati",
+      "selectModule": "Pilih modul yang ingin dikonsultasikan",
+      "message": "Pesan Tambahan",
+      "messagePlaceholder": "Ceritakan kebutuhan spesifik bisnis Anda...",
+      "submit": "Kirim Permintaan Konsultasi",
+      "submitting": "Mengirim...",
+      "successTitle": "Permintaan Terkirim!",
+      "successMessage": "Terima kasih. Tim kami akan menghubungi Anda dalam 1×24 jam kerja."
+    },
+    "modules": {
+      "hris": "HRIS (SDM & Payroll)",
+      "accounting": "Akuntansi & Keuangan",
+      "inventory": "Inventaris & Gudang",
+      "crm": "CRM & Penjualan",
+      "pos": "POS (Point of Sale)",
+      "manufacturing": "Manufaktur",
+      "ai": "AI & Otomatisasi",
+      "other": "Lainnya / Belum Tahu"
+    },
+    "cta": {
+      "title": "Lihat Semua Modul Omniflow",
+      "subtitle": "Satu platform, 26 modul terintegrasi untuk seluruh operasional bisnis Anda.",
+      "explore": "Jelajahi Modul"
+    }
   }
 }

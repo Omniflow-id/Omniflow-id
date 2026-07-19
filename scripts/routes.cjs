@@ -42,6 +42,7 @@ const STATIC_PAGES = [
 	{ path: "/blog", priority: "0.7", changefreq: "daily" },
 	{ path: "/contact", priority: "0.6", changefreq: "monthly" },
 	{ path: "/affiliate", priority: "0.6", changefreq: "monthly" },
+	{ path: "/consultation", priority: "0.7", changefreq: "monthly" },
 ];
 
 const MODULE_PAGES = MODULE_SLUGS.map((slug) => ({

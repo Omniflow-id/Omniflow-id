@@ -4558,5 +4558,58 @@
         "reduction": "Admin Time Saved"
       }
     }
+  },
+  "consultation": {
+    "title": "预约免费咨询，与 Omniflow 团队交流",
+    "subtitle": "我们的团队随时准备为您展示适合您业务规模和需求的系统——无压力，无费用。",
+    "badge": "免费咨询",
+    "benefits": {
+      "title": "为什么与我们咨询？",
+      "subtitle": "我们专注于了解您的需求，而非推销产品。",
+      "schedule": "30分钟的会议，聚焦您的业务需求",
+      "tailored": "推荐适合的模块，而非捆绑套餐",
+      "noObligation": "无需购买承诺，没有压力",
+      "quick": "直接从运行中的系统进行现场演示"
+    },
+    "stats": {
+      "customers": "信赖的企业",
+      "support": "支持服务",
+      "session": "会议时长"
+    },
+    "form": {
+      "title": "填写以下表格",
+      "subtitle": "告诉我们您的需求。我们将在 1 个工作日内与您联系。",
+      "name": "全名",
+      "namePlaceholder": "请输入您的全名",
+      "email": "电子邮件",
+      "emailPlaceholder": "请输入您的企业邮箱",
+      "company": "公司",
+      "companyPlaceholder": "公司或企业名称",
+      "phone": "电话号码",
+      "phonePlaceholder": "例如：+62 812-3456-7890",
+      "module": "感兴趣的模块",
+      "selectModule": "选择您想咨询的模块",
+      "message": "补充信息",
+      "messagePlaceholder": "告诉我们您的具体业务需求...",
+      "submit": "发送咨询请求",
+      "submitting": "发送中...",
+      "successTitle": "请求已发送！",
+      "successMessage": "谢谢。我们的团队将在 1 个工作日内与您联系。"
+    },
+    "modules": {
+      "hris": "HRIS（人力资源与薪酬）",
+      "accounting": "会计与财务",
+      "inventory": "库存与仓储",
+      "crm": "CRM 与销售",
+      "pos": "POS（销售点）",
+      "manufacturing": "制造",
+      "ai": "AI 与自动化",
+      "other": "其他 / 不确定"
+    },
+    "cta": {
+      "title": "探索所有 Omniflow 模块",
+      "subtitle": "一个平台，26 个集成模块，覆盖您的全部业务运营。",
+      "explore": "探索模块"
+    }
   }
 }

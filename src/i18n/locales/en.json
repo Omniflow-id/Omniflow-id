@@ -4641,5 +4641,58 @@
       "button": "Register via WhatsApp",
       "note": "Free registration. No targets. No credit card required."
     }
+  },
+  "consultation": {
+    "title": "Schedule a Free Consultation with Omniflow",
+    "subtitle": "Our team is ready to guide you through a system that fits your business scale and needs — no pressure, no cost.",
+    "badge": "Free Consultation",
+    "benefits": {
+      "title": "Why Consult with Us?",
+      "subtitle": "We focus on understanding your needs, not selling products.",
+      "schedule": "A 30-minute session focused on your business needs",
+      "tailored": "Module recommendations that fit, not bundled packages",
+      "noObligation": "No purchase obligation, no pressure",
+      "quick": "Live demo directly from a running system"
+    },
+    "stats": {
+      "customers": "Trusted Businesses",
+      "support": "Support",
+      "session": "Session Length"
+    },
+    "form": {
+      "title": "Fill Out the Form Below",
+      "subtitle": "Tell us a bit about your needs. We'll reach out within 1 business day.",
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your business email",
+      "company": "Company",
+      "companyPlaceholder": "Company or business name",
+      "phone": "Phone Number",
+      "phonePlaceholder": "e.g. +62 812-3456-7890",
+      "module": "Module of Interest",
+      "selectModule": "Select the module you'd like to consult about",
+      "message": "Additional Message",
+      "messagePlaceholder": "Tell us about your specific business needs...",
+      "submit": "Send Consultation Request",
+      "submitting": "Sending...",
+      "successTitle": "Request Sent!",
+      "successMessage": "Thank you. Our team will contact you within 1 business day."
+    },
+    "modules": {
+      "hris": "HRIS (HR & Payroll)",
+      "accounting": "Accounting & Finance",
+      "inventory": "Inventory & Warehouse",
+      "crm": "CRM & Sales",
+      "pos": "POS (Point of Sale)",
+      "manufacturing": "Manufacturing",
+      "ai": "AI & Automation",
+      "other": "Other / Not Sure"
+    },
+    "cta": {
+      "title": "Explore All Omniflow Modules",
+      "subtitle": "One platform, 26 integrated modules for your entire business operations.",
+      "explore": "Explore Modules"
+    }
   }
 }

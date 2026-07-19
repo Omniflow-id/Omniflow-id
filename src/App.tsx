@@ -12,6 +12,7 @@ import LanguageRedirect from "./components/LanguageRedirect.tsx";
 import BlogPage from "./pages/blog";
 import BlogDetailPage from "./pages/blog/[slug]";
 import ContactPage from "./pages/Contact";
+import ConsultationPage from "./pages/Consultation";
 import HomePage from "./pages/Home";
 import AffiliatePage from "./pages/Affiliate";
 import IndustriesPage from "./pages/industries";
@@ -122,6 +123,8 @@ function App() {
 						<Route path="/en/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/en/contact" element={<ContactPage />} />
 						<Route path="/en/affiliate" element={<AffiliatePage />} />
+						<Route path="/en/consultation" element={<ConsultationPage />} />
+						<Route path="/en/konsultasi" element={<Navigate to="/en/consultation" replace />} />
 
 						{/* Indonesian routes */}
 						<Route path="/id" element={<HomePage />} />
@@ -183,6 +186,8 @@ function App() {
 						<Route path="/id/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/id/contact" element={<ContactPage />} />
 						<Route path="/id/affiliate" element={<AffiliatePage />} />
+						<Route path="/id/consultation" element={<ConsultationPage />} />
+						<Route path="/id/konsultasi" element={<Navigate to="/id/consultation" replace />} />
 
 						{/* Chinese routes */}
 						<Route path="/zh" element={<HomePage />} />
@@ -244,6 +249,8 @@ function App() {
 						<Route path="/zh/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/zh/contact" element={<ContactPage />} />
 						<Route path="/zh/affiliate" element={<AffiliatePage />} />
+						<Route path="/zh/consultation" element={<ConsultationPage />} />
+						<Route path="/zh/konsultasi" element={<Navigate to="/zh/consultation" replace />} />
 
 						{/* Legacy routes (redirect to language-specific) */}
 						<Route path="/" element={<HomePage />} />
@@ -291,6 +298,8 @@ function App() {
 						<Route path="/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/contact" element={<ContactPage />} />
 						<Route path="/affiliate" element={<AffiliatePage />} />
+						<Route path="/consultation" element={<ConsultationPage />} />
+						<Route path="/konsultasi" element={<Navigate to="/id/konsultasi" replace />} />
 
 						{/* Catch-all route for 404 */}
 						<Route path="*" element={<NotFoundPage />} />

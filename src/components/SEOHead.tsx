@@ -30,6 +30,8 @@ const STATIC_BANNER_KEYS: Record<string, string> = {
 	blog: "blog",
 	contact: "contact",
 	affiliate: "affiliate",
+	consultation: "consultation",
+	konsultasi: "consultation",
 };
 
 function toBannerKey(slug: string): string {
